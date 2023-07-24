@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Raspberry_Pi_Pico_W_Kicad_Files-main")(type "KiCad")(uri "${BITDOGLAB}/raspberry_pi_pico_w/Raspberry_Pi_Pico_W_Kicad_Files-main")(options "")(descr ""))
+)
