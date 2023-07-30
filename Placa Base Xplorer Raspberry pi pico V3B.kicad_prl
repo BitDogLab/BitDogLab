@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -68,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "bitdoglab_v1b.kicad_prl",
+    "filename": "Placa Base Xplorer Raspberry pi pico V3B.kicad_prl",
     "version": 3
   },
   "project": {
