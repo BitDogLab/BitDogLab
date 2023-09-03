@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "fffdbff_ffffffff",
+    "visible_layers": "fffffef_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "bitdoglab_v3a.kicad_prl",
+    "filename": "bitdoglab_v41.kicad_prl",
     "version": 3
   },
   "project": {
