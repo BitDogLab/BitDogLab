@@ -1095,6 +1095,11 @@
       (net 26 "VSYS") (pinfunction "Pin_3") (pintype "passive") (thermal_bridge_angle 45) (tstamp ca3dcc7d-e739-49d9-a874-f5f1fa0e3343))
     (pad "4" smd rect (at 38.1 22.86) (size 8 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "GNDREF") (pinfunction "Pin_4") (pintype "passive") (thermal_bridge_angle 45) (tstamp a4e84a77-f30c-423b-991c-386ea6e0a73a))
+    (model "${BITDOGLAB}/matrix5x5.pretty/Matriz de LEDs 5x5 RGB 5050.f3d v1.step"
+      (offset (xyz -25.5 11 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "" (layer "F.Cu")
