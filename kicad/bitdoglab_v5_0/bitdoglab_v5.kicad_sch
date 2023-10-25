@@ -613,6 +613,83 @@
         )
       )
     )
+    (symbol "Connector:Screw_Terminal_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Screw_Terminal_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "screw terminal" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TerminalBlock*:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Screw_Terminal_01x02_1_1"
+        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (circle (center 0 -2.54) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 -2.2098)
+            (xy 0.3302 -3.048)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.5334 0.3302)
+            (xy 0.3302 -0.508)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 -2.032)
+            (xy 0.508 -2.8702)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.3556 0.508)
+            (xy 0.508 -0.3302)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 0.635)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector_Generic:Conn_02x07_Odd_Even" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 10.16 0)
         (effects (font (size 1.27 1.27)))
@@ -4653,7 +4730,7 @@
     )
     (pin "1" (uuid 50ab3c67-8018-4758-be34-7d7d48e263bf))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR03") (unit 1)
         )
@@ -4682,7 +4759,7 @@
     (pin "1" (uuid d46f2e26-28f8-4dbb-8e0b-539dd9271cbd))
     (pin "2" (uuid 29f2036d-e6aa-4948-900d-3645a9ec0469))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "R1") (unit 1)
         )
@@ -4707,7 +4784,7 @@
     )
     (pin "1" (uuid 2925fbd1-bead-427d-a9d0-aeee203f48b0))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR04") (unit 1)
         )
@@ -4732,7 +4809,7 @@
     )
     (pin "1" (uuid 4ea5c609-0e3e-434e-bdd6-5d5d022b34b4))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR010") (unit 1)
         )
@@ -4760,7 +4837,7 @@
     (pin "3" (uuid 95a007aa-2559-44eb-80ee-1e17ae780944))
     (pin "4" (uuid b5bc75a1-7bc6-40ce-9747-04d5cf3dcca4))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "D2") (unit 1)
         )
@@ -4786,7 +4863,7 @@
     (pin "1" (uuid 717811f7-5fca-4b76-892d-6adce0bbf2ea))
     (pin "2" (uuid 124759ef-3d8f-49ea-ac84-2465bbeb7edb))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J9") (unit 1)
         )
@@ -4811,7 +4888,7 @@
     )
     (pin "1" (uuid cafe4c7c-7f74-476b-b23e-e4a591286573))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR013") (unit 1)
         )
@@ -4865,7 +4942,7 @@
     (pin "2" (uuid 546ad7da-7da7-41e5-bf64-073c8198008d))
     (pin "3" (uuid 3d61a420-437b-42fe-b9a3-f5890552565b))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Q1") (unit 1)
         )
@@ -4891,7 +4968,7 @@
     (pin "1" (uuid 005510e0-38d8-4c98-80eb-dc123d1827f4))
     (pin "2" (uuid 14de789e-afa1-4f96-b992-87be0aebdb90))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "BZ4") (unit 1)
         )
@@ -4916,7 +4993,7 @@
     )
     (pin "1" (uuid 4aaca08e-efe3-4234-a79e-20e3be4c7068))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR017") (unit 1)
         )
@@ -4945,7 +5022,7 @@
     (pin "1" (uuid b08ce929-42ec-4955-ae4d-98bfa644ef9e))
     (pin "2" (uuid 09d76746-3525-48c6-8188-4f08ab42770c))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "C1") (unit 1)
         )
@@ -4956,7 +5033,7 @@
   (symbol (lib_id "Device:Buzzer") (at 264.16 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f2923ff-54a9-4982-a3ce-cf8f6cc5ae29)
-    (property "Reference" "BZ2" (at 267.97 120.65 0)
+    (property "Reference" "Buzzer1" (at 267.97 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Buzzer_A_SMD" (at 267.97 123.19 0)
@@ -4971,9 +5048,9 @@
     (pin "1" (uuid 73ae0acf-6046-41cd-9c16-ddbf73d0ca41))
     (pin "2" (uuid 08c3f44a-1a46-4cb4-8065-ecccf8380a22))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "BZ2") (unit 1)
+          (reference "Buzzer1") (unit 1)
         )
       )
     )
@@ -4997,7 +5074,7 @@
     (pin "1" (uuid 2f14ff62-f219-4a86-b2bc-b30bf1745f22))
     (pin "2" (uuid eb398b28-0bef-469c-a662-b0cb644709b2))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J4") (unit 1)
         )
@@ -5011,7 +5088,7 @@
     (property "Reference" "J10" (at 191.77 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 191.77 30.48 0)
+    (property "Value" "3V3" (at 191.77 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 187.96 30.48 90)
@@ -5023,7 +5100,7 @@
     (pin "1" (uuid 4549bc6f-ac60-47a7-9fe3-a32d19ff13e9))
     (pin "2" (uuid e227e0d1-23e9-497d-a236-a60424dcd25e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J10") (unit 1)
         )
@@ -5048,7 +5125,7 @@
     )
     (pin "1" (uuid c7893135-61f8-4bac-8a9d-e6749eae0cd3))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR014") (unit 1)
         )
@@ -5092,7 +5169,7 @@
     (pin "8" (uuid fe72f133-8a83-4278-994c-b7916797fa33))
     (pin "9" (uuid 635f7384-280e-41c5-98b9-0835b2e8f930))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J3") (unit 1)
         )
@@ -5117,7 +5194,7 @@
     )
     (pin "1" (uuid 68ee4fd6-2af0-4a3c-bd00-efa4d463480e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR012") (unit 1)
         )
@@ -5131,7 +5208,7 @@
     (property "Reference" "J18" (at 255.27 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 255.27 30.48 0)
+    (property "Value" "3" (at 255.27 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 251.46 30.48 90)
@@ -5143,7 +5220,7 @@
     (pin "1" (uuid 99a00266-b5ef-44c6-9a68-f0fe42f4489a))
     (pin "2" (uuid 06fc7a08-7b5d-47b8-a4a9-8697f8d6039a))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J18") (unit 1)
         )
@@ -5172,9 +5249,35 @@
     (pin "4" (uuid 31ac079d-aa2a-4f83-bf8a-3f88e328fe1c))
     (pin "5" (uuid b2e5104c-79a8-48b0-8d76-a44907448c7a))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 138.43 187.325 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 575f4d24-0bc3-4adc-9dfe-29e01e214106)
+    (property "Reference" "V_BAT1" (at 140.97 186.055 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" (at 140.97 188.595 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 138.43 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.43 187.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a276dad8-0243-4535-a26e-7cd678da88df))
+    (pin "2" (uuid 750b5836-8276-49db-ab7f-43d8135bae0b))
+    (instances
+      (project "bitdoglab_v4_2"
+        (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
+          (reference "V_BAT1") (unit 1)
         )
       )
     )
@@ -5186,7 +5289,7 @@
     (property "Reference" "J16" (at 255.27 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 255.27 25.4 0)
+    (property "Value" "1" (at 255.27 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 251.46 25.4 90)
@@ -5198,7 +5301,7 @@
     (pin "1" (uuid 1d80d471-2667-47e9-b285-5e645e0f2659))
     (pin "2" (uuid e0ffed41-7451-46a1-ad4b-91399ed7efd8))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J16") (unit 1)
         )
@@ -5223,7 +5326,7 @@
     )
     (pin "1" (uuid 7db86aee-a1d3-4ec3-ae0c-b037cb402c3e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR06") (unit 1)
         )
@@ -5252,7 +5355,7 @@
     (pin "1" (uuid 9bc386ee-b6ad-488d-8c21-40b6f9ce1ef7))
     (pin "2" (uuid a7d3abc9-3b6e-4904-858d-d55c04dea859))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "C2") (unit 1)
         )
@@ -5266,7 +5369,7 @@
     (property "Reference" "J15" (at 255.27 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 255.27 22.86 0)
+    (property "Value" "0" (at 255.27 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 251.46 22.86 90)
@@ -5278,7 +5381,7 @@
     (pin "1" (uuid 4b74f105-dd67-4ed8-b7cd-e76721e251d7))
     (pin "2" (uuid c0f59d93-5b35-4704-8b7f-b4f906264af6))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J15") (unit 1)
         )
@@ -5303,7 +5406,7 @@
     )
     (pin "1" (uuid 2dfcdddc-a16f-4dae-874a-bb1a2ead94c3))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR09") (unit 1)
         )
@@ -5332,7 +5435,7 @@
     (pin "4" (uuid c672a8be-810e-4e4a-ad8f-3f366cb919c1))
     (pin "5" (uuid 10decf30-5f48-432d-8c3e-9d15f8a65e3a))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J5") (unit 1)
         )
@@ -5357,7 +5460,7 @@
     )
     (pin "1" (uuid 1bb8a952-b098-4c80-8263-42def915e424))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR015") (unit 1)
         )
@@ -5383,7 +5486,7 @@
     (pin "1" (uuid eb5cb4c4-5b8e-4500-9fc3-965a7f882fe6))
     (pin "2" (uuid c93cec05-2f50-4b41-b20d-23655a8ea192))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "BZ1") (unit 1)
         )
@@ -5408,7 +5511,7 @@
     )
     (pin "1" (uuid 993c4c93-69cf-48d3-a4cc-ef05b61dd3ef))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR01") (unit 1)
         )
@@ -5433,7 +5536,7 @@
     )
     (pin "1" (uuid 9c4e7c2e-0e02-499d-bc39-01c647c1a250))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR018") (unit 1)
         )
@@ -5462,7 +5565,7 @@
     (pin "1" (uuid 9d4f0c63-43c2-4764-960c-25f27b7345ec))
     (pin "2" (uuid cb76e85b-82b2-48c2-82ae-0921ad2fdd42))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Rg1") (unit 1)
         )
@@ -5476,7 +5579,7 @@
     (property "Reference" "U4" (at 101.6 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1063" (at 101.6 138.43 0)
+    (property "Value" "MIC" (at 101.6 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "user_1063:MODULE_1063" (at 101.6 148.59 0)
@@ -5501,7 +5604,7 @@
     (pin "2" (uuid 3bde9fb1-6f8f-4525-9a1f-bdc8cc3a1c6e))
     (pin "3" (uuid cd35c3cf-fe3f-4b03-a8d1-49d2379d281e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "U4") (unit 1)
         )
@@ -5530,7 +5633,7 @@
     (pin "1" (uuid 8caa4b60-1416-4733-8db6-c48ff54b9c69))
     (pin "2" (uuid 6733a381-4bf5-4b6f-8d62-3dfca8e620d3))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Rb1") (unit 1)
         )
@@ -5555,7 +5658,7 @@
     )
     (pin "1" (uuid b30a7268-11ce-4d53-aece-914dfa44f645))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR05") (unit 1)
         )
@@ -5580,7 +5683,7 @@
     )
     (pin "1" (uuid c1a6bff5-3fd7-455e-ac28-ba6cde8c070b))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR07") (unit 1)
         )
@@ -5659,7 +5762,7 @@
     (pin "8" (uuid c44f5b17-eace-417e-a27c-b35ec0077f97))
     (pin "9" (uuid 58a60d5e-d53b-4b1a-904e-29a1f7638465))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "A1") (unit 1)
         )
@@ -5691,7 +5794,7 @@
     (pin "4" (uuid 5520de1f-64d4-4755-b941-8865544bad64))
     (pin "5" (uuid db55b187-7d30-4718-bf02-2e81b025a28c))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J19") (unit 1)
         )
@@ -5716,7 +5819,7 @@
     )
     (pin "1" (uuid 31b99a44-e31d-412b-b3bd-f5489b9ba02a))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR02") (unit 1)
         )
@@ -5745,7 +5848,7 @@
     (pin "1" (uuid 3914620a-7e8a-43e3-bec5-a384320d4474))
     (pin "2" (uuid 484729ff-a625-489b-874d-c5f2c376945f))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "R2") (unit 1)
         )
@@ -5759,7 +5862,7 @@
     (property "Reference" "SW2" (at 111.76 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Button_A" (at 111.76 86.36 0)
+    (property "Value" "Botão" (at 111.76 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 111.76 86.36 0)
@@ -5774,7 +5877,7 @@
     (pin "1" (uuid 9a4ce3e7-5c68-498a-b031-1b4a77e9e10a))
     (pin "2" (uuid ee0a1ec3-ebde-44a6-9113-28d162be893c))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "SW2") (unit 1)
         )
@@ -5800,7 +5903,7 @@
     (pin "1" (uuid 8c508e5d-6b25-488a-822b-922166649f75))
     (pin "2" (uuid 3d02a5fc-9c26-4b02-a13a-e9a3ef8351d3))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "BT1") (unit 1)
         )
@@ -5825,7 +5928,7 @@
     )
     (pin "1" (uuid 85bef343-fc4b-4518-b17d-e28bb2a91c80))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR011") (unit 1)
         )
@@ -5850,7 +5953,7 @@
     )
     (pin "1" (uuid 62b0ab01-45ab-4c8d-9d47-ac1d3ebe2b86))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR016") (unit 1)
         )
@@ -5861,7 +5964,7 @@
   (symbol (lib_id "Device:LED_RGB") (at 35.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b906743f-9df0-445d-a2a0-c98f7440286f)
-    (property "Reference" "D1" (at 35.56 71.12 0)
+    (property "Reference" "LED RGB1" (at 35.56 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_RGB_SMD" (at 35.56 73.66 0)
@@ -5883,9 +5986,9 @@
     (pin "5" (uuid a96ab0ea-02a8-4ed2-a842-fd16735d70f6))
     (pin "6" (uuid 71f45f12-429d-48ca-9c35-b38b2fcc4cc4))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "D1") (unit 1)
+          (reference "LED RGB1") (unit 1)
         )
       )
     )
@@ -5934,7 +6037,7 @@
     (pin "2" (uuid 8b3e7c78-1c69-4569-9adc-5eddfcf1d719))
     (pin "3" (uuid baa7e29f-9423-419a-8f8b-b8fc184a4967))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "U1") (unit 1)
         )
@@ -5948,7 +6051,7 @@
     (property "Reference" "SW1" (at 111.76 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RESET" (at 111.76 71.12 0)
+    (property "Value" "Reset" (at 111.76 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (at 111.76 71.12 0)
@@ -5963,7 +6066,7 @@
     (pin "1" (uuid 133af28c-0fda-4405-a360-ae23e77eef5b))
     (pin "2" (uuid 9892e918-370e-44c9-b292-091410fc9b6a))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "SW1") (unit 1)
         )
@@ -5989,7 +6092,7 @@
     (pin "1" (uuid cc779230-a2fb-48bc-836f-09a6dde7c54a))
     (pin "2" (uuid 597229fd-51d4-4c21-912a-57f2bf6b0797))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J7") (unit 1)
         )
@@ -6003,7 +6106,7 @@
     (property "Reference" "J11" (at 191.77 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 191.77 33.02 0)
+    (property "Value" "5V-VSYS" (at 191.77 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 187.96 33.02 90)
@@ -6015,7 +6118,7 @@
     (pin "1" (uuid 23260ad3-8f4d-4119-8526-04fcec9fa764))
     (pin "2" (uuid fdc53a8c-59b5-4777-816d-9eee03c84dac))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J11") (unit 1)
         )
@@ -6059,7 +6162,7 @@
     (pin "8" (uuid 9f06c543-3fef-4c8f-80f0-6601308dd0cd))
     (pin "9" (uuid eea1fd1a-3f89-4df5-8372-5d30be5fec7b))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J1") (unit 1)
         )
@@ -6088,7 +6191,7 @@
     (pin "1" (uuid 40a7efc2-665b-4198-8209-cd445c1b0db2))
     (pin "2" (uuid 9ba1df74-570f-4042-9906-1dcbd8b14cd5))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Rr1") (unit 1)
         )
@@ -6113,7 +6216,7 @@
     )
     (pin "1" (uuid dbf153bf-c6aa-4ebb-b9b5-0e94df4fecbc))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR020") (unit 1)
         )
@@ -6154,7 +6257,7 @@
     (pin "8" (uuid f5c83912-b34d-473f-8bbd-34e3f33bf5c6))
     (pin "9" (uuid 2df72468-6805-4122-932f-8a9bd6aa0669))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J2") (unit 1)
         )
@@ -6168,7 +6271,7 @@
     (property "Reference" "J17" (at 255.27 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 255.27 27.94 0)
+    (property "Value" "2" (at 255.27 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 251.46 27.94 90)
@@ -6180,7 +6283,7 @@
     (pin "1" (uuid a301345e-20a8-4dd2-88ee-4987e137c7dc))
     (pin "2" (uuid 839d4174-06d8-421d-96e0-9f4280b82380))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J17") (unit 1)
         )
@@ -6211,7 +6314,7 @@
     (pin "3" (uuid 09ef6ee3-48f2-482d-a44d-518ead6d6c1d))
     (pin "4" (uuid c30d09e0-6a87-4739-a7fa-6904f432086b))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "OLED1") (unit 1)
         )
@@ -6241,7 +6344,7 @@
     (pin "2" (uuid 28b9ca11-cf27-4f20-95ee-e8cbdfac5e65))
     (pin "3" (uuid e5678637-de3b-44bf-b94f-b9031a87c732))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Q3") (unit 1)
         )
@@ -6266,7 +6369,7 @@
     )
     (pin "1" (uuid 3fd1be3c-e8b4-4f0a-8d94-f5c177e943d1))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR08") (unit 1)
         )
@@ -6277,13 +6380,13 @@
   (symbol (lib_id "Regulator_Linear:LM1117DT-ADJ") (at 48.26 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d54e188e-ab17-43e1-9245-983dd51a89ff)
-    (property "Reference" "U2" (at 48.26 24.13 0)
+    (property "Reference" "Reg_3V3" (at 48.26 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM1117DT-ADJ" (at 48.26 26.67 0)
+    (property "Value" "3.3v_smd" (at 48.26 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (at 48.26 30.48 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (at 48.26 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 48.26 30.48 0)
@@ -6293,9 +6396,9 @@
     (pin "2" (uuid 8ce5e5a3-51e6-4700-86ff-c4aef4080422))
     (pin "3" (uuid 321a494a-edba-44a4-a960-b1dac45834b4))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "U2") (unit 1)
+          (reference "Reg_3V3") (unit 1)
         )
       )
     )
@@ -6307,7 +6410,7 @@
     (property "Reference" "J8" (at 191.77 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "GND" (at 191.77 25.4 0)
+    (property "Value" "ANA-IN" (at 191.77 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" (at 187.96 25.4 90)
@@ -6319,7 +6422,7 @@
     (pin "1" (uuid ed35cab4-066f-4fd9-93a4-67ceca13be93))
     (pin "2" (uuid eafa03a9-c8b0-4d4a-bd0a-25bb71c6879e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J8") (unit 1)
         )
@@ -6348,7 +6451,7 @@
     (pin "4" (uuid cf32826a-1361-4d56-a154-0f758b34dd3c))
     (pin "5" (uuid 61680721-a505-457d-9345-acf2553b1fff))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J6") (unit 1)
         )
@@ -6377,7 +6480,7 @@
     (pin "1" (uuid 808bb8e1-4577-4b51-ae5d-99341ab38503))
     (pin "2" (uuid c2d94af3-752b-4c66-84c1-4a163060b786))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "SW3") (unit 1)
         )
@@ -6402,7 +6505,7 @@
     )
     (pin "1" (uuid 048f4d00-4c31-48a1-9fb5-04ae170e1407))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "#PWR019") (unit 1)
         )
@@ -6428,7 +6531,7 @@
     (pin "1" (uuid ff7c3bc9-98b0-41cf-ae0e-c6a72ee99408))
     (pin "2" (uuid 5eb35de2-0216-4074-81ea-18d4846a271c))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "BZ3") (unit 1)
         )
@@ -6458,7 +6561,7 @@
     (pin "2" (uuid 52f3dbde-6490-4516-8117-8d7337ab2bc5))
     (pin "3" (uuid 3cab7746-cf48-4594-93c1-4625eca96a1e))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "Q2") (unit 1)
         )
@@ -6487,7 +6590,7 @@
     (pin "4" (uuid a3933480-08a1-4795-b50f-cfb2cf728aa3))
     (pin "5" (uuid d8fd3dfc-1523-42d8-a0bd-6f2416f0ee60))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J13") (unit 1)
         )
@@ -6498,7 +6601,7 @@
   (symbol (lib_id "charger2a:Charger2A") (at 88.9 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64210e9-a7a3-47bf-84f2-bb4ddb2218d4)
-    (property "Reference" "U3" (at 95.885 22.86 0)
+    (property "Reference" "Charge DisCharge1" (at 95.885 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT (DIS)CHARGE" (at 95.885 25.4 0)
@@ -6517,9 +6620,9 @@
     (pin "5" (uuid 344b8ef0-bff7-48b8-a48a-d04b98b07c39))
     (pin "6" (uuid 6ed88f5a-4407-4e6d-af4f-62283afcef4b))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "U3") (unit 1)
+          (reference "Charge DisCharge1") (unit 1)
         )
       )
     )
@@ -6548,7 +6651,7 @@
     (pin "3" (uuid be10a7dd-7c41-45ed-a20c-98a2f2d0608a))
     (pin "4" (uuid 50ea9092-0a4d-4cbc-af8c-8e6f5f58f38d))
     (instances
-      (project "bitdoglab_v41"
+      (project "bitdoglab_v4_2"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
           (reference "J14") (unit 1)
         )
