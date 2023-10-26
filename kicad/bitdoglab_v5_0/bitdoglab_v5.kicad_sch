@@ -4806,7 +4806,7 @@
     (property "Datasheet" "" (at 34.925 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50ab3c67-8018-4758-be34-7d7d48e263bf))
+    (pin "1" (uuid 3a461729-aaf1-4b1a-9dde-7df4c879cdb1))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4834,8 +4834,8 @@
     (property "partnumber" "" (at 233.68 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d46f2e26-28f8-4dbb-8e0b-539dd9271cbd))
-    (pin "2" (uuid 29f2036d-e6aa-4948-900d-3645a9ec0469))
+    (pin "1" (uuid fb68b971-2f54-4039-9459-ca656d4e1ca6))
+    (pin "2" (uuid e40761b0-e44a-49d2-8efa-0e39a52458cb))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4860,7 +4860,7 @@
     (property "Datasheet" "" (at 35.56 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2925fbd1-bead-427d-a9d0-aeee203f48b0))
+    (pin "1" (uuid 8398913d-4f89-4688-ba92-2e738d04ccb7))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4885,7 +4885,7 @@
     (property "Datasheet" "" (at 116.84 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ea5c609-0e3e-434e-bdd6-5d5d022b34b4))
+    (pin "1" (uuid 4b4b96c0-e30e-4ca9-aae4-bbb5e93cd1da))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4910,10 +4910,10 @@
     (property "Datasheet" "~" (at 35.56 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 998d1eaa-b29d-4e45-a608-967cbf63ce31))
-    (pin "2" (uuid 3b9a3de4-ee35-4421-952d-9c24e1a4a190))
-    (pin "3" (uuid 95a007aa-2559-44eb-80ee-1e17ae780944))
-    (pin "4" (uuid b5bc75a1-7bc6-40ce-9747-04d5cf3dcca4))
+    (pin "1" (uuid 8c90eaae-1048-46a0-9f39-a305ea245f42))
+    (pin "2" (uuid 22e3e0ff-a1e6-4f13-8d66-6499df963ea3))
+    (pin "3" (uuid b2f36adf-7459-4903-9b19-c9860d89fa47))
+    (pin "4" (uuid 4e32f45d-b9d2-4787-b00d-049429bae058))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4938,8 +4938,8 @@
     (property "Datasheet" "~" (at 187.96 27.94 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 717811f7-5fca-4b76-892d-6adce0bbf2ea))
-    (pin "2" (uuid 124759ef-3d8f-49ea-ac84-2465bbeb7edb))
+    (pin "1" (uuid ff0e90c6-826f-4099-9d34-ab55a4585585))
+    (pin "2" (uuid 4034ff77-e432-46fa-9d4b-309854c73235))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -4964,7 +4964,7 @@
     (property "Datasheet" "" (at 199.39 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cafe4c7c-7f74-476b-b23e-e4a591286573))
+    (pin "1" (uuid 2fec422a-d3ed-403a-a1f2-01ef037d7d54))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5016,9 +5016,9 @@
     (property "Status" "Active" (at 125.73 0 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (pin "1" (uuid bbdb258c-5243-465e-8fc5-c3470a1ee2c3))
-    (pin "2" (uuid 546ad7da-7da7-41e5-bf64-073c8198008d))
-    (pin "3" (uuid 3d61a420-437b-42fe-b9a3-f5890552565b))
+    (pin "1" (uuid 32ea34e4-03e9-4507-8ad8-72559a66d14f))
+    (pin "2" (uuid 9f6b00f5-8904-4377-a52f-8bb66886a5f1))
+    (pin "3" (uuid d4b7930a-251a-4b50-8506-c6f3def0d4d6))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5043,8 +5043,8 @@
     (property "Datasheet" "~" (at 263.525 146.05 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 005510e0-38d8-4c98-80eb-dc123d1827f4))
-    (pin "2" (uuid 14de789e-afa1-4f96-b992-87be0aebdb90))
+    (pin "1" (uuid e306ede0-845a-409d-b4d9-752b001c0b78))
+    (pin "2" (uuid aa4165b1-1e67-4ef3-89d8-b476b586e773))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5069,7 +5069,7 @@
     (property "Datasheet" "" (at 242.57 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4aaca08e-efe3-4234-a79e-20e3be4c7068))
+    (pin "1" (uuid abf6602d-d209-4705-a0ca-cedd30ebc17f))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5094,7 +5094,7 @@
     (property "Datasheet" "" (at 142.875 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9068cbd6-9576-4429-acdf-cf0010e08747))
+    (pin "1" (uuid eb85551a-b322-4409-80ec-029787b502aa))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5122,8 +5122,8 @@
     (property "partnumber" "" (at 38.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b08ce929-42ec-4955-ae4d-98bfa644ef9e))
-    (pin "2" (uuid 09d76746-3525-48c6-8188-4f08ab42770c))
+    (pin "1" (uuid 9366c390-a4db-4a83-9576-e2ae333457e7))
+    (pin "2" (uuid b0e1e21c-d49c-4924-b7ce-33634dad9e5b))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5136,7 +5136,7 @@
   (symbol (lib_id "Device:Buzzer") (at 264.16 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f2923ff-54a9-4982-a3ce-cf8f6cc5ae29)
-    (property "Reference" "Buzzer" (at 267.97 120.65 0)
+    (property "Reference" "BZ2" (at 267.97 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Buzzer_A_SMD" (at 267.97 123.19 0)
@@ -5148,12 +5148,12 @@
     (property "Datasheet" "~" (at 263.525 119.38 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 73ae0acf-6046-41cd-9c16-ddbf73d0ca41))
-    (pin "2" (uuid 08c3f44a-1a46-4cb4-8065-ecccf8380a22))
+    (pin "1" (uuid 29206134-417f-47c9-9e88-318ff2ef6ace))
+    (pin "2" (uuid 2e90b073-6664-4c23-b101-4a5a599c5bb6))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "Buzzer") (unit 1)
+          (reference "BZ2") (unit 1)
         )
       )
     )
@@ -5174,8 +5174,8 @@
     (property "Datasheet" "~" (at 115.57 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f14ff62-f219-4a86-b2bc-b30bf1745f22))
-    (pin "2" (uuid eb398b28-0bef-469c-a662-b0cb644709b2))
+    (pin "1" (uuid 02551792-b5eb-4f4d-9941-c04d0fcd7d31))
+    (pin "2" (uuid 5b763d6a-2a9a-4dde-bae3-2690f229bade))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5200,8 +5200,8 @@
     (property "Datasheet" "~" (at 187.96 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4549bc6f-ac60-47a7-9fe3-a32d19ff13e9))
-    (pin "2" (uuid e227e0d1-23e9-497d-a236-a60424dcd25e))
+    (pin "1" (uuid 11b5848e-3a9f-46be-b4d0-409fa75a5308))
+    (pin "2" (uuid 38d2b84c-7481-4622-8433-6ff4bb8bc864))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5226,7 +5226,7 @@
     (property "Datasheet" "" (at 159.385 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c8b909c-f02c-4510-b8c9-1980fca13ce9))
+    (pin "1" (uuid 69d0c469-96d9-4059-bc83-c9e4f78dfbc5))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5251,7 +5251,7 @@
     (property "Datasheet" "" (at 228.6 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7893135-61f8-4bac-8a9d-e6749eae0cd3))
+    (pin "1" (uuid 46e4382a-e8a7-426c-8616-80c621642e97))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5276,26 +5276,26 @@
     (property "Datasheet" "~" (at 99.06 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37c1f2b2-6ad1-427d-a255-2f9e62c12b6e))
-    (pin "10" (uuid a1a19405-3ac9-4d84-a52a-10cdea2498e2))
-    (pin "11" (uuid ca162b52-8015-43ed-8014-052cd7e3af95))
-    (pin "12" (uuid 46cad704-fbaa-459e-ad15-c263d4c8e539))
-    (pin "13" (uuid 1c8ef60c-d4cf-446b-9d31-c210f79c716d))
-    (pin "14" (uuid c72f0eff-9c67-417d-9496-ce0b069a1848))
-    (pin "15" (uuid 6c72cbea-c7b8-4d35-b61c-91c4ade8113f))
-    (pin "16" (uuid 5b4f45fa-be6f-4f0e-9eaa-0854064620fe))
-    (pin "17" (uuid 2fa2f404-0134-4a0c-8039-cd011e5629c3))
-    (pin "18" (uuid cb0a94ce-44fe-4f1f-8e63-ca973c376cc6))
-    (pin "19" (uuid 46b651c2-c400-45e0-a92e-edb28c6c3c92))
-    (pin "2" (uuid 29b217a3-e207-49f3-aedd-c5d41b35e9cd))
-    (pin "20" (uuid b13d5c01-609f-4713-8e7e-c197f9b3e340))
-    (pin "3" (uuid 662d0910-f22f-4017-8667-a567a747d97b))
-    (pin "4" (uuid 2090c3b1-a344-496d-9c24-317c98257cc1))
-    (pin "5" (uuid 1443ce8d-f26f-4395-9898-9178a93cf6b4))
-    (pin "6" (uuid e2b248be-8bf8-461e-a66b-5542ffb54e3b))
-    (pin "7" (uuid cb48b18c-f540-4718-abe8-bd4a000f101a))
-    (pin "8" (uuid fe72f133-8a83-4278-994c-b7916797fa33))
-    (pin "9" (uuid 635f7384-280e-41c5-98b9-0835b2e8f930))
+    (pin "1" (uuid d072d138-71c0-4b36-a1d8-97e989227cb5))
+    (pin "10" (uuid f4f0b07f-2349-4824-bcb2-ef359401bdf8))
+    (pin "11" (uuid b17114b9-9a16-4ef4-aab7-c5eeed9d9ed0))
+    (pin "12" (uuid af2e4c91-d0bd-4aa3-8a65-06f6ab9fdd00))
+    (pin "13" (uuid 61334b74-6313-4bb7-b140-9e0600830771))
+    (pin "14" (uuid c2b10ca1-9ed7-4642-9450-7df34cbe5d25))
+    (pin "15" (uuid dfc35f11-adbc-44ed-8b2d-8959f44b5b50))
+    (pin "16" (uuid fe1fea3e-fd68-4957-b1c4-4011eea8010b))
+    (pin "17" (uuid 65041793-251a-47a5-9eec-501e9e7b6894))
+    (pin "18" (uuid 0a88eec0-955b-4ec4-9143-99629296ddfa))
+    (pin "19" (uuid 0357a1c0-4dcc-4fa7-9405-6d88e684dc66))
+    (pin "2" (uuid 9df29785-4a71-470a-afb7-7e4543b66223))
+    (pin "20" (uuid 423702d8-e51e-44ef-a40f-6c8afb6af1a2))
+    (pin "3" (uuid f912e211-18b6-419f-b93c-a218ea640363))
+    (pin "4" (uuid 7c8b0d5d-1526-4ef5-b4eb-f2c2c264ce2b))
+    (pin "5" (uuid 3d6c93a6-6e90-4eb1-80f9-a9c0c921f7ea))
+    (pin "6" (uuid b2b4dbe7-c3ec-486f-af9d-49cdd8d057d3))
+    (pin "7" (uuid f7146c23-86e8-4078-90e5-d78951b83013))
+    (pin "8" (uuid 0f6a4296-aa24-4867-814a-95fa05a5020a))
+    (pin "9" (uuid 33acf8c9-65e5-442d-a199-267a7a755502))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5320,7 +5320,7 @@
     (property "Datasheet" "" (at 163.83 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68ee4fd6-2af0-4a3c-bd00-efa4d463480e))
+    (pin "1" (uuid 32f08853-3243-4b87-992f-e1e82a15a372))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5345,8 +5345,8 @@
     (property "Datasheet" "~" (at 251.46 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 99a00266-b5ef-44c6-9a68-f0fe42f4489a))
-    (pin "2" (uuid 06fc7a08-7b5d-47b8-a4a9-8697f8d6039a))
+    (pin "1" (uuid d1f0a9d6-14bb-4838-ae77-61d745adb748))
+    (pin "2" (uuid 03b0b96b-3eb7-4728-8321-b440b2bfc526))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5359,7 +5359,7 @@
   (symbol (lib_id "Diode:1N53xxB") (at 146.685 173.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 545a9ce2-0cd0-482c-a9fc-b4ba36e4fb66)
-    (property "Reference" "D1" (at 146.685 167.64 0)
+    (property "Reference" "D3" (at 146.685 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N53xxB" (at 146.685 170.18 0)
@@ -5371,12 +5371,12 @@
     (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf" (at 146.685 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bc66edfc-18d3-4e30-86ff-2a12e1b12d13))
-    (pin "2" (uuid d220da27-703a-491c-8542-54da7eff58a6))
+    (pin "1" (uuid 067e81ee-1281-49f1-8867-803772b025cb))
+    (pin "2" (uuid 83d51795-1871-4606-9f39-c0fafc9effe1))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "D1") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5397,11 +5397,11 @@
     (property "Datasheet" "~" (at 234.95 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0fec7a7-ffd1-4dd6-9f64-7c2e94a64f0d))
-    (pin "2" (uuid 0cc77953-af31-4115-834d-b2519d258f1c))
-    (pin "3" (uuid a737424c-4487-4987-9b88-19890a61d190))
-    (pin "4" (uuid 31ac079d-aa2a-4f83-bf8a-3f88e328fe1c))
-    (pin "5" (uuid b2e5104c-79a8-48b0-8d76-a44907448c7a))
+    (pin "1" (uuid 4d6170a0-5a8d-4572-a717-f26e6c7dfd78))
+    (pin "2" (uuid c2907ac9-a64c-4202-9489-02fe3ed2971b))
+    (pin "3" (uuid aad47bab-e92b-4181-8a1b-92532c2e587e))
+    (pin "4" (uuid c3b56f24-cd2e-47b5-a6b7-83ba54d1783e))
+    (pin "5" (uuid 01549f69-eec5-4977-91af-c828ebaaa201))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5414,24 +5414,24 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 138.43 187.325 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 575f4d24-0bc3-4adc-9dfe-29e01e214106)
-    (property "Reference" "V_BAT" (at 140.97 186.055 90)
+    (property "Reference" "V_BAT1" (at 140.97 186.055 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" (at 140.97 188.595 90)
+    (property "Value" "V_BAT" (at 140.97 188.595 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 138.43 187.325 0)
+    (property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" (at 138.43 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a276dad8-0243-4535-a26e-7cd678da88df))
-    (pin "2" (uuid 750b5836-8276-49db-ab7f-43d8135bae0b))
+    (pin "1" (uuid ef435364-0d4b-4567-a95d-1d5e981d3767))
+    (pin "2" (uuid b1f913c3-76c6-4fea-bfd0-fa2de9b447f9))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "V_BAT") (unit 1)
+          (reference "V_BAT1") (unit 1)
         )
       )
     )
@@ -5452,8 +5452,8 @@
     (property "Datasheet" "~" (at 251.46 25.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d80d471-2667-47e9-b285-5e645e0f2659))
-    (pin "2" (uuid e0ffed41-7451-46a1-ad4b-91399ed7efd8))
+    (pin "1" (uuid c0a69847-84e0-4c2f-b343-618418b50d8c))
+    (pin "2" (uuid 8906188f-80f4-4082-82b8-a57f08a9b2ef))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5478,7 +5478,7 @@
     (property "Datasheet" "" (at 60.96 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7db86aee-a1d3-4ec3-ae0c-b037cb402c3e))
+    (pin "1" (uuid 56cacd43-8e36-42ef-a9bf-eb41b7feb8b8))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5506,8 +5506,8 @@
     (property "partnumber" "" (at 58.42 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9bc386ee-b6ad-488d-8c21-40b6f9ce1ef7))
-    (pin "2" (uuid a7d3abc9-3b6e-4904-858d-d55c04dea859))
+    (pin "1" (uuid 7543516f-2d85-4d11-9d1f-a3dc5881a399))
+    (pin "2" (uuid f2abd262-3e62-4949-b8c7-ac8b5ee5cd98))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5532,8 +5532,8 @@
     (property "Datasheet" "~" (at 251.46 22.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b74f105-dd67-4ed8-b7cd-e76721e251d7))
-    (pin "2" (uuid c0f59d93-5b35-4704-8b7f-b4f906264af6))
+    (pin "1" (uuid 3596cbcd-2aa9-4cee-98eb-cd23b9363f44))
+    (pin "2" (uuid 7380aba5-3a73-425b-bb58-95d4de278258))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5558,7 +5558,7 @@
     (property "Datasheet" "" (at 115.57 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2dfcdddc-a16f-4dae-874a-bb1a2ead94c3))
+    (pin "1" (uuid 7b50ee79-71bc-4758-b296-8244c509cbf2))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5583,11 +5583,11 @@
     (property "Datasheet" "~" (at 171.45 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83a7966e-b4c7-4693-b406-fc533492fbb9))
-    (pin "2" (uuid 1393119d-37ec-4ffd-9ae9-169b567d33d1))
-    (pin "3" (uuid 1a82f1ea-1bcf-4c1b-bfd9-6d40dd0141f0))
-    (pin "4" (uuid c672a8be-810e-4e4a-ad8f-3f366cb919c1))
-    (pin "5" (uuid 10decf30-5f48-432d-8c3e-9d15f8a65e3a))
+    (pin "1" (uuid 75daf3e6-278e-4ed6-8e62-cae14b233d98))
+    (pin "2" (uuid 00970c3f-b741-416d-a3ba-72f2bd2dc4aa))
+    (pin "3" (uuid 58d5a7d3-8de8-4209-a20e-95c074e20ac0))
+    (pin "4" (uuid 215484dc-45b8-439d-ba33-13b28bc2b4c2))
+    (pin "5" (uuid 902efe14-73ae-49ba-85a5-ef246cc031a5))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5612,7 +5612,7 @@
     (property "Datasheet" "" (at 236.22 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bb8a952-b098-4c80-8263-42def915e424))
+    (pin "1" (uuid aa37594e-fdc1-4561-b6d3-88f5df00d255))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5637,8 +5637,8 @@
     (property "Datasheet" "~" (at 263.525 114.3 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb5cb4c4-5b8e-4500-9fc3-965a7f882fe6))
-    (pin "2" (uuid c93cec05-2f50-4b41-b20d-23655a8ea192))
+    (pin "1" (uuid 4edfdd09-28ff-4fc7-b2dd-24bfd06e90d1))
+    (pin "2" (uuid e1e0c314-2cd7-401a-a0b5-90410ed56c42))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5663,7 +5663,7 @@
     (property "Datasheet" "" (at 20.32 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 993c4c93-69cf-48d3-a4cc-ef05b61dd3ef))
+    (pin "1" (uuid e20103e7-6f28-4d5b-8786-03d2e550c290))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5688,7 +5688,7 @@
     (property "Datasheet" "" (at 246.38 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c4e7c2e-0e02-499d-bc39-01c647c1a250))
+    (pin "1" (uuid 78b21949-3209-4162-8396-3398eae2eec6))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5716,8 +5716,8 @@
     (property "partnumber" "" (at 57.15 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d4f0c63-43c2-4764-960c-25f27b7345ec))
-    (pin "2" (uuid cb76e85b-82b2-48c2-82ae-0921ad2fdd42))
+    (pin "1" (uuid 7ec53a1d-2863-4f1c-bf9b-1e2c181b62ce))
+    (pin "2" (uuid b85eb714-40df-4774-b20d-833d8c09f738))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5754,9 +5754,9 @@
     (property "SNAPEDA_PN" "1063" (at 101.6 148.59 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "1" (uuid 0450a673-9549-4f3d-8214-126d00d72992))
-    (pin "2" (uuid 3bde9fb1-6f8f-4525-9a1f-bdc8cc3a1c6e))
-    (pin "3" (uuid cd35c3cf-fe3f-4b03-a8d1-49d2379d281e))
+    (pin "1" (uuid c810108f-7c78-409a-8586-22feff0d9162))
+    (pin "2" (uuid 05036bcc-6eeb-4edd-a6da-5fc2fa0c14a3))
+    (pin "3" (uuid 5f39d46d-4c14-4f39-b23a-f36220ed0c2f))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5784,8 +5784,8 @@
     (property "partnumber" "" (at 57.15 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8caa4b60-1416-4733-8db6-c48ff54b9c69))
-    (pin "2" (uuid 6733a381-4bf5-4b6f-8d62-3dfca8e620d3))
+    (pin "1" (uuid 6f297b83-d8c2-4f1d-af0b-a68bc24b6123))
+    (pin "2" (uuid 77bfc3ec-64b6-491f-a165-8f60007fea9e))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5810,7 +5810,7 @@
     (property "Datasheet" "" (at 48.26 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b30a7268-11ce-4d53-aece-914dfa44f645))
+    (pin "1" (uuid 9ec25857-0f1a-4a9c-9362-d6a9d1f731aa))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5835,7 +5835,7 @@
     (property "Datasheet" "" (at 101.6 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1a6bff5-3fd7-455e-ac28-ba6cde8c070b))
+    (pin "1" (uuid 0b7b98d8-5ee2-4bb6-9574-833a4dd8ccf3))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5875,46 +5875,46 @@
     (property "partnumber" "" (at 186.69 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb778980-e786-42af-96a3-530dd1ec89cd))
-    (pin "10" (uuid 68357223-bad4-490c-88fd-41faa59b714c))
-    (pin "11" (uuid 8fe9b47a-a988-4be7-a737-a650f9945afb))
-    (pin "12" (uuid d173a7dd-6115-4185-82c8-e774799d8dd8))
-    (pin "13" (uuid 2a8624af-7165-4fda-ba23-67bbe8a41f56))
-    (pin "14" (uuid 7e37858e-fec0-4f47-bfe8-fe346fc179a7))
-    (pin "15" (uuid 86ddcc3e-4e5e-4abd-8299-a201854a9cb3))
-    (pin "16" (uuid eba25e05-40eb-47c4-8e6c-be8807e82f15))
-    (pin "17" (uuid 18fd34b1-d5fb-457a-a46c-bf9fccfa72f2))
-    (pin "18" (uuid cd5d67a0-5a9e-4bd3-8e0e-1d9d88cda1df))
-    (pin "19" (uuid b656d6d1-d150-44dd-bddf-b170238a553c))
-    (pin "2" (uuid d586ddc7-0136-4be4-9705-96139128e950))
-    (pin "20" (uuid ceb55057-d9cb-4324-a3e3-07f3bfb7142d))
-    (pin "21" (uuid 8d1c0769-8345-4db0-b834-beabb52da38e))
-    (pin "22" (uuid 31ec68c2-e81a-4393-94ca-1b9607555368))
-    (pin "23" (uuid fb6ba1eb-71be-4bbc-95e8-9e8e925b3c8c))
-    (pin "24" (uuid 6bc37c3b-4da6-4590-aa98-cdc212bee316))
-    (pin "25" (uuid 4ec83123-af58-4271-b9dd-7524c51d0271))
-    (pin "26" (uuid b256b6d4-5146-4bac-abe4-123e861f4e6e))
-    (pin "27" (uuid 5408b850-6a71-48d3-876f-3131c543a115))
-    (pin "28" (uuid f4737b46-a48a-4d26-8413-57d2ba1bb6be))
-    (pin "29" (uuid a18f7eb7-4c4b-4bd0-9c92-eb7c6dcaf65d))
-    (pin "3" (uuid 6b2b1cc0-495f-4e0a-8e5c-8305070c2624))
-    (pin "30" (uuid 1412ab24-1e9c-4e9e-8c73-11da00a40bf6))
-    (pin "31" (uuid 3afa9f98-3d00-4e6e-86b6-17194ef5f87c))
-    (pin "32" (uuid 9d3c0778-5225-4345-a77e-0e43b2b06fe7))
-    (pin "33" (uuid 927b15e5-2bab-429b-b389-c820a8c99bd6))
-    (pin "34" (uuid 9bf5a19e-c4b0-4edc-903b-13d343d9132b))
-    (pin "35" (uuid ec6eefed-22a6-406f-853e-d65a6d325011))
-    (pin "36" (uuid 50c42bf3-89ee-4e3f-8b7d-f11bd9453575))
-    (pin "37" (uuid 5cceb6e1-b4e2-4193-ab4c-b9e9a28bcf3e))
-    (pin "38" (uuid fd95f4a9-7181-49ee-a36a-3100896f88d0))
-    (pin "39" (uuid 8216758e-e37f-4f33-bc55-adc305819c4e))
-    (pin "4" (uuid 1f118116-5f9f-413a-a5dd-18987f8a7e20))
-    (pin "40" (uuid a3dd91d1-4b3f-40c0-91c9-c4bff58a65e8))
-    (pin "5" (uuid cabd55bf-6259-4252-a49c-bc578c4bf823))
-    (pin "6" (uuid 0bf1ac1b-0354-478f-a478-dc17c6ee7e96))
-    (pin "7" (uuid 4327e0ba-40b1-4178-841e-7d90cbc4c7a3))
-    (pin "8" (uuid c44f5b17-eace-417e-a27c-b35ec0077f97))
-    (pin "9" (uuid 58a60d5e-d53b-4b1a-904e-29a1f7638465))
+    (pin "1" (uuid 43f511f7-d00e-4cc9-be92-e9a135e7392d))
+    (pin "10" (uuid d4283470-deec-46c4-ad92-431589eae0ce))
+    (pin "11" (uuid 5d444c8d-e45a-4148-916b-a61acfbe110a))
+    (pin "12" (uuid f9dcda09-55a1-4a04-b33a-d953a7ff6462))
+    (pin "13" (uuid 9960705d-15c5-4885-8a3a-9476dd3a661d))
+    (pin "14" (uuid 8171939f-ec33-464e-8f3c-15c87074bc06))
+    (pin "15" (uuid 869b1949-78a8-49dd-988e-7f5f6ea76f2a))
+    (pin "16" (uuid ae54fc41-3cd9-4180-b892-23de404e5881))
+    (pin "17" (uuid 4d2f69d4-35f0-4432-82a1-9a0e9ce9b547))
+    (pin "18" (uuid 6175fdac-ef6f-4816-a470-d6d049971b3d))
+    (pin "19" (uuid b5ff5534-2863-43d7-870d-bd03c1522d4f))
+    (pin "2" (uuid 62acf2b2-215a-437d-9aab-4aee5aebcff8))
+    (pin "20" (uuid 56c1a74e-bd22-49e9-9aff-a0b8ce0d7d0b))
+    (pin "21" (uuid 6877dbe6-b7c1-41d9-94bb-faa5497debe2))
+    (pin "22" (uuid a5068049-fc9b-412e-96ea-450b6f3a928b))
+    (pin "23" (uuid 52c05648-0ad8-437a-9fb1-b3b578c4ceb1))
+    (pin "24" (uuid b9108dcc-c5e9-4894-b4c6-f42b6b3d77ab))
+    (pin "25" (uuid 617ceeb2-794e-41d2-9cf7-7a6eae40c670))
+    (pin "26" (uuid fce79b64-84e5-495d-b0c2-4c6950e88800))
+    (pin "27" (uuid 4aa68077-be39-4494-a11c-3ddeee49492d))
+    (pin "28" (uuid 1bcd9a4e-544b-4302-9868-52a9c50297b0))
+    (pin "29" (uuid 186f47d1-f184-42e7-96d6-8ad4ac61d425))
+    (pin "3" (uuid d7f9a711-4b16-409c-b1ce-f97812dbeba4))
+    (pin "30" (uuid 7b2b5235-714b-45e4-aff5-992b5f2f8708))
+    (pin "31" (uuid 5777a9e8-ec4d-42d0-9ad7-b7dc986b969a))
+    (pin "32" (uuid c5cca0a2-3b4e-41ee-97dc-0ac56611fec3))
+    (pin "33" (uuid 2df96ec2-52c5-46d5-aa68-d9f89d027d55))
+    (pin "34" (uuid a3d100a7-f920-4994-aaa8-558331745a4e))
+    (pin "35" (uuid 2bcc8cfb-a767-4162-8e80-f2ac647590f0))
+    (pin "36" (uuid 7eb36f74-65b7-44ca-9118-6211df8e3c6d))
+    (pin "37" (uuid aa53e101-abe3-4a60-ad06-65fc7f0cf33a))
+    (pin "38" (uuid 68c73fae-be95-4491-bfa2-5bff604d8274))
+    (pin "39" (uuid b23502fa-24be-4653-9b43-ef54bde1e50a))
+    (pin "4" (uuid daae2119-069a-413b-ab7a-c59a5c1bf526))
+    (pin "40" (uuid eff8d326-b595-4cca-bbb2-5a46f689eee1))
+    (pin "5" (uuid 04b52da9-bee9-4d55-a676-eef05ba85860))
+    (pin "6" (uuid b817ad22-f2ef-46bb-a9b6-89725c562a01))
+    (pin "7" (uuid 5bd7bb2a-74b1-4f94-9637-1d498ed1f779))
+    (pin "8" (uuid d180afdd-9e5a-4d31-ab1e-221314e1988b))
+    (pin "9" (uuid 899cb7b0-86be-404d-90d4-ba48f93e6e98))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5942,11 +5942,11 @@
     (property "partnumber" "" (at 276.86 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 225e9aa5-ddfe-402a-b7fb-2344dda5892b))
-    (pin "2" (uuid ba36094c-6d8e-401a-a46e-22cdff111ca5))
-    (pin "3" (uuid c86a1496-a140-41b9-b948-f3b9af361cda))
-    (pin "4" (uuid 5520de1f-64d4-4755-b941-8865544bad64))
-    (pin "5" (uuid db55b187-7d30-4718-bf02-2e81b025a28c))
+    (pin "1" (uuid dd9289db-695e-4034-884a-fb6dc241b81a))
+    (pin "2" (uuid a4ed0124-fcb6-418b-a05a-e7edfe830e2c))
+    (pin "3" (uuid 818aeca6-f30a-41f2-9571-ffeb110116a6))
+    (pin "4" (uuid a1459c35-9824-46e4-aae1-e917d3223a59))
+    (pin "5" (uuid 3b3a46b1-28b2-42d8-a4b1-b7f515952d45))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5971,7 +5971,7 @@
     (property "Datasheet" "" (at 26.67 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31b99a44-e31d-412b-b3bd-f5489b9ba02a))
+    (pin "1" (uuid 7757808e-dd4c-48c7-a2e6-973b31172b79))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -5999,8 +5999,8 @@
     (property "partnumber" "" (at 233.68 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3914620a-7e8a-43e3-bec5-a384320d4474))
-    (pin "2" (uuid 484729ff-a625-489b-874d-c5f2c376945f))
+    (pin "1" (uuid c6e2442b-7453-4cc7-88a5-9bc37ae1a60f))
+    (pin "2" (uuid dd67f186-f23d-43d6-83f5-6214ddb0db2f))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6028,8 +6028,8 @@
     (property "partnumber" "" (at 111.76 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a4ce3e7-5c68-498a-b031-1b4a77e9e10a))
-    (pin "2" (uuid ee0a1ec3-ebde-44a6-9113-28d162be893c))
+    (pin "1" (uuid 64e34bdb-d1b4-45ed-ab55-3bcae82a255a))
+    (pin "2" (uuid 7d791176-5c8f-450e-8bc7-731274562a7e))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6054,8 +6054,8 @@
     (property "Datasheet" "~" (at 110.236 35.56 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c508e5d-6b25-488a-822b-922166649f75))
-    (pin "2" (uuid 3d02a5fc-9c26-4b02-a13a-e9a3ef8351d3))
+    (pin "1" (uuid 66832370-35f1-4f4a-8615-f0c5ce783288))
+    (pin "2" (uuid 5c97ea10-71c1-4da9-ab51-61527eeb1b9c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6080,7 +6080,7 @@
     (property "Datasheet" "" (at 157.48 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85bef343-fc4b-4518-b17d-e28bb2a91c80))
+    (pin "1" (uuid f8c4d901-5bcc-4f73-8216-608455abf432))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6105,7 +6105,7 @@
     (property "Datasheet" "" (at 240.665 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62b0ab01-45ab-4c8d-9d47-ac1d3ebe2b86))
+    (pin "1" (uuid ae833f6b-a119-4160-92ad-808a94936d1d))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6118,7 +6118,7 @@
   (symbol (lib_id "Device:LED_RGB") (at 35.56 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b906743f-9df0-445d-a2a0-c98f7440286f)
-    (property "Reference" "LED_RGB" (at 35.56 71.12 0)
+    (property "Reference" "D1" (at 35.56 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED_RGB_SMD" (at 35.56 73.66 0)
@@ -6133,16 +6133,16 @@
     (property "partnumber" "" (at 35.56 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0838e20-2ef1-4b39-88f3-d0df512520b3))
-    (pin "2" (uuid b2e73e0d-fe61-499e-a42d-833dbe383178))
-    (pin "3" (uuid 6e94773e-4330-4ce5-b5c8-ed42b3d3dee6))
-    (pin "4" (uuid 856e63ca-0ba0-4be5-a260-59f5556bb12b))
-    (pin "5" (uuid a96ab0ea-02a8-4ed2-a842-fd16735d70f6))
-    (pin "6" (uuid 71f45f12-429d-48ca-9c35-b38b2fcc4cc4))
+    (pin "1" (uuid 1df3c3cf-7ae8-4825-a389-c829501f8c77))
+    (pin "2" (uuid b32e652c-ce3e-4e68-b7db-4b8cedcd03de))
+    (pin "3" (uuid 44b8ed47-3096-4912-babd-1adeffdc7872))
+    (pin "4" (uuid 1afc1e3c-2f3e-4fd7-ab7a-af053fc60c44))
+    (pin "5" (uuid fdf26fa9-c88d-46a3-ad5b-78ebac7f247a))
+    (pin "6" (uuid e677765c-8f65-4840-a3d4-ea9f7fe77fce))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "LED_RGB") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -6187,9 +6187,9 @@
     (property "Status" "Active" (at 50.8 2.54 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (pin "1" (uuid 4715b22d-a952-47ff-b24b-c8154339e753))
-    (pin "2" (uuid 8b3e7c78-1c69-4569-9adc-5eddfcf1d719))
-    (pin "3" (uuid baa7e29f-9423-419a-8f8b-b8fc184a4967))
+    (pin "1" (uuid 5bc2cc91-c6a7-491e-bfea-9d6363ae1d4a))
+    (pin "2" (uuid 5d8081d3-18de-456c-9c5a-2fc43d94b41e))
+    (pin "3" (uuid a4451592-0b7b-4f70-89f4-309bbd5598a7))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6217,8 +6217,8 @@
     (property "partnumber" "" (at 111.76 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 133af28c-0fda-4405-a360-ae23e77eef5b))
-    (pin "2" (uuid 9892e918-370e-44c9-b292-091410fc9b6a))
+    (pin "1" (uuid 0e34196e-2308-4522-9093-3e71880727fb))
+    (pin "2" (uuid 1161fefa-f408-4777-a678-39ba5c10c815))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6243,8 +6243,8 @@
     (property "Datasheet" "~" (at 187.96 22.86 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc779230-a2fb-48bc-836f-09a6dde7c54a))
-    (pin "2" (uuid 597229fd-51d4-4c21-912a-57f2bf6b0797))
+    (pin "1" (uuid 3debc643-4677-4709-b36c-0e049c71b174))
+    (pin "2" (uuid a94ec02b-7296-4b52-8249-c868139158f7))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6269,8 +6269,8 @@
     (property "Datasheet" "~" (at 187.96 33.02 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 23260ad3-8f4d-4119-8526-04fcec9fa764))
-    (pin "2" (uuid fdc53a8c-59b5-4777-816d-9eee03c84dac))
+    (pin "1" (uuid 4c48c487-0615-4be9-8d35-037a0859d781))
+    (pin "2" (uuid 1476bfa2-849e-4b45-93d3-39f1eedfde20))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6295,26 +6295,26 @@
     (property "Datasheet" "~" (at 42.545 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cae213a-2ea8-45d2-808d-18685f7dd986))
-    (pin "10" (uuid 6c2594b0-ec28-440d-b241-be3a12173fb9))
-    (pin "11" (uuid 48ad24b7-95a0-48f7-b185-caf6075fd0df))
-    (pin "12" (uuid eefca7bb-1a49-4e32-9481-1de6e3fea250))
-    (pin "13" (uuid 7ecdb6a6-51e1-4e3c-8b5c-772fe24fcd87))
-    (pin "14" (uuid fddea699-f1d7-4482-aea0-13c42ed0ec4d))
-    (pin "15" (uuid a1cb3e82-c11e-46bb-9c63-76aac123638c))
-    (pin "16" (uuid 0017d95f-fe95-49b0-9b42-7f342d8229a7))
-    (pin "17" (uuid d44f6f19-b4c3-4c6f-a87d-f55a4d94be83))
-    (pin "18" (uuid 985ac063-fa1b-4446-9476-70c86825dc56))
-    (pin "19" (uuid b314e296-e302-4ed6-9eab-5fff786b6809))
-    (pin "2" (uuid 6d9a794b-9ccd-47be-8ba4-0389eb4a40fa))
-    (pin "20" (uuid b5514742-b94a-4bd1-9cf1-209e4adb909d))
-    (pin "3" (uuid b80e3ab5-8075-40ca-93e2-d241252946eb))
-    (pin "4" (uuid 08f2df1f-599e-4aa2-a3e4-5daf55eb1684))
-    (pin "5" (uuid ba60e282-b0d3-44d0-841d-116e587c8007))
-    (pin "6" (uuid cf9ca0de-14dc-4d1f-b1f7-d9a1027e448c))
-    (pin "7" (uuid 5939a7b3-f20b-4ae7-a1ac-ade3dfcac85a))
-    (pin "8" (uuid 9f06c543-3fef-4c8f-80f0-6601308dd0cd))
-    (pin "9" (uuid eea1fd1a-3f89-4df5-8372-5d30be5fec7b))
+    (pin "1" (uuid c4e58bf2-bebe-4c8b-8a93-e6fc0e5450ca))
+    (pin "10" (uuid 0b2749d3-4a7b-4652-87c7-1073f4bc95c8))
+    (pin "11" (uuid 426b4370-877f-481f-a4c1-d22f5bc98daa))
+    (pin "12" (uuid daa34096-32d7-44f6-97b0-3e4af1438ea5))
+    (pin "13" (uuid 6f7c5100-adda-4300-9fdc-05a8cedde246))
+    (pin "14" (uuid 7ce4b33e-877a-4b43-a12a-5452909e0e8e))
+    (pin "15" (uuid 890eeb30-8835-4479-a2da-b5d0a8fe0778))
+    (pin "16" (uuid 49f4f915-12dc-4d85-87bb-1ac30435f214))
+    (pin "17" (uuid 6d2fc4aa-70c0-400f-b667-1d44cdd08d77))
+    (pin "18" (uuid 4ddabdc9-f548-401a-b5e7-ec471da5d532))
+    (pin "19" (uuid 431ee909-c69f-4d4f-bd7a-e81a919d287b))
+    (pin "2" (uuid 5e29e137-8c13-473c-9588-9cbb315e3af5))
+    (pin "20" (uuid 58f42bc9-da43-4f9d-b504-942cf2fb0cfd))
+    (pin "3" (uuid 2afb9ac8-f2f0-4273-956d-7e72658bee7b))
+    (pin "4" (uuid 4d7ec448-8f08-442b-844e-97da0e336e13))
+    (pin "5" (uuid 9b49ab98-ec3b-4edc-9b69-615d6f22d744))
+    (pin "6" (uuid c0c535af-c1b0-4685-bd54-687878b03260))
+    (pin "7" (uuid db6b9128-9c02-4943-8dc7-f73a10a5b880))
+    (pin "8" (uuid 45aa9e68-0c0c-4c21-869f-78950dfe0ca7))
+    (pin "9" (uuid 47d9e93d-a8ef-46e8-a4ff-d9056b4ab51c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6327,7 +6327,7 @@
   (symbol (lib_id "Device:R") (at 153.035 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid beeaeced-500a-4af5-b92f-f2c3210befbe)
-    (property "Reference" "R_1W" (at 155.575 175.895 0)
+    (property "Reference" "R_1W1" (at 155.575 175.895 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 155.575 178.435 0)
@@ -6342,12 +6342,12 @@
     (property "partnumber" "" (at 153.035 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 861ec1b4-eb81-4726-adda-215712461a2b))
-    (pin "2" (uuid a32fb261-6db4-4ebe-af9c-eedb5c09794c))
+    (pin "1" (uuid 32a51dd3-fe5a-4765-a754-46121735afc7))
+    (pin "2" (uuid 3d95a435-63ab-49a8-9827-74c4c7c5cccc))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "R_1W") (unit 1)
+          (reference "R_1W1") (unit 1)
         )
       )
     )
@@ -6371,8 +6371,8 @@
     (property "partnumber" "" (at 57.15 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40a7efc2-665b-4198-8209-cd445c1b0db2))
-    (pin "2" (uuid 9ba1df74-570f-4042-9906-1dcbd8b14cd5))
+    (pin "1" (uuid 4db7c127-1f3b-4bc1-a477-1df8c31a1aab))
+    (pin "2" (uuid 64e1637d-e84e-4eb6-bb7f-816bb2ab179c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6397,7 +6397,7 @@
     (property "Datasheet" "" (at 267.97 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dbf153bf-c6aa-4ebb-b9b5-0e94df4fecbc))
+    (pin "1" (uuid b0f2a93e-fd0f-483b-acba-ad38f0e5bf8c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6425,20 +6425,20 @@
     (property "partnumber" "" (at 46.99 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b80484f-3c21-444b-9cf4-06ea912a3ce5))
-    (pin "10" (uuid aa267c0d-1d3f-43af-84cb-19433f7c5c3a))
-    (pin "11" (uuid be649aff-db27-47cf-b8c7-9c60c51e670f))
-    (pin "12" (uuid e2e4415c-8836-4d8f-9e34-75404e38adfe))
-    (pin "13" (uuid 0cd0a97d-5538-4806-9f48-0a194b682af4))
-    (pin "14" (uuid cc88ac4d-7e62-4fb3-b606-2d3bb39d377b))
-    (pin "2" (uuid 210d14cf-c89a-433b-aa6e-6eb908c1cba7))
-    (pin "3" (uuid d88428eb-923e-4670-ac8d-30ec64283530))
-    (pin "4" (uuid 0e79c392-7087-4718-8ef6-ecbd25278049))
-    (pin "5" (uuid 95d3a35f-1b29-49ff-84b3-e117153c86b5))
-    (pin "6" (uuid 21aa0598-3391-43a1-aaba-160221332fb1))
-    (pin "7" (uuid cf943b35-e1f4-420d-bca4-41bdbe609fdc))
-    (pin "8" (uuid f5c83912-b34d-473f-8bbd-34e3f33bf5c6))
-    (pin "9" (uuid 2df72468-6805-4122-932f-8a9bd6aa0669))
+    (pin "1" (uuid 35201cdd-ce90-4c6f-be86-0e7eb386b02b))
+    (pin "10" (uuid 5df4201c-870f-4957-9ff2-18e33368aae9))
+    (pin "11" (uuid 6a6639a1-acb4-4e47-bf28-0ff06c5f0bd1))
+    (pin "12" (uuid 027642d3-7e56-4f8e-a5c4-fef9b846ab79))
+    (pin "13" (uuid f9143fc0-09f1-4772-9640-05e12703dfb0))
+    (pin "14" (uuid 11f472b6-5c92-4629-b835-7bdb8fe7b16d))
+    (pin "2" (uuid 1de76636-4630-47c7-86bd-7e04d1a50607))
+    (pin "3" (uuid a5791600-e678-4dd6-a3d4-48d7fd018cab))
+    (pin "4" (uuid 0745fcea-f3ea-4864-a2be-518ace419d51))
+    (pin "5" (uuid 0373503a-8391-4708-9599-11684ff6913d))
+    (pin "6" (uuid cc5cb835-8e04-4057-bc48-a7c17f50d223))
+    (pin "7" (uuid d31a9241-3b6c-46f2-a33c-bfdba4a952ae))
+    (pin "8" (uuid b90aad3b-cbf0-46dd-9942-4e30bf5a81bb))
+    (pin "9" (uuid 433ec167-188a-4f3d-b2a6-24d4a35ae224))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6451,11 +6451,11 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 155.575 188.595 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce890466-1f94-4861-9cd6-e98c8b556bfc)
-    (property "Reference" "CARGA_SOLAR_12V" (at 158.115 187.325 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "solar" (at 158.115 189.865 90)
+    (property "Reference" "CARGA_SOLAR1" (at 158.115 187.325 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "CARGA_SOLAR_12V" (at 158.115 189.865 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" (at 155.575 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6463,12 +6463,12 @@
     (property "Datasheet" "~" (at 155.575 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c11201d2-760c-4608-9823-38664730b972))
-    (pin "2" (uuid 91c9fec3-06e9-4995-8bc5-2a29d19a66f5))
+    (pin "1" (uuid ab1c4295-03c5-41f0-b2c2-09cc17c9eeae))
+    (pin "2" (uuid ba385294-b88d-4bc5-a05a-13f739a31bb9))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "CARGA_SOLAR_12V") (unit 1)
+          (reference "CARGA_SOLAR1") (unit 1)
         )
       )
     )
@@ -6489,8 +6489,8 @@
     (property "Datasheet" "~" (at 251.46 27.94 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a301345e-20a8-4dd2-88ee-4987e137c7dc))
-    (pin "2" (uuid 839d4174-06d8-421d-96e0-9f4280b82380))
+    (pin "1" (uuid ca86ba93-c9d3-4132-a119-d80c24a24f6e))
+    (pin "2" (uuid 4d3ba83c-9da4-4f96-a76f-7c1fca6c064b))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6503,7 +6503,7 @@
   (symbol (lib_id "SSD1306-128x64_OLED:SSD1306") (at 114.3 120.65 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfed789f-76cd-47cf-b313-393097e72044)
-    (property "Reference" "OLED" (at 106.68 119.38 90)
+    (property "Reference" "OLED1" (at 106.68 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SSD1306" (at 106.68 121.92 90)
@@ -6518,14 +6518,14 @@
     (property "partnumber" "" (at 114.3 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a872e10d-f861-481d-9ddf-6c32e194966d))
-    (pin "2" (uuid 521789b5-3e8d-475d-baf1-c553bef15782))
-    (pin "3" (uuid 09ef6ee3-48f2-482d-a44d-518ead6d6c1d))
-    (pin "4" (uuid c30d09e0-6a87-4739-a7fa-6904f432086b))
+    (pin "1" (uuid f027d34c-c824-47f7-8885-d3bcc8c18e0a))
+    (pin "2" (uuid 8536849c-9ca6-4ed7-a709-b88536c6ed50))
+    (pin "3" (uuid c5f005c4-6b26-4a26-9602-7f5e695444e5))
+    (pin "4" (uuid bca2e1c6-1f69-49c4-9b8a-d85a02d7e51f))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "OLED") (unit 1)
+          (reference "OLED1") (unit 1)
         )
       )
     )
@@ -6549,9 +6549,9 @@
     (property "partnumber" "" (at 243.84 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 235eb988-f026-4a18-83ee-b7ab18bb41dc))
-    (pin "2" (uuid 28b9ca11-cf27-4f20-95ee-e8cbdfac5e65))
-    (pin "3" (uuid e5678637-de3b-44bf-b94f-b9031a87c732))
+    (pin "1" (uuid b054ae0c-6854-4027-8a9f-09a6a25ff771))
+    (pin "2" (uuid 2883bae0-d2c4-42b5-8c85-1228132393f6))
+    (pin "3" (uuid 3627ea3e-4fda-4aa3-9f6c-63a90b25659b))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6576,7 +6576,7 @@
     (property "Datasheet" "" (at 114.3 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3fd1be3c-e8b4-4f0a-8d94-f5c177e943d1))
+    (pin "1" (uuid c8ee0cb2-c973-45a8-ab70-def8c477a405))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6601,9 +6601,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 48.26 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a3134ec0-0b25-43ea-b515-6cd2b66b3dd3))
-    (pin "2" (uuid 8ce5e5a3-51e6-4700-86ff-c4aef4080422))
-    (pin "3" (uuid 321a494a-edba-44a4-a960-b1dac45834b4))
+    (pin "1" (uuid a040a1fb-562f-4a05-8e76-2ed1f09f453b))
+    (pin "2" (uuid e61ea8bb-194e-4114-b9b1-8a5d0583b465))
+    (pin "3" (uuid 7f2fe481-4093-4f3c-a218-15ed2a8c3397))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6628,8 +6628,8 @@
     (property "Datasheet" "~" (at 187.96 25.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed35cab4-066f-4fd9-93a4-67ceca13be93))
-    (pin "2" (uuid eafa03a9-c8b0-4d4a-bd0a-25bb71c6879e))
+    (pin "1" (uuid 4ab28ff6-3839-4579-9732-442a0b996104))
+    (pin "2" (uuid 4a6cca1e-c490-4751-a161-42deec810fb4))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6654,11 +6654,11 @@
     (property "Datasheet" "~" (at 173.99 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37b10cea-23dc-4ff6-913c-bd8f5c63140a))
-    (pin "2" (uuid a0cc4d18-027a-4de4-bcf7-7278da0a8621))
-    (pin "3" (uuid 9c94bc69-311d-4d2b-98d3-eb2bb76c93b7))
-    (pin "4" (uuid cf32826a-1361-4d56-a154-0f758b34dd3c))
-    (pin "5" (uuid 61680721-a505-457d-9345-acf2553b1fff))
+    (pin "1" (uuid 8bd4b15a-8293-4ad1-aeb9-43a027132394))
+    (pin "2" (uuid 0c7eaf04-1be3-4b08-8d7c-86075c1d11fe))
+    (pin "3" (uuid 63d3015a-0cee-40fd-89df-f6c0dfdd596e))
+    (pin "4" (uuid d18fe064-94ab-4893-afd0-553ad458a028))
+    (pin "5" (uuid eab9877c-5a9c-4ab9-8ed7-fb041127e5c1))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6686,8 +6686,8 @@
     (property "partnumber" "" (at 111.76 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 808bb8e1-4577-4b51-ae5d-99341ab38503))
-    (pin "2" (uuid c2d94af3-752b-4c66-84c1-4a163060b786))
+    (pin "1" (uuid 77ce264c-66d4-4d67-9ec2-c43cd64d3806))
+    (pin "2" (uuid 43576ef6-78fd-452f-aa30-cbbd79a77f4b))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6712,7 +6712,7 @@
     (property "Datasheet" "" (at 246.38 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 048f4d00-4c31-48a1-9fb5-04ae170e1407))
+    (pin "1" (uuid 7950c5f5-0fd5-4f00-beff-d1cb0fdc629c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6737,8 +6737,8 @@
     (property "Datasheet" "~" (at 263.525 140.97 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff7c3bc9-98b0-41cf-ae0e-c6a72ee99408))
-    (pin "2" (uuid 5eb35de2-0216-4074-81ea-18d4846a271c))
+    (pin "1" (uuid cd444169-f2db-4a34-93d5-8bef0feff2bb))
+    (pin "2" (uuid 2e6a453a-54f8-42f3-8282-4575c0ca9f5c))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6766,9 +6766,9 @@
     (property "partnumber" "" (at 243.84 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e3041bc-1e67-4d12-b0fd-b28347177e60))
-    (pin "2" (uuid 52f3dbde-6490-4516-8117-8d7337ab2bc5))
-    (pin "3" (uuid 3cab7746-cf48-4594-93c1-4625eca96a1e))
+    (pin "1" (uuid 4bcf5c17-6339-401d-aa61-8e36ee5c886e))
+    (pin "2" (uuid 7fffdec9-9445-482a-9138-60fc31b15b67))
+    (pin "3" (uuid 1ea59271-7a41-40f0-bf2e-5b169c74a32b))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6793,11 +6793,11 @@
     (property "Datasheet" "~" (at 237.49 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5cd53dd1-251e-4c3a-86c3-5903a62c5353))
-    (pin "2" (uuid 60518f05-88d9-4bbb-88da-0cce9c37365d))
-    (pin "3" (uuid 975bb0bf-8274-41e1-b1c6-4914e36ea848))
-    (pin "4" (uuid a3933480-08a1-4795-b50f-cfb2cf728aa3))
-    (pin "5" (uuid d8fd3dfc-1523-42d8-a0bd-6f2416f0ee60))
+    (pin "1" (uuid 7d592b3d-c9d4-4f54-aad4-1faeac3e5f27))
+    (pin "2" (uuid 56018dd2-57a4-4249-b558-20c5e261f45d))
+    (pin "3" (uuid 5b5cb838-bbf6-4344-b998-1bf4bccc09ab))
+    (pin "4" (uuid d69fd88a-75a5-49cc-8bbe-eae10ef0c561))
+    (pin "5" (uuid ce8df567-fbe8-4fb9-ac44-d38bfddeff0e))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
@@ -6810,7 +6810,7 @@
   (symbol (lib_id "charger2a:Charger2A") (at 88.9 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64210e9-a7a3-47bf-84f2-bb4ddb2218d4)
-    (property "Reference" "Charge_DisCharge" (at 95.885 22.86 0)
+    (property "Reference" "Charge_DisCharge1" (at 95.885 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT (DIS)CHARGE" (at 95.885 25.4 0)
@@ -6822,16 +6822,16 @@
     (property "Datasheet" "" (at 88.9 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34a33556-d42c-48f6-9f10-6dbfc9abf70d))
-    (pin "2" (uuid dd649b40-5fd3-4115-bd46-9a3837fae3ea))
-    (pin "3" (uuid 8b26b6a6-2dc2-40d5-90d9-824ceb91c089))
-    (pin "4" (uuid 69091905-a13d-473f-9745-8f55a54e65ec))
-    (pin "5" (uuid 344b8ef0-bff7-48b8-a48a-d04b98b07c39))
-    (pin "6" (uuid 6ed88f5a-4407-4e6d-af4f-62283afcef4b))
+    (pin "1" (uuid 943b94fb-a6b4-4a7c-a69a-a212781ba91a))
+    (pin "2" (uuid acbb38fd-1cd1-42d5-8be3-47062d203c37))
+    (pin "3" (uuid c9661a06-9ebd-42bc-a13d-415af5d89af9))
+    (pin "4" (uuid 1201f64b-5996-4aec-ad04-d978c334fdb1))
+    (pin "5" (uuid 787d67a9-9789-4566-b489-62bd93818d9b))
+    (pin "6" (uuid 8617df26-4b96-415e-96e9-470914c28db1))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
-          (reference "Charge_DisCharge") (unit 1)
+          (reference "Charge_DisCharge1") (unit 1)
         )
       )
     )
@@ -6855,10 +6855,10 @@
     (property "partnumber" "" (at 241.3 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 18895a5a-0d63-457e-9dd5-e038fde46395))
-    (pin "2" (uuid 87473be6-bad5-4adb-a3ca-fea2ab9bfd4b))
-    (pin "3" (uuid be10a7dd-7c41-45ed-a20c-98a2f2d0608a))
-    (pin "4" (uuid 50ea9092-0a4d-4cbc-af8c-8e6f5f58f38d))
+    (pin "1" (uuid 1f5aabb1-c7ed-4c06-8a6b-40f1afc841be))
+    (pin "2" (uuid d2b1333b-d18a-4ada-a64c-53a7be29b2a3))
+    (pin "3" (uuid ee0e256c-0cc4-4b0c-9a7d-c86ce9250e93))
+    (pin "4" (uuid 0c5e1d74-2811-43e0-a981-272157831dd6))
     (instances
       (project "bitdoglab_v5"
         (path "/09159d3e-7c55-4754-a166-a35b245d09f3"
