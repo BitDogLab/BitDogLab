@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["ahtx0.py", "github:Fruett/BitDogLab/libs/ahtx0.py"],
+    ["bh1750.py", "github:Fruett/BitDogLab/libs/bh1750.py"],
+    ["ssd1306.py", "github:Fruett/BitDogLab/libs/ssd1306.py"]
+  ],
+  "version": "0.1"
+}
