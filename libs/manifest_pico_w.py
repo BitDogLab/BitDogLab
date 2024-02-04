@@ -1,5 +1,5 @@
 # Include the board's default manifest.
-include("$(PORT_DIR)/boards/manifest.py")
+include("$(BOARD_DIR)/manifest.py")
 # Add a custom driver
 module("ahtx0.py")
 module("bh1750.py")
