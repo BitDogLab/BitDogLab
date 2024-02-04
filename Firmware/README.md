@@ -1,10 +1,10 @@
-# Firmware 1.0 da BitDogLab com Micropython 1.22.1
+# Firmware Beta v0.1 da BitDogLab com Micropython 1.22.1
 ### O Firmware da BitDogLab foi compilado em 04/02/2024 e já inclui as seguintes libs 3rd:
 * ahtx0 (Sensor de temperatura/umidade AHT10 i2c)
 * bh1750 (Sensor de luminosidade i2c)
 * ssd1306 (Oled i2c)
 
-## [Download do Firmware](https://github.com/Fruett/BitDogLab/Firmware)
+## [Download do Firmware](https://github.com/Fruett/BitDogLab/tree/main/Firmware)
 
 
 # Passo a passo para compilar o firmware da BitDogLab
