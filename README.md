@@ -19,6 +19,8 @@ English: https://docs.google.com/document/d/1bf_AKWDJkhcB7H8UVbGR0fSsl2v-2yXr_iV
 
 Português: https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing
 
+Sponsors: IEEE-EDS: https://eds.ieee.org/chapters/programs-and-stem-outreach-resources
+          CNPq - INCT - Namitec: https://web.facebook.com/INCTNAMITEC/?_rdc=1&_rdr
 
 
 
