@@ -12,14 +12,14 @@ Gerber files for fabrication (PCB external modules version, v4.1):  [https://git
 ](https://github.com/Fruett/BitDogLab/blob/e16fa2076a3983e20e410dcd19b61d3bfaee11ff/Gerbers%20BitDogLab%20V1A.zip)
 
 Gerber files for fabrication (2024-02-24): 
-* [PCB SMD version, v5.1 spreadsheet](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd-fabrication-files.zip)
-* [PCB SMD version, v5.1 CSV](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_BOM_5v1.csv)
+* [PCB SMD version, v5.1 fabrication files](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd-fabrication-files.zip)
 
 Bill Of material (BOM) for PCB external modules version (v4.1)
 https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit?usp=sharing
 
 Bill Of material -BOM (2024-02-24): 
-* [PCB SMD version (v5.1)](https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit#gid=1766402277)
+* [PCB SMD version, v5.1 spreadsheet](https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit#gid=1766402277)
+* [PCB SMD version, v5.1 CSV](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_BOM_5v1.csv)
 
 Hardware Data Base or Banco de Informação de Hardware
 English: https://docs.google.com/document/d/1bf_AKWDJkhcB7H8UVbGR0fSsl2v-2yXr_iV1fd5NWmE/edit?usp=sharing
