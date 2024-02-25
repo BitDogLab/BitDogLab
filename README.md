@@ -20,12 +20,16 @@ Bill Of material (BOM) for PCB external modules version
 
 ## Version 5.1 (PCB SMD version)
 
-![Top Side View of SMD PCB](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_top_5v1.jpg)
+SMD PCB version top Side view
 
-![Bottom Side View of SMD PCB](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_bot_5v1.jpg)
+<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_top_5v1.jpg" width=40% height=40%>
+
+SMD PCB version bottom Side view
+
+<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_bot_5v1.jpg" width=40% height=40%>
 
 KiCAD PCB layout: 
-* [Placa Base Xplorer Raspberry pi pico V3B.kicad_pcb](https://github.com/Fruett/BitDogLab/blob/e16fa2076a3983e20e410dcd19b61d3bfaee11ff/Placa%20Base%20Xplorer%20Raspberry%20pi%20pico%20V3B.kicad_pcb)
+* [SMD PCB with Raspberry Pi Pico W](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd.kicad_pcb)
 
 Gerber files for fabrication (2024-02-24): 
 * [v5.1 fabrication files](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd-fabrication-files.zip)
