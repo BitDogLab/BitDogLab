@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.8,
-          "width": 2.15
+          "height": 1e-06,
+          "width": 1e-06
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -112,18 +112,18 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.25,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_connection": 0.09999999999999999,
+        "min_copper_edge_clearance": 0.25,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.19999999999999998,
         "min_resolved_spokes": 1,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.09999999999999999,
         "min_text_height": 0.7999999999999999,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.049999999999999996,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.25,
+        "min_track_width": 0.39999999999999997,
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
@@ -405,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitdoglab_v5_a.kicad_pro",
+    "filename": "bitdoglab_smd.kicad_pro",
     "version": 1
   },
   "net_settings": {
