@@ -18,25 +18,25 @@ Gerber files for fabrication:
 Bill Of material (BOM) for PCB external modules version
 * https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit?usp=sharing
 
-## Version 5.1 (PCB SMD version)
+## Version 5.2 (PCB SMD version)
 
 SMD PCB version top Side view
 
-<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_top_5v1.jpg" width=40% height=40%>
+<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_top_5v2.jpg" width=40% height=40%>
 
 SMD PCB version bottom Side view
 
-<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_bot_5v1.jpg" width=40% height=40%>
+<img src="https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_3d_bot_5v2.jpg" width=40% height=40%>
 
 KiCAD PCB layout: 
 * [SMD PCB with Raspberry Pi Pico W](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd.kicad_pcb)
 
-Gerber files for fabrication (2024-02-24): 
-* [v5.1 fabrication files](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd-fabrication-files.zip)
+Gerber files for fabrication (2024-02-26): 
+* [v5.2 fabrication files](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd-fabrication-files.zip)
 
-Bill Of material -BOM (2024-02-24): 
-* [BOM v5.1 spreadsheet](https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit#gid=1766402277)
-* [BOM v5.1 CSV](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_BOM_5v1.csv)
+Bill Of material -BOM (2024-02-26): 
+* [BOM v5.2 spreadsheet](https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit#gid=1766402277)
+* [BOM v5.2 CSV](https://github.com/Fruett/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_smd_BOM_5v2.csv)
 
 ## Hardware Data Base or Banco de Informação de Hardware
 English: https://docs.google.com/document/d/1bf_AKWDJkhcB7H8UVbGR0fSsl2v-2yXr_iV1fd5NWmE/edit?usp=sharing
