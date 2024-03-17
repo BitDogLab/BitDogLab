@@ -1,0 +1,16 @@
+Atual V5.3
+* Divido em 2 PCBs: painel e main
+* Inclusão de resistor de carga (100 ohm) para evitar IP5306 entrando no modo auto standby para baixas cargas de consumo
+* Adição do joystick direto na placa (invés do módulo como era antes)
+* Incluso mais dois pinos guias para o componente joystick (necessário para bater footprint com componente real)
+* Inversão do 3D dos conectores de sensores i2c
+* Corrigido tamanho do furo do painel
+* Preenchido com silkscreen embaixo da rapsberry pi pico (isolamento pré-solda)
+* Adicionar um segundo footprint para o botão de reset para termos opção tanto pth quanto smd
+* Aumentar diâmetro do furo do microfone de 0.5mm para 0.7mm
+* Retirada metalização dos 2 furos guias das Chave Táctil Botão A e B
+
+Futuro V5.4
+* Trocar IP5306 por IP5306-I2C (i2c - RPi, sem leds, api com oled para mostrar status bateria)
+* Trocar D3 de PTH para SMD
+* Adicionar OLED direto na placa (flex pcb, res/cap/transistor)

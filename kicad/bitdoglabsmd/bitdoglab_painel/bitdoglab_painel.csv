@@ -1,0 +1,18 @@
+"Source:","C:\Users\jrfoliveira\Documents\BitDogLab-main\bitdoglab-v5_3\BITDOGLAB_PAINEL_240313\bitdoglab_painel.kicad_sch"
+"Date:","3/17/2024 10:49:32 AM"
+"Tool:","Eeschema 7.0.10"
+"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","11"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP"
+"1","2","J2, J9","Conn_01x05_Pin","Connector:Conn_01x05_Pin","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~",""
+"2","2","J3, J5","GND","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"3","1","J4","ANA-IN","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"4","1","J6","3V3","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"5","1","J7","5V-VSYS","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"6","1","J10","0","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"7","1","J11","1","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"8","1","J12","2","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
+"9","1","J13","3","Connector_custom:Conn_01x02","Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm","~",""
