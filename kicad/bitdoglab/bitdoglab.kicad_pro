@@ -445,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bitdoglab_v5.kicad_pro",
+    "filename": "bitdoglab.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -686,7 +686,7 @@
   "sheets": [
     [
       "09159d3e-7c55-4754-a166-a35b245d09f3",
-      "Root"
+      "Raiz"
     ]
   ],
   "text_variables": {}

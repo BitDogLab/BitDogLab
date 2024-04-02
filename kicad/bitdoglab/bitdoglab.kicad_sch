@@ -17010,7 +17010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 111.76 86.36 0)
 			(effects
 				(font
@@ -19069,7 +19069,7 @@
 				)
 			)
 		)
-		(property "Value" "Button_B"
+		(property "Value" "Botão"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -19077,7 +19077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 111.76 101.6 0)
 			(effects
 				(font
