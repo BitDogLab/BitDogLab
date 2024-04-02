@@ -12,8 +12,9 @@ This repository holds open-source design files for BitDogLab, an educational STE
 
 ### Release notes v5.4
 * Changing GPIO4 to GPIO10 in Buzzer B
-* Changing pin4 GPIO10 by GPIO8 in IDC connector
-* Changing pin8 with GPIO8 by GPIO4 in IDC connector 
+* Changing pin4 GPIO10 to GPIO8 in IDC connector
+* Changing pin8 with GPIO8 to GPIO4 in IDC connector
+* Changing A,B buttons footprints to 12mm 
 * Adding 10k pulldown resistor in batt charging mosfet
 ### Gerber files for fabrication:
 * ADD
