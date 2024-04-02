@@ -8,13 +8,18 @@ This repository holds open-source design files for BitDogLab, an educational STE
 
 ## Version 5.4 (DIY)
 
-<img src="./kicad/bitdoglab/bitdoglab_f.png" width=40% height=40%>
-<img src="./kicad/bitdoglab/bitdoglab_b.png" width=40% height=40%>
+<img src="./kicad/bitdoglab/bitdoglab_f.png" width=25% height=25%>
+<img src="./kicad/bitdoglab/bitdoglab_b.png" width=25% height=25%>
 
-Gerber files for fabrication:
+### Release notes v5.4
+* Changing GPIO4 to GPIO10 in Buzzer B
+* Changing pin4 GPIO10 by GPIO8 in IDC connector
+* Changing pin8 with GPIO8 by GPIO4 in IDC connector 
+* Adding 10k pulldown resistor in batt charging mosfet
+### Gerber files for fabrication:
 * ADD
 
-Bill Of material (BOM) for PCB external modules version
+### Bill Of material (BOM) for PCB external modules version
 * https://docs.google.com/spreadsheets/d/10G9U2lKZ8DwIemRyy8-OiIrZH5e2oOeCSGOkK32-5-8/edit?usp=sharing
 
 ## Version 5.3 (PCB SMD version)
