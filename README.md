@@ -8,8 +8,7 @@ This repository holds open-source design files for BitDogLab, an educational STE
 
 ## Version 5.4 (DIY)
 
-<img src="./kicad/bitdoglab/bitdoglab_f.png" width=25% height=25%>
-<img src="./kicad/bitdoglab/bitdoglab_b.png" width=25% height=25%>
+<img src="./kicad/bitdoglab/bitdoglab_f.png" width=40% height=40%><img src="./kicad/bitdoglab/bitdoglab_b.png" width=40% height=40%>
 
 ### Release notes v5.4
 * Changing GPIO4 to GPIO10 in Buzzer B
