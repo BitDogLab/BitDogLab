@@ -7,7 +7,7 @@ A hallmark of BitDogLab is that its project is entirely open, allowing it to be 
 This repository holds open-source design files for BitDogLab, an educational STEAM tool. It includes various components like LEDs, buzzers, buttons, and more, promoting collaborative modification and enhancement of STEAM education.
 
 ## Github structure
-```C
+```bash
 ├───Firmware "The following files are firmware that should work on BitDogLab"
 │   ├───BitDogLab.uf2 "supported on the Raspberry pi pico H version"
 │   ├───BitDogLab_W.uf2 "supported on the Raspberry pi pico W (wireless version)"
