@@ -6,15 +6,39 @@ A hallmark of BitDogLab is that its project is entirely open, allowing it to be 
 
 This repository holds open-source design files for BitDogLab, an educational STEAM tool. It includes various components like LEDs, buzzers, buttons, and more, promoting collaborative modification and enhancement of STEAM education.
 
+## Github structure
+```C
+├───Firmware "The following files are firmware that should work on BitDogLab"
+│   ├───BitDogLab.uf2 "supported on the Raspberry pi pico H version"
+│   ├───BitDogLab_W.uf2 "supported on the Raspberry pi pico W (wireless version)"
+|   ├───clean.uf2 "Firmware to clean BitDogLab"
+|   └───main.py "This is a software example for debug alls board features"
+├───kicad "The following files are Hardwares informations"
+│   ├───bitdoglab "Schematic, layout and gerber files of DIY version"
+│   ├───bitdoglabsmd "Schematic, layout and gerber files of SMD version"
+│   └───libs "3D cads, symbols and footprints for bitdoglab DIY"
+└───libs "thirdy party libs for softwares"
+```
+
+## Firmware v1.0 da BitDogLab with Micropython 1.22.1
+### BitDogLab Firmware was compiled on 02/04/2024 and already includes the following 3rd libs:
+* ahtx0 (Sensor de temperatura/umidade AHT10 i2c)
+* bh1750 (Sensor de luminosidade i2c)
+* ssd1306 (Oled i2c)
+
+#### To enter ther bootloader mode, hold bootsel button on the raspberry pi. After, copy the new firmware. If you want to guarantee a new instalation, copy clean.uf2 before.
+
+### [Firmware download](https://github.com/Fruett/BitDogLab/tree/main/Firmware)
+
 ## Version 5.4 (DIY)
 
 <img src="./kicad/bitdoglab/bitdoglab_f.png" width=40% height=40%><img src="./kicad/bitdoglab/bitdoglab_b.png" width=40% height=40%>
 
 ### Release notes v5.4
-* Changing GPIO4 to GPIO10 in Buzzer B
-* Changing pin4 GPIO10 to GPIO8 in IDC connector
-* Changing pin8 with GPIO8 to GPIO4 in IDC connector
-* Changing A,B buttons footprints to 12mm 
+* Changing GPIO4 by GPIO10 in Buzzer B
+* Changing pin4 GPIO10 by GPIO8 in IDC connector
+* Changing pin8 with GPIO8 by GPIO4 in IDC connector
+* Changing A,B buttons footprints by 12mm footprint 
 * Adding 10k pulldown resistor in batt charging mosfet
 ### Gerber files for fabrication:
 * ADD
