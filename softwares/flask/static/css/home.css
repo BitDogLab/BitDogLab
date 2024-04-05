@@ -1,0 +1,110 @@
+body{
+    background-color: aquamarine;
+    background: url(../imagens/logo1.jpeg) bottom no-repeat;
+    background-size: 40%;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    display:block;
+}
+
+h1{
+    font-size: 130%;
+}
+
+.variavel{
+    background-color: white;
+    font-weight: bold;
+}
+nav{
+    /* background-color: darkgray; */
+    border-radius: 10%;
+    margin-top: -1%;
+    text-align: left;
+    padding-left: 3%;
+    color: lightblue;
+    
+}
+a{
+    font-size: 80%;
+    padding-right: 1%;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: lightblue;
+    
+}
+header{
+    font-size: 150%;
+    text-align: center;
+    background-color:rgb(145, 45, 217);
+    margin-top: 0.5%;
+    border-radius: 1%;
+    padding-bottom: 0%;
+    color: lightblue;
+}
+.form_fundo{
+    width: 25%;
+    float: left;
+    /* backdrop-filter: blur(10px); */
+    background-color: burlywood;
+    opacity: .8;
+    margin: 2% 0% 2% 7% ;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    /* padding: 5px; */
+}
+
+
+.form_frente{
+    background-color: white;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    padding: 10%;
+}
+
+label{
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 1%;
+    text-align: left;
+}
+.inputs{
+    width: 50%;
+    border-radius: 50px;
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+}
+.inputs2{
+    width: 50%;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+input:focus{
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+button{
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color:rgb(208, 255,0);
+    color: black;
+    font-size: 150%;
+    cursor: pointer;
+}
+* {
+    box-sizing: border-box;
+  }

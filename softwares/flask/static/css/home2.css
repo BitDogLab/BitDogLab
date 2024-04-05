@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: aquamarine;
+    background: url(../imagens/logo2.jpeg) bottom no-repeat;
+    background-size: 40%;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    display:block;
+}
+.variavel{
+    background-color: white;
+    font-weight: bold;
+}
+
+nav{
+    /* background-color: darkgray; */
+    border-radius: 10%;
+    margin-top: -3%;
+    text-align: left;
+    padding-left: 3%;
+    color: lightblue;
+    
+}
+a{
+    font-size: 80%;
+    padding-right: 1%;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: lightblue;
+    
+}
+header{
+    font-size: 150%;
+    text-align: center;
+    background-color:rgb(145, 45, 217);
+    margin-top: -1.5%;
+    border-radius: 1%;
+    padding-bottom: 1%;
+    color: lightblue;
+}
+.form_fundo{
+    /* backdrop-filter: blur(10px); */
+    background-color: burlywood;
+    opacity: .8;
+    margin: 2% 0% 2% 7% ;
+    float:left;
+    width: 15%;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    /* padding: 5px; */
+}
+
+.form_frente{
+    background-color: white;
+    margin: 3%;
+    text-align: center;
+    border-radius: 10%;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    padding: 5%;
+}
+
+label{
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 1%;
+    text-align: left;
+}
+
+/* input{
+    width: 50%;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: bold;
+} */
+.inputs{
+    width: 50%;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.h1{
+    font-size: 10%;
+}
+input:focus{
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+.h1{
+    font-size: 10%;
+}
+
+button{
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color:rgb(208, 255,0);
+    color: black;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+div#Container{
+    /* background-color: black; */
+    /* margin: 100px 100px 100px 100px; */
+    display: flex;
+}
+
+.grafico{
+    /* background-color: black; */
+    color: red;
+}
+
+.input_grafico{
+    width: 7%;
+    margin-left:  87% ;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.fill {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden
+  }
+  .fill img {
+    padding-left: 60%;
+    flex-shrink: 0;
+    max-width: 32%;
+    max-height: 20%
+  }
+  footer{
+    /* background-color: #0c0c0c; */
+  }
+  * {
+  box-sizing: border-box;
+}
