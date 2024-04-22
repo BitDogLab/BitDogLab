@@ -6,8 +6,26 @@
 
 ## [Download do Firmware](https://github.com/Fruett/BitDogLab/tree/main/Firmware)
 
+# Passo a passo para instalar o firmware da BitDogLab
 
-# Passo a passo para compilar o firmware da BitDogLab
+### 1. Baixe o firmware [Download do Firmware](https://github.com/Fruett/BitDogLab/tree/main/Firmware) BitDogLab.uf2 para a Raspberry Pico ou BitDogLab_W.uf2 para a Raspberry Pico W
+
+<img src="imgs/pico.webp" width=50% height=50%>
+<img src="imgs/download.jpg" width=80% height=70%>
+
+### 2. Entre no modo bootloader segurando o botão bootsel da raspberry pi (embaixo da BitDogLab) conforme imagem abaixo, ainda com o botão pressionando encaixe o cabo micro usb.
+
+<img src="imgs/bootloader.jpg" width=70% height=70%>
+
+### 3. Solte o botão e aguarde a janela do windows.
+
+<img src="imgs/janela_bootloader.jpg" width=70% height=70%>
+
+### 4. Copie o firmware baixado para a janela aberta no passo anterior
+
+<img src="imgs/arraste.jpg" width=80% height=90% alt='Copie o firmware para pasta de destino'>
+
+# Passo a passo para compilar o firmware da BitDogLab (opcional)
 ## Instalar as depedências na rpi4 
 ```
 sudo apt update -y &
