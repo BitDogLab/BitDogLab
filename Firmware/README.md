@@ -15,7 +15,7 @@
 <img src="imgs/pico.webp" width=50% height=50%>
 <img src="imgs/download.jpg" width=120% height=120%>
 
-### 2. Entre no modo bootloader segurando o botão bootsel da raspberry pi, ainda com o botão pressionado encaixe o cabo micro usb na raspberry pi pico e no computador.
+### 2. Entre no modo bootloader segurando o botão bootsel da raspberry pi, ainda com o botão pressionado, encaixe o cabo micro usb na raspberry pi pico e no computador.
 
 <img src="imgs/bootloader.jpg" width=70% height=70%>
 
