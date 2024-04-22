@@ -13,7 +13,7 @@
 * [BitDogLab_W.uf2 para a Raspberry Pico W](https://github.com/BitDogLab/BitDogLab/blob/main/Firmware/BitDogLab_W.uf2)
 
 <img src="imgs/pico.webp" width=50% height=50%>
-<img src="imgs/download.jpg" width=100% height=100%>
+<img src="imgs/download.jpg" width=120% height=120%>
 
 ### 2. Entre no modo bootloader segurando o botão bootsel da raspberry pi, ainda com o botão pressionado encaixe o cabo micro usb na raspberry pi pico e no computador.
 
@@ -25,7 +25,7 @@
 
 ### 4. Copie o firmware baixado para a janela aberta no passo anterior
 
-<img src="imgs/arraste.jpg" width=90% height=90% alt='Copie o firmware para pasta de destino'>
+<img src="imgs/arraste.jpg" width=120% height=120% alt='Copie o firmware para pasta de destino'>
 
 # Passo a passo para compilar o firmware da BitDogLab (opcional)
 ## Instalar as depedências na rpi4 
