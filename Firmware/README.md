@@ -27,6 +27,8 @@
 
 <img src="imgs/arraste.jpg" width=120% height=120% alt='Copie o firmware para pasta de destino'>
 
+### 5. Desfrute da sua BitDogLab (FIM)
+
 # Passo a passo para compilar o firmware da BitDogLab (opcional)
 ## Estes passos é para um usuário avançado que deseja fazer o build de uma nova versão do firmware com alguma nova personalização.
 ## Instalar as depedências na rpi4 
