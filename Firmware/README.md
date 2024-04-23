@@ -29,9 +29,11 @@
 
 ### 5. Desfrute da sua BitDogLab (FIM)
 
+<img src="imgs/enjoy.jpeg" width=70% height=70%>
+
 # Passo a passo para compilar o firmware da BitDogLab (opcional)
 ## Estes passos é para um usuário avançado que deseja fazer o build de uma nova versão do firmware com alguma nova personalização.
-## Instalar as depedências na rpi4 
+## Instalar as depedências na rpi4 (Precisa de um raspberry pi 4)
 ```
 sudo apt update -y &
 sudo apt install cmake build-essential libffi-dev git pkg-config gcc-arm-none-eabi -y
