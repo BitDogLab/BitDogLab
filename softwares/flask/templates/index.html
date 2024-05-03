@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="15">
+    <title>HOME</title>
+    <link rel="stylesheet" href="../static/css/home.css">
+</head>
+
+<body>
+    <!-- <iframe id="iframe" src="text.txt"></iframe>
+
+    <script>
+        window.setInterval(function() {
+            reloadIFrame()
+        }, 3000);
+
+        function reloadIFrame() {
+            console.log('reloading..');
+            document.getElementById('iframe').contentWindow.location.reload();
+        }
+    </script> -->
+    <!-- <script>
+
+        var Webflow = Webflow || [];
+        Webflow.push(function () {
+        
+            $("#refreshThis").submit(function (event) {
+                setTimeout(function () { location.reload(true); }, 1000);
+            });
+        
+        });
+        
+        </script> -->
+    <header>
+        <h1>BitDogLab-IoT</h1>
+        <!-- <figure id="figura_topo">
+            <img src="../static/imagens/logo2.jpeg" alt="BitDogLab" width="10%" height="10%">
+            <figcaption>Informações da Figura</figcaption>
+          </figure> -->
+        <nav>
+            <a href="/">Home</a>
+            <a href="/explorar">Explorar</a>
+            <a href="/Instagram">Instagram</a>
+        </nav>
+        
+        <!-- <form action="/grafico" method="post">
+            <select class="input_grafico" name="select_grafico" id="select_grafico">
+                <option value="Temperatura">Temperatura</option>
+                <option value="Umidade">Umidade</option>
+                <option value="Luminosidade">Luminosidade</option>
+            </select>
+            
+            <button type="submit" id="btn_04">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>Carregar
+    
+            </button>
+        </form> -->
+    </header>
+
+    <!-- <form action="/get_var" method="post">
+        <input type="radio" id="choose_temp" name="choose_temp" value="temperatura">
+        <label for="Sensor de temperatura">Sensor de temperatura</label>
+        <input type="radio" id="choose_umid" name="choose_umid" value="umidade">
+        <label for="Sensor de umidade">Sensor de umidade</label>
+        <input type="radio" id="choose_lum" name="choose_lum" value="luminosidade">
+        <label for="Sensor de luminosidade">Sensor de luminosidade</label>
+        <input type="submit" value="Carregar">
+    </form> -->
+    <!-- <div class="h2" id="radio_choose">
+        <iframe name="dummyframe0" id="dummyframe0" style="display: none;"></iframe>
+        <form action="/choose_sensor" name="radio_sensor" id="choose_sensor" method="post" target="dummyframe0">
+            <fieldset>
+              <legend><h1>Escolha o sensor que deseja o alerta:</h1></legend>
+              <div class="h3">
+                <input type="radio" id="sensor_temp1" name="sensor" value="sensor_temp" />
+                <label for="temp">Temperatura</label>
+          
+                <input type="radio" id="sensor_umid1" name="sensor" value="sensor_umid" />
+                <label for="umid">Umidade</label>
+          
+                <input type="radio" id="sensor_lum1" name="sensor" value="sensor_lum" />
+                <label for="lum">Luminosidade</label>
+           
+             
+                <button type="submit">Carregar</button>
+                </div>
+            </fieldset>
+          </form>
+        </div> -->
+    <div id="Container">
+        
+        <div class="form_fundo" id="form_fundo1">
+            <iframe name="dummyframe1" id="dummyframe1" style="display: none;"></iframe>
+
+            <h1>Temperatura (ºC)</h1>
+            <h1 class="variavel">{{temp_html}}</h1>
+            {% if max_temp is defined %}
+            {% if max_temp | int == 0 %}
+          
+            {% elif temp_html | int >= max_temp | int %}
+            <h1 style="background-color: rgb(200, 0, 0); color:lightgray;">Acima do limiar máximo</h1>
+            <div style="background-color: rgb(200, 0, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                {% elif temp_html | int < min_temp | int %}
+                    <h1 style="background-color: rgb(255, 0, 255); color:lightgray;">Abaixo do limiar mínimo</h1> 
+                    <div style="background-color: rgb(255, 0, 255); margin: 3%; border-radius: 10%; padding: 1%;">
+                    {% else %}
+                    <h1 style="background-color: rgb(0, 200, 0); color:lightgray;">Valores dentro dos limiares</h1>
+                    <div style="background-color: rgb(0, 200, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                        {% endif %}
+
+                        <div class="form_frente" id="form_frente1">
+
+                            <form action="/set_temperatura" id="temp" method="post" target="dummyframe1">
+                                <label for="label_max">MAX</label>
+                                <input class="inputs" type="text" name="temp_max" id="temp_max" required
+                                    placeholder={{max_temp}}><br><br>
+                                <label for="label_min">MIN</label>
+                                <input class="inputs" type="text" name="temp_min" id="temp_min" required
+                                    placeholder={{min_temp}}><br><br>
+                                <label class="inputs2" for="alerta_temp_in">ALERTA</label>
+                                <select class="inputs2" name="alerta_temp" id="alerta_temp">
+                                    <option value="Buzzer">Buzzer</option>
+                                    <option value="Led">Led</option>
+                                    <option value="Matriz">Matriz</option>
+                                </select><br><br>
+                                <button type="submit" id="btn_01">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>Atualizar
+
+                                </button>
+                            </form>
+                            <h3> Alerta : {{disp_temp}}</h3>
+                            </div>
+                            
+                            {% endif %}
+                    </div>
+
+            </div>
+
+            <div class="form_fundo" id="form_fundo2">
+                <iframe name="dummyframe2" id="dummyframe2" style="display: none;"></iframe>
+                <h1>Umidade relativa (%)</h1>
+                <h1 class="variavel">{{umidade_html}}</h1>
+
+                {% if max_umid is defined %}
+                {% if max_umid | int == 0 %}
+                {% elif umidade_html | int >= max_umid | int %}
+                <h1 style="background-color: rgb(200, 0, 0); color:lightgray;">Acima do limiar máximo</h1>
+                <div style="background-color: rgb(200, 0, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                    {% elif umidade_html | int < min_umid | int %} 
+                    <h1 style="background-color: rgb(255, 0, 255); color:lightgray;">Abaixo do limiar mínimo</h1> 
+                    <div style="background-color: rgb(255, 0, 255); margin: 3%; border-radius: 10%; padding: 1%;">
+                        {% else %}
+                        <h1 style="background-color: rgb(0, 200, 0); color:lightgray;">Valores dentro dos limiares</h1>
+                        <div style="background-color: rgb(0, 200, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                            {% endif %}
+
+
+                            <div class="form_frente" id="form_frente2">
+                                <form action="/set_umidade" id="umid" method="post" target="dummyframe2">
+                                    <label for="label_max">MAX</label>
+                                    <input class="inputs" type="text" name="umid_max" id="umid_max" required
+                                        placeholder={{max_umid}}><br><br>
+                                    <label for="label_min">MIN</label>
+                                    <input class="inputs" type="text" name="umid_min" id="umid_min" required
+                                        placeholder={{min_umid}}><br><br>
+                                    <label class="inputs2" for="alerta_umid_in">ALERTA</label>
+                                    <select class="inputs2" name="alerta_umid" id="alerta_umid">
+                                        <option value="Buzzer">Buzzer</option>
+                                        <option value="Led">Led</option>
+                                        <option value="Matriz">Matriz</option>
+                                    </select><br><br>
+                                    <button type="submit" id="btn_02">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>Atualizar
+                                    </button>
+
+                                </form>
+                                <h3> Alerta : {{disp_umid}}</h3>
+                                {% endif %}
+                            </div>
+                        </div>
+
+                </div>
+                <!-- <div class="form_fundo" id="form_fundo3">
+            <h1>Ruído (dB) </h1>
+            <h1 class="variavel">{{ruido_html}}</h1>
+            
+            <div class="form_frente" id="form_frente3">
+                <form action="/set_ruido" id="ruido" method="post">
+                    <label for="label_max">MAX</label>
+                    <input class="inputs" type="text" name="ruido_max" id="ruido_max" required
+                        placeholder={{max_temp}}><br><br>
+                    <label for="label_min">MIN</label>
+                    <input class="inputs" type="text" name="ruido_min" id="ruido_min" required
+                        placeholder={{min_temp}}><br><br>
+
+
+                    <label class="inputs" for="alerta_ruido_in">ALERTA</label>
+                    <select class="inputs" name="alerta_ruido" id="alerta_ruido">
+                        <option value="Buzzer">Buzzer</option>
+                        <option value="Led">Led</option>
+                        <option value="Matriz">Matriz</option>
+                    </select><br><br>
+                    <button type="submit" id="btn_03">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>Atualizar
+
+                    </button>
+                </form>
+            </div>
+
+        </div> -->
+
+                <div class="form_fundo" id="form_fundo4">
+                    <iframe name="dummyframe3" id="dummyframe3" style="display: none;"></iframe>
+                    <h1>Luminosidade (lux)</h1>
+                    <h1 class="variavel">{{luminosidade_html}}</h1>
+                    {% if max_lum is defined %}
+                    {% if max_lum | int == 0 %}
+                    {% elif luminosidade_html | int >= max_lum | int %}
+                    <h1 style="background-color: rgb(200, 0, 0); color:lightgray;">Acima do limiar máximo</h1>
+                    <div style="background-color: rgb(200, 0, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                        {% elif luminosidade_html | int < min_lum | int %} 
+                        <h1 style="background-color: rgb(255, 0, 255); color:lightgray;">Abaixo do limiar mínimo</h1> 
+                        <div style="background-color: rgb(255, 0, 255); margin: 3%; border-radius: 10%; padding: 1%;">
+                            {% else %}
+                            <h1 style="background-color: rgb(0, 200, 0); color:lightgray;">Valores dentro dos limiares</h1>
+                            <div style="background-color: rgb(0, 200, 0); margin: 3%; border-radius: 10%; padding: 1%;">
+                                {% endif %}
+
+                                <div class="form_frente" id="form_frente4">
+                                    <form action="/set_luminosidade" id="lum" method="post" target="dummyframe3">
+                                        <label for="label_max">MAX</label>
+                                        <input class="inputs" type="text" name="lum_max" id="lum_max" required
+                                            placeholder={{max_lum}}><br><br>
+                                        <label for="label_min">MIN</label>
+                                        <input class="inputs" type="text" name="lum_min" id="lum_min" required
+                                            placeholder={{min_lum}}><br><br>
+                                        <label class="inputs2" for="alerta_lum_in">ALERTA</label>
+                                        <select class="inputs2" name="alerta_lum" id="alerta_lum">
+                                            <option value="Buzzer">Buzzer</option>
+                                            <option value="Led">Led</option>
+                                            <option value="Matriz">Matriz</option>
+                                        </select><br><br>
+                                        <button type="submit" id="btn_04">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>Atualizar
+
+                                        </button>
+                                    </form>
+                                    <h3> Alerta : {{disp_lum}}</h3>
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                    </div>
+
+
+                </div>
+                <!-- <footer>
+                    <div><br><br>
+                    <h1 style="color: (0,200,0);"> A cor verde indica que a variável medida está dentro dos limiares</h1>
+                </div>
+                </footer> -->
+                <!-- <footer class="grafico">
+
+        
+    <form action="/grafico" method="post">
+        <select class="input_grafico" name="select_grafico" id="select_grafico">
+            <option value="Temperatura">Temperatura</option>
+            <option value="Umidade">Umidade</option>
+            <option value="Luminosidade">Luminosidade</option>
+        </select>
+        
+        <button type="submit" id="btn_04">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>Carregar
+
+        </button>
+    </form>
+    <div class="fill">
+    <img  src="../static/imagens/grafico.jpg" alt="teste"/>
+    </div>
+    </footer> -->
+</body>
+
+</html>
