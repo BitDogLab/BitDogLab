@@ -36,6 +36,17 @@ PIN = 7  # Pino onde a matriz Neopixel está conectada
 np = neopixel.NeoPixel(Pin(PIN), NUM_LEDS)
 desenhos = [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 
+# define cores para os LEDs
+it = 1
+b = (0, 0, 1*it) # BLUE
+g = (0, 1*it, 0) # GREEN
+r = (1*it, 0, 0) # RED
+y = (1*it, 1*it, 0) # YELLOW
+m = (1*it, 0, 1*it) # MAGENTA
+c = (0, 1*it, 1*it) # CYAN
+w = (1*it, 1*it, 1*it) # WHITE
+o = (0, 0, 0) # BLACK
+
 # Mapeamento da matriz de LEDs com a origem no canto inferior direito
 LED_MATRIX = [
     [24, 23, 22, 21, 20],    
@@ -51,7 +62,7 @@ def leds(x, y, r=20, g=20, b=20):
         led_index = LED_MATRIX[4-y][x]
         np[led_index] = (r, g, b)
         np.write()
-        return f'Posicao: (x={x},y={y}) na cor ({r},{g},{b})'
+        return f'Posicao: (x={x},y={y}) na cor: ({r},{g},{b})'
     elif x > 4:
         return f'Valor escolhido x={x} invalido, escolha um valor entre 0 e 4'
     elif y > 4:
@@ -63,6 +74,9 @@ def leds(x, y, r=20, g=20, b=20):
 
 
 def apagar():
+    """
+    Função apagar, digite apagar() parar apagar todos os bitmaps da matriz 5x5
+    """
     np.fill((0,0,0))
     np.write()
 
@@ -78,7 +92,36 @@ def gravar(id=0):
         return f'Bitmap gravado na posicao: {id}'
     else:
         return f'Escolha um valor entre 0 e 24'
+
+
+def matriz(LED_MATRIX = LED_MATRIX, it=50):
     
+    
+
+    apagar()
+
+    for Y in range(5):
+        for X in range(5):
+            #print(LED_MATRIX)
+            led_index = LED_MATRIX[4-Y][X]
+            if led_index == r:
+                leds(X, Y, r[0]*it, r[1]*it, r[2]*it)
+            elif led_index == g:
+                leds(X, Y, g[0]*it, g[1]*it, g[2]*it)
+            elif led_index == b:
+                leds(X, Y, b[0]*it, b[1]*it, b[2]*it)
+            elif led_index == y:
+                leds(X, Y, y[0]*it, y[1]*it, y[2]*it)
+            elif led_index == m:
+                leds(X, Y, m[0]*it, m[1]*it, m[2]*it)
+            elif led_index == c:
+                leds(X, Y, c[0]*it, c[1]*it, c[2]*it)
+            elif led_index == w:
+                leds(X, Y, w[0]*it, w[1]*it, w[2]*it)
+            elif led_index == o:
+                leds(X, Y, o[0]*it, o[1]*it, o[2]*it)
+            else:
+                leds(X, Y, 0, 0, 0)
 
 def carregar(id=0):
     if(id <= 24):
@@ -115,5 +158,13 @@ def jogo_da_velha():
         utime.sleep(0.5)
 
     
-# Exemplo de uso
+# Exemplos de uso
 leds(2, 2, 50, 0, 0)  # Acende o LED central em vermelho
+
+bitmaps = [
+[ g, g, g, g, g ],
+[ m, m, o, m, m ],
+[ m, m, m, m, m ],
+[ g, m, m, m, g ],
+[ g, g, m, g, g ]
+]
