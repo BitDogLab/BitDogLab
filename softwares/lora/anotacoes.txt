@@ -1,0 +1,15 @@
+LORA LORA - Bitdog SMD IDC
+1  - GND -> GND
+3  - 3v3 -> 3V3
+5  - RESET -> GP28
+7  - GND -> GND
+9  - NSS -> GP17   (CSn)
+11 - MISO -> GP16 (MISO)
+13 - GND -> GND
+2  - VSYS -> 5V
+4  - DIO1 -> GP10
+6  - X -> GP9
+8  - X -> GP4
+10 - DIO0 -> GP20
+12 - MOSI -> GP19 (MOSI)
+14 - SCK -> GP18  (SCK)
