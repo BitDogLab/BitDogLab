@@ -60,7 +60,8 @@ matriz(bitmaps)
 #PROGRAMA PRINCIPAL
 from machine import Pin
 import neopixel
-import utime
+from utime import sleep
+from time import time
 
 # Configurações iniciais
 NUM_LEDS = 25  # Número total de LEDs na matriz 5x5
@@ -87,6 +88,15 @@ LED_MATRIX = [
     [5, 6, 7, 8, 9],
     [4, 3, 2, 1, 0]
 ]
+
+# Botões
+botao_a = Pin(5, Pin.IN, Pin.PULL_UP)
+botao_b = Pin(6, Pin.IN, Pin.PULL_UP)
+
+# Led rgb
+verde = Pin(11, Pin.OUT) # verde
+azul = Pin(12, Pin.OUT) # azul
+vermelho = Pin(13, Pin.OUT) #vermelho
 
 # Função que define o controle de acendimento da posição e da dor de cada LED da Matriz do BitDogLab
 def leds(x, y, r=20, g=20, b=20):
@@ -175,7 +185,7 @@ def loop(tempo=1):
         for id in range(len(desenhos)):
             if bool(desenhos[id]):
                 carregar(id)
-                utime.sleep(tempo)
+                sleep(tempo)
 
 
 def jogo_da_velha():
@@ -187,18 +197,71 @@ def jogo_da_velha():
     for cor in coordenadas:
         print(f'Acendendo LED em cor')
         leds(cor[0], cor[1], 15, 15, 15)
-        utime.sleep(0.5)
+        sleep(0.5)
 
     
 # Exemplos de uso
 leds(2, 2, 50, 50, 0)  # Acende o LED central em vermelho
 
-bitmaps = [
-[ g, w, g, w, g ],
-[ w, g, w, g, w ],
-[ g, w, g, w, g ],
-[ w, g, w, g, w ],
-[ g, w, g, w, g ]
+valvula_desligada = [
+[ r, o, o, o, r ],
+[ o, r, o, r, o ],
+[ o, o, r, o, o ],
+[ o, r, o, r, o ],
+[ r, o, o, o, r ]
 ]
 
-matriz(bitmaps)
+matriz(valvula_desligada)
+gravar(0)
+valvula_ligada = [
+[ o, o, g, o, o ],
+[ o, g, o, g, o ],
+[ g, o, o, o, g ],
+[ o, g, o, g, o ],
+[ o, o, g, o, o ]
+]
+
+matriz(valvula_ligada)
+gravar(1)
+
+# Exemplo I - Programa com função delay
+
+# while True:
+#     carregar(0)
+#     sleep(10)
+#     carregar(1)
+#     sleep(10)
+
+#     # Se o Botão A for pressionado
+#     if botao_a.value() == 0:
+#         carregar(0)
+#     elif botao_b.value() == 0:
+#         carregar(1)
+
+# Exemplo II - Programa sem função delay
+
+# tempo_anterior = time()    
+# while True:
+
+#     temporizador = time() - tempo_anterior
+#     if temporizador == 10:
+#         carregar(0)
+    
+#     elif temporizador == 20:
+#         carregar(1)
+#         temporizador = 0
+#         tempo_anterior = time()
+    
+
+#     # Se o Botão A for pressionado
+#     if botao_a.value() == 0:
+#         carregar(0)
+#         temporizador = 0
+#         tempo_anterior = time()
+
+#     elif botao_b.value() == 0:
+#         carregar(1)
+#         temporizador = 0
+#         tempo_anterior = time()
+
+#     print(temporizador)

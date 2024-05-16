@@ -78,14 +78,17 @@ while True:
     # oled.text(f"{time.gmtime()[3:7]}", 0, 50, 1)
     oled.show()
 
-    if (segundos % 10) == 0:
-        green.toggle()
-        utime.sleep(1)
-
-    if (segundos % 7) == 0:
-        blue.toggle()
-        utime.sleep(1)
-
+    
     if (segundos % 3) == 0:
         red.toggle()
         utime.sleep(1)
+    
+    # if (segundos % 7) == 0:
+    #     green.toggle()
+    #     utime.sleep(1)
+
+    # if (segundos % 10) == 0:
+    #     blue.toggle()
+    #     utime.sleep(1)
+
+    
