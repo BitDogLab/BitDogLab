@@ -22,6 +22,6 @@ lora = LoRa(RFM95_SPIBUS, RFM95_INT, CLIENT_ADDRESS, RFM95_CS, reset_pin=RFM95_R
 azul.on()
 # loop and send data
 while True:
-    lora.send_to_wait("This is a test message", SERVER_ADDRESS)
+    lora.send_to_wait("BitDogLab", SERVER_ADDRESS)
     print("sent")
     sleep(10)
