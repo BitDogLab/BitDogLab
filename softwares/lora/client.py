@@ -20,8 +20,12 @@ SERVER_ADDRESS = 2
 lora = LoRa(RFM95_SPIBUS, RFM95_INT, CLIENT_ADDRESS, RFM95_CS, reset_pin=RFM95_RST, freq=RF95_FREQ, tx_power=RF95_POW, acks=True)
 
 azul.on()
+x=0
+
+def msg(text=''):
+    lora.send_to_wait(f"{text}", SERVER_ADDRESS)
 # loop and send data
-while True:
-    lora.send_to_wait("BitDogLab", SERVER_ADDRESS)
-    print("sent")
-    sleep(10)
+# while True:
+#     x = msg('oii2', x)
+#     sleep(10)
+    

@@ -12,6 +12,9 @@ verde = Pin(11, Pin.OUT) # verde
 azul = Pin(12, Pin.OUT) # azul
 vermelho = Pin(13, Pin.OUT) #vermelho
 
+botao_a = Pin(5, Pin.IN, Pin.PULL_UP)
+botao_b = Pin(6, Pin.IN, Pin.PULL_UP)
+
 # This is our callback function that runs when a message is received
 def on_recv(payload):
     print("From:", payload.header_from)
@@ -24,10 +27,30 @@ def on_recv(payload):
     oled.text(f"Received: {payload.message}", 0, 20, 1)
     oled.text(f"{payload.message}", 0, 30, 2)
     oled.text(f"RSSI: {payload.rssi}", 0, 40, 1)
-    oled.text(f"SNR: {payload.snr}", 0, 50, 1)
+    oled.text(f"SNR: {type(payload.message)}", 0, 50, 1)
     # oled.text(f"{time.gmtime()[0:3]}", 0, 30, 1)
     # oled.text(f"{time.gmtime()[3:7]}", 0, 50, 1)
     oled.show()
+
+    if payload.message == b'1':
+        vermelho.on()
+        verde.off()
+        azul.off()
+
+    if payload.message == b'2':
+        vermelho.off()
+        verde.on()
+        azul.off()
+    
+    if payload.message == b'3':
+        vermelho.off()
+        verde.off()
+        azul.on()
+    
+    if payload.message == b'4':
+        vermelho.off()
+        verde.off()
+        azul.off()
 
 # Lora Parameters
 RFM95_RST = 28
