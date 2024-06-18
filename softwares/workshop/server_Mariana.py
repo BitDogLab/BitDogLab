@@ -58,7 +58,7 @@ matriz(bitmaps)
 """
 
 #PROGRAMA PRINCIPAL
-from machine import Pin
+from machine import Pin, SoftI2C
 import neopixel
 from utime import sleep
 from time import time
@@ -251,7 +251,7 @@ def on_recv(payload):
         carregar(1)
 
     if payload.message == b'2':
-        carregar(2)
+        carregar(0)
 
 # Lora Parameters
 RFM95_RST = 28

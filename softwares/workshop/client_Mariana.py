@@ -23,18 +23,20 @@ azul.on()
 x=0
 
 botao_a = Pin(5, Pin.IN, Pin.PULL_UP)
+botao_b = Pin(6, Pin.IN, Pin.PULL_UP)
 
 led_teste.off()
 def msg(text=''):
     lora.send_to_wait(f"{text}", SERVER_ADDRESS)
 # loop and send data
+tempo_anterior1 = time()
 while True:
     temporizador1 = time() - tempo_anterior1
 
-    if temporizador1 == 10:
+    if temporizador1 == 5:
         msg('1') #valv1_on
 
-    elif temporizador1 == 20:
+    elif temporizador1 == 10:
         msg('2') #valv2_off
         temporizador1 = 0
         tempo_anterior1 = time()
