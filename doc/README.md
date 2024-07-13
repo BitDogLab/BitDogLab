@@ -263,10 +263,13 @@ Drag and drop direto do arquivo de firmware baixado no disco montado RPI-RP2 no 
 <img src="./illustrations/RPI-RP2.png" width=25% height=25%>
 
 Firmware Oficial MicroPython Raspberry Pi Pico: https://micropython.org/download/RPI_PICO/
+
 Firmware Oficial MicroPython Raspberry Pi Pico W: https://micropython.org/download/RPI_PICO_W/
 
 Firmware BitDogLab, compilado já com as bibliotecas de sensores e atuadores ahtx0 (Sensor de temperatura/umidade AHT10 i2c), bh1750 (Sensor de luminosidade i2c) e ssd1306 (Oled i2c): https://github.com/BitDogLab/BitDogLab/tree/main/Firmware
+
 Firmware Raspberry Pi Pico: https://github.com/BitDogLab/BitDogLab/blob/main/Firmware/BitDogLab.uf2
+
 Firmware Raspberry Pi Pico W: https://github.com/BitDogLab/BitDogLab/blob/main/Firmware/BitDogLab_W.uf2
 
 ## Executando primeiro exemplo de código
