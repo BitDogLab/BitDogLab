@@ -11,27 +11,39 @@ Objetivando a educação pré-universitária (12+), BitDogLab busca catalizar e 
 ## Conteúdo material
 
 A bitdoglab vem uma caixa padrão de correio (16x11x5 cm) como a ilustrada abaixo.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/box.png)
+
+<img src="./illustrations/box.png" width=40% height=40%>
+
 Dentro da caixa você encontra a BitDogLab envolta em um envelope anti-estático, um cabo tipo micro-usb para usb-a e a capa do joystick analógico da BitDogLab.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/open-box.png)
+
+<img src="./illustrations/open-box.png" width=40% height=40%>
+
 Cabo tipo micro-usb para usb-a
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/microusb-usba.png)
+
+<img src="./illustrations/microusb-usba.png" width=25% height=25%>
+
 Capa do joystick
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/joystick-cap.png)
+
+<img src="./illustrations/joystick-cap.png" width=25% height=25%>
 
 ## Montando a BitDogLab
 
 Retire a placa do envelope anti-estático.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/bitdoglab-antistaticbag.png)
+
+<img src="./illustrations/bitdoglab-antistaticbag.png" width=70% height=70%>
+
 Plugue a capa do joystick na BitDogLab como ilustrado abaixo.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/joystick-cap-bitdoglab.png)
+
+<img src="./illustrations/joystick-cap-bitdoglab.png" width=40% height=40%>
+
 Dessa forma a BitDogLab estará pronta para uso
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/joystick-assembled.png)
+
+<img src="./illustrations/joystick-assembled.png" width=40% height=40%>
 
 ## Especificação/Periféricos da BitDogLab v5.3
 
-![](https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_top.jpg)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_bot.jpg)
+<img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_top.jpg" width=40% height=40%>
+<img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_bot.jpg" width=40% height=40%>
 
 A Placa BitDogLab é uma plataforma completa indicada para ensino de software/sistemas embarcados.
 O módulo Microcontrolador é o cérebro da placa, composto pelo microcontrolador [Raspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html "Raspberry Pi Pico W") com as seguintes especificações:
@@ -53,32 +65,41 @@ O módulo Microcontrolador é o cérebro da placa, composto pelo microcontrolado
 - Bibliotecas de aceleração de cálculos inteiros e de ponto flutuante no chip
 
 Pinout Raspberry Pi Pico W
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/picow-pinout.svg)
+
+<img src="https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/picow-pinout.svg" width=70% height=70%>
 
 Lista de periféricos embarcados na placa BitDogLab:
 1) A BitDogLab possui uma Bateria 3.7V 2200Mah Li-Ion CR18650 e seu devido suporte de bateria.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/battery.png)
+
+<img src="./illustrations/battery.png" width=50% height=50%>
 
 2) LED Colorido (SMD5050 RGB LEDs ROHS)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/led-rgb.png)
+
+<img src="./illustrations/led-rgb.png" width=25% height=25%>
 
 3) Display OLED (0.96 polegadas I2C 128x64 oled display)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/oled.png)
+
+<img src="./illustrations/oled.png" width=25% height=25%>
 
 4) Matriz de LEDs coloridos (LED-RGB 5x5 5050 WS2812)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/led-rgb-array.png)
+
+<img src="./illustrations/led-rgb-array.png" width=30% height=30%>
 
 5) Microfone com amplificador de áudio (MAX4466EXK)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/mic.png)
+
+<img src="./illustrations/mic.png" width=25% height=25%>
 
 6) Joystick Analógico (Plugin 13x13mm Multi-Dir ROHS)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/analog-joystick.png)
+
+<img src="./illustrations/analog-joystick.png" width=25% height=25%>
 
 7) Botões (A e B) - Chave Táctil 12x12x7.5 mm
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/buttons.png)
+
+<img src="./illustrations/buttons.png" width=60% height=60%>
 
 8) Buzzers (Esquerdo e Direito) - 80dB Externally Driven Magnetic 2.7kHz SMD, 8.5x8.5mm Buzzers ROHS
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/stereo-buzzers.png)
+
+<img src="./illustrations/stereo-buzzers.png" width=60% height=60%>
 
 9) Conectores de sensores de expansão I2C (1 e 0) - 2.5mm Plugin,P=2.5mm Wire To Board Connector ROHS
 - I2C1 (pino 1 – esquerda)
@@ -91,10 +112,12 @@ Lista de periféricos embarcados na placa BitDogLab:
 	- 2: GP0 (SDA I2C0)
 	- 3: 3.3V
 	- 4: GND referencia
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/i2c-sensor-actuator.png)
+
+<img src="./illustrations/i2c-sensor-actuator.png" width=50% height=50%>
 
 10) Circuito de gerenciamento de energia - IP5306 ESOP-8 Battery Management ICs ROHS (Fully-Integrated Power Bank System-On-Chip with 2.1A charger, 2.4A discharger)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/battery-charger.png)
+
+<img src="./illustrations/battery-charger.png" width=25% height=25%>
 
 11) Conector de expansão de GPIOs (pino 1 canto superior esquerdo) - 2.54mm Straight Gold Brass 2x7P 7 Push - Pull P=2.54mm IDC Connectors ROHS
 - 1: GND referencia
@@ -111,19 +134,24 @@ Lista de periféricos embarcados na placa BitDogLab:
 - 12: GP19
 - 13: GND referencia
 - 14: GP18
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/idc-connector.png)
+
+<img src="./illustrations/idc-connector.png" width=20% height=20%>
 
 12) Botão de reset - 8mm Round Button Brick nogging SPST SMD Tactile Switches ROHS
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/reset-button.png)
+
+<img src="./illustrations/reset-button.png" width=25% height=25%>
 
 13) Conector para painel solar (6V) - 1x2P -40℃~+105℃ 8A 130V Green 18~26 Straight 2.54mm 0.5~1 1 2 Plugin,P=2.54mm Screw terminal ROHS
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/solar-conn.png)
+
+<img src="./illustrations/solar-conn.png" width=25% height=25%>
 
 14) Conector para bateria externa - 1x2P -40℃~+105℃ 8A 130V Green 18~26 Straight 2.54mm 0.5~1 1 2 Plugin,P=2.54mm Screw terminal ROHS
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/ext-battery.png)
+
+<img src="./illustrations/ext-battery.png" width=25% height=25%>
 
 15) Chave liga-desliga (um toque = liga, dois toques em menos de 1 segundo = desliga)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/on-off-button.png)
+
+<img src="./illustrations/on-off-button.png" width=25% height=25%>
 
 16) Pinos e expansão para painel compatível com garras jacaré ou parafusos (1x5 header esquerdo e direito, cor preta)
 - 1x5 header esquerdo J5 (pino 5 na esquerda, pino 1 na direita):
@@ -138,11 +166,13 @@ Lista de periféricos embarcados na placa BitDogLab:
 	- 3: GP1
 	- 2: GP2
 	- 1: GP3
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/expansion-pins.png)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/i2c-ext-pin.png)
+
+<img src="./illustrations/expansion-pins.png" width=60% height=60%>
+<img src="./illustrations/i2c-ext-pin.png" width=60% height=60%>
 
 17) Jumper de seleção de conversor analógico digital (pino ANA-IN no painel jacaré ou microfone), pino 1 indicado com marcação J1
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/jumper-analog-in.png)
+
+<img src="./illustrations/jumper-analog-in.png" width=10% height=10%>
 
 ## Iniciando com MicroPython
 
@@ -153,38 +183,55 @@ https://thonny.org/
 
 Em seguida então escolha a opção certa para o seu sistema operacional, como mostrado abaixo quando você posicionar o mouse no sistema operacional desejado.
 Windows:
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-windows.png)
+
+<img src="./illustrations/thonny-windows.png" width=60% height=60%>
+
 Mac:
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-mac.png)
+
+<img src="./illustrations/thonny-mac.png" width=60% height=60%>
+
 Linux:
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-linux.png)
+
+<img src="./illustrations/thonny-linux.png" width=60% height=60%>
 
 Com o arquivo baixado (em computadores Windows ou macOS), instale a Thonny IDE seguindo os passos do instalador. Em computadores Linux a instalação será feita automaticamente com o envio do comando no terminal. Assim que a instalação da IDE for concluída, abra-a.
 
 A configuração que precisa ser feita na Thonny IDE para a programação da Raspberry Pi Pico é alterar o interpretador que será usado para a execução do código. Para isso, acesse as configurações da IDE, seguindo o caminho a seguir (Tools > Options).
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-tools-options.png)
+
+<img src="./illustrations/thonny-tools-options.png" width=80% height=80%>
 
 Ao selecionar essa opção, será aberta uma janela com as configurações da IDE, como a da imagem a seguir. Não é necessária nenhuma configuração na seção "geral" ("General"), portanto apenas acesse a seção "Interpreter", como demarcado na imagem, e selecione o tipo de interpretador desejado, no nosso caso o **MicroPython (Raspberry Pi Pico)**.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-interpreter.png)
+
+<img src="./illustrations/thonny-interpreter.png" width=60% height=60%>
 
 ### Gravação do firmware
+
 Com essa configuração finalizada, está na hora de gravar o firmware do interpretador MicroPython na placa. Para isso, pressione o botão "BOOTSEL" da sua Raspberry Pi Pico, enquanto ela ainda está desconectada. Então conecte-a ao seu computador usando o cabo Micro USB, mantendo o botão pressionado. Depois que o cabo for completamente inserido no conector da placa, você já pode soltar o botão, como no GIF a seguir.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/usb-conn-ok.png)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/bootsel.png)
-bootsel-animation.mp4
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/bootsel-pressed.png)
+
+<img src="./illustrations/usb-conn-ok.png" width=60% height=60%>
+
+<img src="./illustrations/bootsel.png" width=60% height=60%>
+
+https://github.com/user-attachments/assets/af29f560-eb8b-4e25-add5-d71e613a0b1c
+
+https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/bootsel-animation.mp4
+
+<img src="./illustrations/bootsel-pressed.png" width=60% height=60%>
 
 Esse procedimento faz com que a placa entre em modo de gravação de firmware e seja reconhecida como um disco removível. Inclusive você também poderá vê-la no diretório de discos do seu computador, como nesta imagem.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/RPI-RP2.png)
+
+<img src="./illustrations/RPI-RP2.png" width=25% height=25%>
 
 Neste momento, abra novamente a seção "Interpreter" das configurações da Thonny IDE, para a gravação do firmware da placa. Ao acessar novamente essa seção, você verá que a janela está um pouco diferente agora, como a da imagem abaixo.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/thonny-port-install-update.png)
+
+<img src="./illustrations/thonny-port-install-update.png" width=60% height=60%>
 
 A porta serial da placa é por padrão selecionada automaticamente pela IDE (opção "Try to detect port automatically" no campo "Port"), porém é possível realizar essa configuração manualmente se você estiver trabalhando com mais de uma placa ao mesmo tempo. Para isso, basta clicar sobre o campo "Port" para expandir as portas seriais disponíveis, e então selecionar a porta correspondente da sua placa no seu computador (o "Gerenciador de Dispositivos" do seu computador pode ajudar nesta seleção).
 
 Com esta janela aberta, clique sobre a opção "Install or update firmware", como demarcado na imagem acima. Isso abrirá uma segunda janela com as informações sobre o disco e a versão do firmware que será gravado, como na imagem a seguir.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/select-pipico.png)
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/install-micropython.png)
+
+<img src="./illustrations/select-pipico.png" width=60% height=60%>
+<img src="./illustrations/install-micropython.png" width=60% height=60%>
 
 A seleção do disco que será gravado é automática, portanto apenas certifique-se de que o dispositivo que será gravado está com o nome "Raspberry Pi RP2", como demarcado na imagem acima.
 
@@ -197,7 +244,8 @@ Agora a sua Raspberry Pi Pico já está pronta para receber códigos Python!
 #### Alternativas de gravação de firmware
 
 Drag and drop direto do arquivo de firmware baixado no disco montado RPI-RP2 no seu computador.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/RPI-RP2.png)
+
+<img src="./illustrations/RPI-RP2.png" width=25% height=25%>
 
 Firmware Oficial MicroPython Raspberry Pi Pico: https://micropython.org/download/RPI_PICO/
 Firmware Oficial MicroPython Raspberry Pi Pico W: https://micropython.org/download/RPI_PICO_W/
@@ -228,11 +276,15 @@ O código inicia com as adições da instância "Pin" da biblioteca "machine" do
 Já na repetição do código (função while True), apenas acendemos (led.value(True)) e apagamos (led.value(False)) o LED, com uma interrupção de 1 segundo (time.sleep(1)) a cada mudança de estado (de "high" para "low", e vice versa).
 
 Após digitar o código na Thonny IDE, pressione o botão "Run", demarcado em amarelo na imagem abaixo, para executar o código.
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/led-blink-save-pipico.png)
+
+<img src="./illustrations/led-blink-save-pipico.png" width=100% height=100%>
 
 Após selecionar essa opção, será aberta uma segunda janela requisitando o nome do arquivo, como na imagem a seguir (main.py).
-![](https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/led-blink-mainpy.png)
+
+<img src="./illustrations/led-blink-mainpy.png" width=100% height=100%>
 
 Neste momento, digite um nome para o arquivo com a extensão ".py" (como feito na imagem acima), e então pressione o botão "OK". Assim que o arquivo for salvo na placa, ela já começará a executá-lo, piscando o LED de 1 em 1 segundo, como no vídeo a seguir.
+
+https://github.com/user-attachments/assets/31ae1e8b-52e4-4fde-a836-95af6cfb6a52
 
 https://github.com/BitDogLab/BitDogLab/blob/main/doc/illustrations/led-blink.mp4
