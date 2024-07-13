@@ -2,21 +2,21 @@
 
 **Table of Contents**
 
-- [[PT-BR] Manual BitDogLab (Iniciando com Micropython)](pt-br-manual-bitdoglab-iniciando-com-micropython)
+- [[PT-BR] Manual BitDogLab (Iniciando com Micropython)](https://github.com/BitDogLab/BitDogLab/tree/main/doc#pt-br-manual-bitdoglab-iniciando-com-micropython)
 
-	- [Conteúdo material](conte%C3%BAdo-material)
+	- [Conteúdo material](https://github.com/BitDogLab/BitDogLab/tree/main/doc#conte%C3%BAdo-material)
 
-	- [Montando a BitDogLab](montando-a-bitdoglab)
+	- [Montando a BitDogLab](https://github.com/BitDogLab/BitDogLab/tree/main/doc#montando-a-bitdoglab)
 
-	- [Especificação/Periféricos da BitDogLab v5.3](especifica%C3%A7%C3%A3operif%C3%A9ricos-da-bitdoglab-v53)
+	- [Especificação/Periféricos da BitDogLab v5.3](https://github.com/BitDogLab/BitDogLab/tree/main/doc#especifica%C3%A7%C3%A3operif%C3%A9ricos-da-bitdoglab-v53)
 
-	- [Iniciando com MicroPython](iniciando-com-mircopython)
+	- [Iniciando com MicroPython](https://github.com/BitDogLab/BitDogLab/tree/main/doc#iniciando-com-micropython)
 
-		- [Gravação do firmware](grava%C3%A7%C3%A3o-do-firmware)
+		- [Gravação do firmware](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware)
 
-			- [Alternativas de gravação de firmware](alternativas-de-grava%C3%A7%C3%A3o-de-firmware)
+			- [Alternativas de gravação de firmware](https://github.com/BitDogLab/BitDogLab/tree/main/doc#alternativas-de-grava%C3%A7%C3%A3o-de-firmware)
 
-	- [Executando primeiro exemplo de código](executando-primeiro-exemplo-de-c%C3%B3digo)
+	- [Executando primeiro exemplo de código](https://github.com/BitDogLab/BitDogLab/tree/main/doc#executando-primeiro-exemplo-de-c%C3%B3digo)
 
 
 A **BitDogLab**, é uma iniciativa que partiu do projeto escola 4.0 na Unicamp, uma ferramenta educacional voltada para o aprendizado de computação embarcada e eletrônica. Baseada no dispositivo Raspberry Pi Pico H ou W (wifi/bluetooth), a BitDogLab permite ao usuário explorar, montar e programar usando componentes montados nesta placa além de componentes adicionais externos (periféricos) conectados em uma forma organizada e estruturada. Meticulosamente selecionados, os componentes fomentam o aprendizado com "mãos na massa", encorajando os usuários a evoluírem suas habilidades em programação embarcada e eletrônica de forma progressiva e sinérgica. Essa plataforma rica oferece uma experiência vibrante, This enriching platform offers a vibrant experience, provendo imersão dos usuários em um ambiente de aprendizado colorido, autoral e sinestésico. Adicionalmente a BitDogLab é otimizada para programação assistida por meio de large language models (LLM), como o GPT-4o, facilitando uma aprendizagem mais intuitiva guiada por um tutor incansável.
