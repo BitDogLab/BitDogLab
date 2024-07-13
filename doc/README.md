@@ -57,6 +57,8 @@ Dessa forma a BitDogLab estará pronta para uso
 
 ## Especificação/Periféricos da BitDogLab v5.3
 
+A placa BitDogLab possui as seguintes dimensões: 99 x 89 x 25 mm (comprimento, largura e altura).
+
 <img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_top.jpg" width=40% height=40%>
 <img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_bot.jpg" width=40% height=40%>
 
