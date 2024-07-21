@@ -2,7 +2,14 @@
 
 <img src="./readme-pictures/BitDogLab-PicoGame.png" width=50% height=50%>
 
-Torne sua BitDogLab em uma ferramenta de desenvolvimento de jogos de video game. Adaptamos os controles da BitDogLab (joystick analógico, botões e buzzer) e portamos alguns jogos (código fonte disponível nesse repositório) listados abaixo:
+Torne sua BitDogLab em uma ferramenta de desenvolvimento de jogos de video game. 
+
+:warning: Caso queria somente carregar o firmware direto na bitdoglab, execute os passos do [manual de gravação de firwmare](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware) para gravar o firmware já compilado [na pasta build](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/) indicados abaixo :warning:
+
+- Raspberry Pi Pico game firmware: [pico-game-rpi-pico.uf2](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/pico-game-rpi-pico.uf2)
+- Raspberry Pi Pico W game firmware: [pico-game-w.uf2](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/pico-game-w.uf2)
+
+Adaptamos os controles da BitDogLab (joystick analógico, botões e buzzer) e portamos alguns jogos (código fonte disponível nesse repositório) listados abaixo:
 
 <img src="./readme-pictures/pico-games-screen.png" width=75% height=75%>
 
