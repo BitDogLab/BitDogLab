@@ -4,7 +4,7 @@
 
 Torne sua BitDogLab em uma ferramenta de desenvolvimento de jogos de video game. 
 
-:warning: Caso queria somente carregar o firmware direto na bitdoglab com todos os arquivos do pico-game já embarcados, execute os passos do [manual de gravação de firwmare](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware) e grave o firmware contido [na pasta build](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/) listado abaixo (raspberry pi pico ou raspberry pi pico W :warning:
+:warning: Caso queria somente carregar o firmware direto na bitdoglab com todos os arquivos do pico-game já embarcados, execute os passos do [manual de gravação de firwmare](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware) e grave o firmware contido [na pasta build](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/) listado abaixo (raspberry pi pico ou raspberry pi pico W) :warning:
 
 - Raspberry Pi Pico game firmware: [pico-game-rpi-pico.uf2](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/pico-game-rpi-pico.uf2)
 - Raspberry Pi Pico W game firmware: [pico-game-w.uf2](https://github.com/BitDogLab/BitDogLab/blob/main/softwares/pico-game/build/pico-game-w.uf2)
