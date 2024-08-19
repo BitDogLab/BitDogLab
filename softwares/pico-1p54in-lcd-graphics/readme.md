@@ -1,18 +1,18 @@
 # BitDogLab Pico Tela LCD 1.54 inch Colorida SPI
 
-<img src="./readme-pictures/BitDogLabPicoTelaLCD1p54inColor.png" width=100% height=100%>
+<img src="./readme-pictures/BitDogLabPicoTelaLCD1p54inColor.png" width=75% height=75%>
 
 Adicione a sua BitDogLab uma tela de 220 ppi (240x240 pixels) com 16-bit de cores, ou seja 65536 entre RGB (Red/Vermelho, Blue/Azul e Green/Verde) como um display IPS (in plane switching LCD) usando protocolo SPI (serial peripheral interface). 
 
 Devido ao display utilizado nesse artigo possuir comunicação SPI e ser de baixo custo, a empresa [Pimoroni](https://shop.pimoroni.com/products/1-54-spi-colour-square-lcd-240x240-breakout) adaptou um driver que pode ser utilizado para controlar esse display com uma raspberry pi, o driver foi originalmente criado por [Libdriver](https://github.com/libdriver/st7789) que controla o chip ST7786 da empresa [Sitronix](https://github.com/libdriver/st7789/blob/master/datasheet/st7789_datasheet.pdf), um chip capaz de controlar até 240x320 pixels com 18bit de cores (262k cores) com memoria em frame para display TFT (transistor de película fina).
 
-<img src="./readme-pictures/lcd-aliexpress-st7789.png" width=85% height=85%>
+<img src="./readme-pictures/lcd-aliexpress-st7789.png" width=75% height=75%>
 
-[!HIGHLIGHT]
-Apesar de ser mencionado o baixo custo, a alternativa da Pimoroni é bem cara (**£19.80 ou ~R$139.00 considerando R$7.0=£1.0**), contudo consegui adaptar uma solução realmente de baixo custo [1.54 Inch Full Color TFT Display Module HD IPS LCD LED Screen 240x240 SPI Interface ST7789](https://www.aliexpress.com/item/1005006953775674.html?spm=a2g0o.order_list.order_list_main.16.21ef18022WjQ8F) no Aliexpress ($3.38 ou ~R$18.50 considerando R$5.49=$1.0). 
+> [!NOTE]
+> Apesar de ser mencionado o baixo custo, a alternativa da Pimoroni é bem cara (**£19.80 ou ~R$139.00 considerando R$7.0=£1.0**), contudo consegui adaptar uma solução realmente de baixo custo [1.54 Inch Full Color TFT Display Module HD IPS LCD LED Screen 240x240 SPI Interface ST7789](https://www.aliexpress.com/item/1005006953775674.html?spm=a2g0o.order_list.order_list_main.16.21ef18022WjQ8F) no Aliexpress ($3.38 ou ~R$18.50 considerando R$5.49=$1.0). 
 
-[!WARNING]
-É de extrema importância selecionar um display que externalize em seus pinos o chip select (CS), devido a ter opções desse display para Arduino que funcionam sem o pino CS para Raspberry pi pico e/ou variantes é necessário ter o pino CS para que o display funcione corretamente. 
+> [!WARNING]
+> É de extrema importância selecionar um display que externalize em seus pinos o chip select (CS), devido a ter opções desse display para Arduino que funcionam sem o pino CS para Raspberry pi pico e/ou variantes é necessário ter o pino CS para que o display funcione corretamente. 
 
 Seguem as características do display: 
 * Display LCD colorido de 1.54" (240x240 pixels)
@@ -42,8 +42,8 @@ Neste artigo vamos usar a biblioteca de gráficos open source [pico graphics](ht
 * Pimoroni Raspberry Pi Pico [Compiled uf2 Micropython with picographics and ST7789 Driver](https://github.com/pimoroni/pimoroni-pico/releases/download/v1.23.0-1/pico_usb-v1.23.0-1-pimoroni-micropython.uf2)
 * Pimoroni Raspberry Pi Pico W [Compiled uf2 Micropython with picographics and ST7789 Driver](https://github.com/pimoroni/pimoroni-pico/releases/download/v1.23.0-1/picow-v1.23.0-1-pimoroni-micropython.uf2)
 
-[!WARNING]
-Carregue o firmware acima na bitdoglab executando os passos do [manual de gravação de firwmare](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware)
+> [!WARNING]
+> Carregue o firmware acima na bitdoglab executando os passos do [manual de gravação de firwmare](https://github.com/BitDogLab/BitDogLab/tree/main/doc#grava%C3%A7%C3%A3o-do-firmware)
 
 O porte dos códigos desse repositório para compatibilidade com a bitdoglab foi feita por [Juliano Oliveira](https://github.com/jrfo-hwit)
 
@@ -53,11 +53,11 @@ Antes de começar a executar o tutorial sugiro passar antes pelo [manual do BitD
 
 Antes de conectar o display com a bitdoglab certifique-se que a barra de pinos macho 1x8 está soldada como na figura abaixo.
 
-<img src="./readme-pictures/display-soldered-pins.png" width=75% height=75%>
+<img src="./readme-pictures/display-soldered-pins.png" width=50% height=50%>
 
 Uma vez com a barra de pinos soldada, use jumpers coloridos do tipo [fêmea-fêmea](https://www.makerhero.com/produto/jumpers-femea-femea-x40-unidades/) para conectar o display direto no conector IDC da bitdoglab como ilustrado abaixo.
 
-<img src="./readme-pictures/LCD-1.54in-bitdoglab-schematics.png" width=100% height=100%>
+<img src="./readme-pictures/LCD-1.54in-bitdoglab-schematics.png" width=75% height=75%>
 
 As conexões são as seguintes (Raspberry pi Pico -> Display):
 * GP4 -> Pino IO BackLigth (BL)
@@ -69,7 +69,7 @@ As conexões são as seguintes (Raspberry pi Pico -> Display):
 * GND -> GNDREF
 * +3v3 -> +3v3
 
-<img src="./readme-pictures/pico-pinout.png" width=100% height=100%>
+<img src="./readme-pictures/pico-pinout.png" width=75% height=75%>
 
 Para concluir a preparação é necessário copiar o arquivo LCD.py (arquivo que contém a diferença do display genérico para o display pimoroni, que basicamete é o procedimento de reset do mesmo) para a sua bitdoglab (raspberry pi pico).
 
@@ -232,11 +232,11 @@ while True:
 
 Em seguida o código cria um qrcode apontando para uma string qualquer, nesse caso colocamos uma string indicando para um site na world wide web.
 
-<img src="./readme-pictures/qr-code-generated.png" width=75% height=75%>
+<img src="./readme-pictures/qr-code-generated.png" width=40% height=40%>
 
 No caso de um endereço de site o mesmo será reconhecido visualmente por câmeras de celulares android/apple podendo ser aberto diretamente em browse de celulares ou tablets.
 
-<img src="./readme-pictures/qr-code-cell.png" width=75% height=75%>
+<img src="./readme-pictures/qr-code-cell.png" width=50% height=50%>
 
 ## Exemplo 3: Display imagens JPG e PNG
 
@@ -246,17 +246,17 @@ Isso pode ser realizado com qualquer processador de imagens, abaixo segue como r
 
 Primeiramente abra a imagem alvo de ser processada, selecione toda a imagem com ctrl+a.
 
-<img src="./readme-pictures/img-paint-1.png" width=75% height=75%>
+<img src="./readme-pictures/img-paint-1.png" width=60% height=60%>
 
 Reposicione relativo ao canto extremo esquerdo, e busque mudar o tamanho da imagem (clique nos limites da mesma e redimensionando manualmente) com objetivo de obter dimensões iguais em x e y (imagem quadrada, tal como nosso LCD).
 
-<img src="./readme-pictures/img-paint-2.png" width=75% height=75%>
+<img src="./readme-pictures/img-paint-2.png" width=60% height=60%>
 
-<img src="./readme-pictures/img-paint-3.png" width=75% height=75%>
+<img src="./readme-pictures/img-paint-3.png" width=60% height=60%>
 
 Após conseguir ajustar a imagem em um tamanho quadrado, clique como marcado na ilustração abaixo em redimensionamento de imagem (resize and skew).
 
-<img src="./readme-pictures/img-paint-4.png" width=75% height=75%>
+<img src="./readme-pictures/img-paint-4.png" width=60% height=60%>
 
 Selecione o resize em pixels e coloque o tamanho igual a nosso display (240x240).
 
@@ -264,7 +264,7 @@ Selecione o resize em pixels e coloque o tamanho igual a nosso display (240x240)
 
 Após redimensionamento, salve a figura como desejar, JPEG ou PNG como ilustrado abaixo no menu arquivo (file). Salve de preferência na mesma pasta onde o thonny visualiza o arquivo do código deste exemplo qr-code.
 
-<img src="./readme-pictures/img-paint-6.png" width=75% height=75%>
+<img src="./readme-pictures/img-paint-6.png" width=60% height=60%>
 
 Em seguida use o Thonny para fazer upload da imagem como ilustrado abaixo (clique no botão direito no arquivo _hwit-logo.jpg_ e seleção da _opção Upload to /_).
 
@@ -311,11 +311,11 @@ Para decodificar a figura JPEG criamos um objeto j e passamos o objeto display c
 
 Segue a imagem base para demo abaixo.
 
-<img src="./hwit-logo.jpg" width=50% height=50%>
+<img src="./hwit-logo.jpg" width=30% height=30%>
 
 Segue a imagem no lcd abaixo.
 
-<img src="./readme-pictures/hwit-logo-lcd.png" width=75% height=75%>
+<img src="./readme-pictures/hwit-logo-lcd.png" width=50% height=50%>
 
 ### Display imagem PNG
 
@@ -351,11 +351,11 @@ Para decodificar a figura PNG criamos um objeto png e passamos o objeto display 
 
 Segue a imagem base para demo abaixo.
 
-<img src="./escola-4p0.png" width=50% height=50%>
+<img src="./escola-4p0.png" width=30% height=30%>
 
 Segue a imagem no lcd abaixo.
 
-<img src="./readme-pictures/escola-4p0-lcd.png" width=75% height=75%>
+<img src="./readme-pictures/escola-4p0-lcd.png" width=50% height=50%>
 
 
 **... a ser documentado ...**
