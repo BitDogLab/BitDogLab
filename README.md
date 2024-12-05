@@ -1,10 +1,17 @@
+[![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://cern.ch/cern-ohl)
+
 # BitDogLab
+An open-source hardware project designed to promote learning in embedded systems, programming, and electronics.
 
 BitDogLab, an initiative of the School Project 4.0 at Unicamp, is an educational tool devoted to electronics and computing. Based on Raspberry Pi Pico H or W, it allows users to explore, assemble, and program using components mounted on its board and also external ones connected in an organized and secure manner. Meticulously selected, the components foster hands-on learning, encouraging users to enhance programming and electronics skills synergistically and progressively. This enriching platform offers a vibrant experience, immersing users in a colourful, auditory, and synesthetic learning environment. Additionally, BitDogLab is optimized for programming assisted by large language models (LLM), like GPT-4, facilitating a more intuitive learning guided by a tireless tutor. Aimed at pre-university education, BitDogLab aims to catalyze the incorporation of educational technology, providing a robust and flexible tool uniquely integrated into students' learning journey.
 
 A hallmark of BitDogLab is that its project is entirely open, allowing it to be freely copied, manufactured, assembled, and improved by users. More information at: https://github.com/Fruett/BitDogLab
 
 This repository holds open-source design files for BitDogLab, an educational STEAM tool. It includes various components like LEDs, buzzers, buttons, and more, promoting collaborative modification and enhancement of STEAM education.
+
+## License
+This project is licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S).
+For more details, see the `LICENSE` file or visit [https://cern.ch/cern-ohl](https://cern.ch/cern-ohl).
 
 ## Github structure
 ```bash
