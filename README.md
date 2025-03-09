@@ -1,3 +1,12 @@
+# ⚠️ Atenção! Venda não autorizada da BitDogLab no Mercado Livre ⚠️
+
+Identificamos que placas BitDogLab estão sendo vendidas no Mercado Livre com o logo da Unicamp e o uso da marca sem autorização. Embora o projeto seja open-hardware, gostaríamos de esclarecer que essa venda não é realizada pela Unicamp, nem conta com a participação da nossa equipe.
+
+Pedimos atenção a essa questão e reforçamos que qualquer comercialização oficial será devidamente comunicada pelos canais institucionais apropriados.
+
+Agradecemos a compreensão e apoio da comunidade.
+
+
 [![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://cern.ch/cern-ohl)
 
 # BitDogLab
