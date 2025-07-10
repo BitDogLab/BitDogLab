@@ -11,7 +11,8 @@ It is based on the ESP32-C3 microcontroller (RISC-V), developed by Seeed Studio 
 
 ## Hardware Description
 
-<img src="./Wireless Communication Module.png" width=40% height=40%>
+<img src="./Wireless Communication Module.png" width="400px">
+
 
 The developed module, based on the ESP32-C3 (RISC-V) and the RFM95W (SX1276 chip), is designed so that both components are connected via the SPI interface (MOSI, MISO, SCK, RST), along with additional auxiliary pins (DIO0, DIO1, and DIO2), all of which are required to enable full LoRaWAN communication functionality.
 
