@@ -12,8 +12,9 @@ NUM_PIXELS = 25
 np = NeoPixel(Pin(7, Pin.OUT), NUM_PIXELS)
 
 # Estado da iluminação
-target_brightness = 30   # ajuste conforme sua fonte (0..255)
-target_brightness_max = 255
+target_brightness = 60  # for manual adjustments only (0..255)
+weak_brightness = 30
+strong_brightness = 255
 light_on = False          # estado atual (apagado/aceso)
 # Estado da luz para toggle de 4 níveis
 light_state = 0  # 0=apagado, 1=fraco, 2=apagado, 3=forte
@@ -32,6 +33,14 @@ def matrix_off():
 def matrix_white_now():
     global light_on
     _apply_all(target_brightness, target_brightness, target_brightness)
+    light_on = True
+
+def matrix_white(level):
+    """Set all LEDs to a specific brightness (white)"""
+    global light_on
+    for i in range(NUM_PIXELS):
+        np[i] = (level, level, level)
+    np.write()
     light_on = True
 
 def matrix_white_ramp():
@@ -71,15 +80,13 @@ def update_light_state():
         matrix_off()               # apagado
         print("-> LIGHT OFF (state 0)")
     elif light_state == 1:
-        set_brightness_level(target_brightness)
-        matrix_white_now()         # acende fraco
+        matrix_white(weak_brightness)
         print("-> LIGHT WEAK (state 1)")
     elif light_state == 2:
         matrix_off()               # apagado
         print("-> LIGHT OFF (state 2)")
     elif light_state == 3:
-        set_brightness_level(target_brightness_max)
-        matrix_white_now()         # acende forte
+        matrix_white(strong_brightness)
         print("-> LIGHT STRONG (state 3)")
 
 # ----------------- Motores -----------------
@@ -140,7 +147,7 @@ def _buzz(freq, duty=35000):
 def _buzz_off():
     buz.duty_u16(0)
 
-def foon_foon(cycles=2, freq=215, ms_on=300, ms_off=200):
+def foon_foon(cycles=2, freq=190, ms_on=250, ms_off=125):
     """Efeito 'FOON FOON' grave."""
     for _ in range(cycles):
         # ataque suave
@@ -153,26 +160,26 @@ def foon_foon(cycles=2, freq=215, ms_on=300, ms_off=200):
             _buzz(freq, d); sleep_ms(30)
         _buzz_off(); sleep_ms(ms_off)
 
-def beep_bi_bi(cycles=2, freq=900, ms_on=125, ms_off=75):
+def beep_bi_bi(cycles=2, freq=700, ms_on=125, ms_off=75):
     """Som de buzina."""
     for _ in range(cycles):
         # ataque suave
-        for d in range(3000, 9000, 5000):
+        for d in range(3000, 9000, 2000):
             _buzz(freq, d); sleep_ms(15)
         # sustenta
         _buzz(freq, 9000); sleep_ms(ms_on)
         # release
-        for d in range(9000, 0, -7000):
+        for d in range(9000, 0, -3000):
             _buzz(freq, d); sleep_ms(15)
         _buzz_off(); sleep_ms(ms_off)
 
 def toggle_horn():
     global horn_state
     if horn_state == 0:
-        beep_bi_bi(cycles=2, freq=900, ms_on=125, ms_off=63)
+        beep_bi_bi()
         print("-> Horn: BEEP BEEP")
     else:
-        foon_foon(cycles=2, freq=215, ms_on=300, ms_off=200)
+        foon_foon()
         print("-> Horn: FOON FOON")
     horn_state = 1 - horn_state  # toggle between 0 and 1
 
