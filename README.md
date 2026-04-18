@@ -192,5 +192,5 @@ This project is licensed under:
 
 ## 👨‍🏫 Authors and Acknowledgment
 
-- **Prof. Dr. Fabiano Fruett** – Project coordination and development  
+- **Prof. Dr. Fabiano Fruett** – Project coordination and development  [CV Lattes](http://lattes.cnpq.br/4840178785453194)
 - Contributors: students and collaborators from **Escola 4.0 / FEEC – Unicamp** 
