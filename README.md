@@ -150,6 +150,8 @@ hardware/
 
 ### 📐 Hardware Schematic
 
+The [annotated schematic of BitDogLab V7](https://docs.google.com/document/d/1cR74ubS8tIO2sSQk1Hf8aKo57Ta3R8EJL4mGiqV2mH0/edit?usp=sharing) describes the complete circuit, including the MCU pins, power supply, LEDs, buzzers, joystick, display, sensors, and connectors. A [high-resolution schematic diagram] is also available.
+
 The complete **schematics of BitDogLab V7** are available in this [**document**](https://docs.google.com/document/d/1cR74ubS8tIO2sSQk1Hf8aKo57Ta3R8EJL4mGiqV2mH0/edit?usp=sharing). .  
 They describe the entire circuit, including MCU pins, power supply, LEDs, buzzers, joystick, display, sensors, and connectors.
 
