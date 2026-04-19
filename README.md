@@ -106,7 +106,7 @@ The BIH [Hardware Bank Database (BIH)](https://docs.google.com/document/d/13-68O
 
 5) Iterate: send any compilation/runtime errors back to the AI, always including the BIH and the error log.
 
-Here you can find a visual version of the BIH (Hardware Bank Database). (https://docs.google.com/document/d/1-2Eoo6H1gfTAlxZgFs26p7X4CeaLkS8X8hNTC96PetQ/edit?usp=sharing)
+Here you can find a visual version of the BIH [Hardware Bank Database](https://docs.google.com/document/d/1-2Eoo6H1gfTAlxZgFs26p7X4CeaLkS8X8hNTC96PetQ/edit?usp=sharing)
 
 
 ## 📂 Repository Structure
