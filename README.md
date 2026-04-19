@@ -4,9 +4,9 @@ An open-source hardware project designed to promote learning in embedded systems
 
 BitDogLab, an initiative of the **Escola 4.0 Project at Unicamp**, is an educational tool devoted to electronics and computing. Based on the **Raspberry Pi Pico H, W, and Pico 2 (RP2350)**, it allows users to explore, assemble, and program using components mounted on its board and also external ones connected in an organized and secure manner.
 
-Meticulously selected, the components foster **hands-on learning**, encouraging users to enhance programming and electronics skills synergistically and progressively. This enriching platform offers a vibrant experience, immersing users in a colourful, auditory, and synesthetic learning environment.
+Meticulously selected, the components foster **hands-on learning**, encouraging users to enhance programming and electronics skills synergistically and progressively. This enriching platform offers a vibrant experience, immersing users in a colorful, auditory, and synesthetic learning environment.
 
-Additionally, BitDogLab is optimized for programming assisted by **Large Language Models (LLMs)**, like ChatGPT, facilitating a more intuitive learning guided by a tireless tutor. Aimed at **pre-university and university education**, BitDogLab aims to catalyze the incorporation of educational technology, providing a robust and flexible tool uniquely integrated into students' learning journey.
+Additionally, BitDogLab is optimized for programming assisted by **Large Language Models (LLMs)**, such as ChatGPT, facilitating more intuitive learning guided by a tireless tutor. Aimed at **pre-university and university education**, BitDogLab aims to catalyze the adoption of educational technology by providing a robust, flexible tool uniquely integrated into students' learning journey.
 
 ---
 [![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://cern.ch/cern-ohl 
@@ -36,7 +36,7 @@ Additionally, BitDogLab is optimized for programming assisted by **Large Languag
 ## 💻 How to Program BitDogLab
 
 BitDogLab supports multiple programming environments, ranging from visual block-based tools for beginners to professional C/C++ development for advanced users.
-Below is a step-by-step guide to start programming your board easily using Blockly.
+Below is a step-by-step guide to easily program your board using Blockly.
 
 ### 🧩 Programming with Blockly (Visual Blocks)
 
@@ -68,26 +68,26 @@ Blockly automatically generates MicroPython code, which can also be viewed and m
 
 ###  Programming with MicroPython 
 
-After experimenting with Blockly, you can easily migrate to MicroPython using Thonny IDE with the examples available in the /Firmware/examples/ folder of this repository.
-https://gitlab.unicamp.br/fabiano/bitdoglab-v7/-/tree/main/Firmware/examples?ref_type=heads#bitdoglab-micropython-examples
+After experimenting with Blockly, you can easily migrate to MicroPython using Thonny IDE with the examples available in the /Firmware/examples/ folder of [this repository](https://gitlab.unicamp.br/fabiano/bitdoglab-v7/-/tree/main/Firmware/examples?ref_type=heads#bitdoglab-micropython-examples).
+
 
 #### 🧰 Tools & Environment
 MicroPython with Thonny IDE
 
 Steps:
 
-Flash/update MicroPython firmware on Pico/Pico 2. OBS: Normaly you already received a BitDogLab with a the firmware flashed. 
+Flash/update MicroPython firmware on Pico/Pico 2. OBS: Normally, you have already received a BitDogLab with the firmware flashed. 
 
 Connect BitDogLab via USB, select the port under Tools → Interpreter.
 
-Upload the generated script (main.py or similar).
+Upload the generated script (main.py or a similar file).
 
 If using Blockly, remove main.py first (it can block communication).
 
 
 ### Quick Guide — Programming BitDogLab with AI (using the BIH)
 
-The simplest workflow to generate code (MicroPython or C/C++) with the help of Artificial Inteligence models using the Hardware Information Database (BIH) — a text file describing the BitDogLab hardware connection is explained bellow:
+The simplest workflow to generate code (MicroPython or C/C++) with the help of Artificial Intelligence models using the Hardware Information Database (BIH) — a text file describing the BitDogLab hardware connection is explained below:
 
 
 🔎 What is the BIH
