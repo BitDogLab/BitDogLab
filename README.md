@@ -8,6 +8,10 @@ Meticulously selected, the components foster **hands-on learning**, encouraging 
 
 Additionally, BitDogLab is optimized for programming assisted by **Large Language Models (LLMs)**, such as ChatGPT, facilitating more intuitive learning guided by a tireless tutor. Aimed at **pre-university and university education**, BitDogLab aims to catalyze the adoption of educational technology by providing a robust, flexible tool uniquely integrated into students' learning journey.
 
+<p align="center">
+  <img src="images/figure_BitDogLab.png" alt="BitDogLab V7 board" width="700">
+</p>
+
 ---
 [![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://cern.ch/cern-ohl 
 
