@@ -50,13 +50,13 @@ make -C mpy-cross
 ```
 make -C ports/rp2 BOARD=RPI_PICO clean &
 make -C ports/rp2 BOARD=RPI_PICO submodules &
-make -C ports/rp2 BOARD=RPI_PICO FROZEN_MANIFEST=~/BitDogLab/libs/manifest.py
+make -C ports/rp2 BOARD=RPI_PICO FROZEN_MANIFEST=~/BitDogLab/libs_software/manifest.py
 ```
 ### 2. Build -Raspberry PI PICO W
 ```
 make -C ports/rp2 BOARD=RPI_PICO_W clean
 make -C ports/rp2 BOARD=RPI_PICO_W submodules
-make -C ports/rp2 BOARD=RPI_PICO_W -j 16 FROZEN_MANIFEST=~/BitDogLab/libs/manifest_pico_w.py
+make -C ports/rp2 BOARD=RPI_PICO_W -j 16 FROZEN_MANIFEST=~/BitDogLab/libs_software/manifest_pico_w.py
 ```
 ## Pastas dos Firmwares
 * ports/rp2/build-RPI_PICO/firmware.uf2
@@ -66,4 +66,3 @@ make -C ports/rp2 BOARD=RPI_PICO_W -j 16 FROZEN_MANIFEST=~/BitDogLab/libs/manife
 ```
 sudo mpremote mip install github:Fruett/BitDogLab
 ```
-
