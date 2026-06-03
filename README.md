@@ -129,15 +129,16 @@ All files can be freely **copied, manufactured, assembled, and improved** by the
 
 ### 📂 Structure of hardware files
 ```
-hardware/
-├── kicad/
-│ ├── bitdoglab/ → Schematics, PCB layout and gerbers (DIY)
-│ ├── bitdoglabsmd/ → Schematics, PCB layout and gerbers (SMD)
-│ └── libs/ → Symbols, footprints and 3D models
+pcb-prototyping/
+├── BitDogLab V6/
+│   ├── bitdoglab-through-hole/ → Schematics, PCB layout and gerbers (DIY)
+│   ├── bitdoglab-smd/ → Schematics, PCB layout and gerbers (SMD)
+│   └── component-libraries/ → Symbols, footprints and 3D models
 │
-└── docs/
-├── BOM/ → Bill of Materials (.xlsx and .csv)
-└── fabrication/ → Panelization, pick-and-place, gerber and drill
+└── BitDogLab V7/
+    ├── Project Outputs for BitDogLab V7/ → Gerbers, drill, BOM and STEP
+    ├── bitdoglab-v7-pcb-top-view.png
+    └── bitdoglab-v7-pcb-bottom-view.png
 
 ```
 

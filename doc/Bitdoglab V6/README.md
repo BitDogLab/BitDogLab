@@ -59,8 +59,8 @@ Dessa forma a BitDogLab estará pronta para uso
 
 A placa BitDogLab possui as seguintes dimensões: 99 x 89 x 25 mm (comprimento, largura e altura).
 
-<img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_top.jpg" width=40% height=40%>
-<img src="https://github.com/BitDogLab/BitDogLab/blob/main/kicad/bitdoglabsmd/bitdoglab_main/bitdoglab_smd_bot.jpg" width=40% height=40%>
+<img src="https://github.com/BitDogLab/BitDogLab/blob/main/pcb-prototyping/BitDogLab%20V6/bitdoglab-smd/bitdoglab_main/bitdoglab_smd_top.jpg" width=40% height=40%>
+<img src="https://github.com/BitDogLab/BitDogLab/blob/main/pcb-prototyping/BitDogLab%20V6/bitdoglab-smd/bitdoglab_main/bitdoglab_smd_bot.jpg" width=40% height=40%>
 
 A Placa BitDogLab é uma plataforma completa indicada para ensino de software/sistemas embarcados.
 O módulo Microcontrolador é o cérebro da placa, composto pelo microcontrolador [Raspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html "Raspberry Pi Pico W") com as seguintes especificações:

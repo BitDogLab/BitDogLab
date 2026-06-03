@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BitDogLab V7.PcbDoc   17/06/2025  19:36:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BitDogLab V7.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.5mm)                                             Round             54        PTH        23.73inch (602.76mm)
+T2      28mil (0.7mm)                                             Round             2         PTH        0.07inch (1.70mm)
+T3      35mil (0.9mm)                                             Round             20        PTH        10.20inch (258.98mm)
+T4      39mil (1mm)                                               Round             33        PTH        9.98inch (253.49mm)
+T5      47mil (1.2mm)                                             Round             4         PTH        1.29inch (32.65mm)
+T6      59mil (1.5mm)                                             Round             4         PTH        3.21inch (81.47mm)
+T7      433mil (11mm)                                             Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              118
+
+Total Processing Time (hh:mm:ss) : 00:00:01

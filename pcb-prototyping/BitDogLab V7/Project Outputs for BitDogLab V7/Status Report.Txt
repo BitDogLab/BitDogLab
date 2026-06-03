@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [BitDogLab V7.PrjPcb]
+   Generated File[Pick Place for BitDogLab V7.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 19:37:08 On 17/06/2025

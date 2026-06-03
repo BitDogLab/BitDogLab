@@ -1,0 +1,24 @@
+# Generic backup files
+*~
+\#*
+.\#*
+
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+
+# KiCad generated files
+*.kicad_prl
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+
+# Freerouter files
+*.dsn
+*.ses
+*.bin
+*.rules
