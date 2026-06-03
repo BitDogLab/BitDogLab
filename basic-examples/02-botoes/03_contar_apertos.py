@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-botao = Pin(5, Pin.IN, Pin.PULL_UP)
+botao = Pin(5, Pin.IN, Pin.PULL_UP)#botao A
 contador = 0
 antes = 1
 

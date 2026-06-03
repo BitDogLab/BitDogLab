@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-botao_c = Pin(10, Pin.IN, Pin.PULL_UP)
+botao_c = Pin(10, Pin.IN, Pin.PULL_UP) #botao C
 
 while True:
     if botao_c.value() == 0:

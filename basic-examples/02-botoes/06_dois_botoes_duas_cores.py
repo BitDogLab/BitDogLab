@@ -1,7 +1,7 @@
 from machine import Pin, PWM
 
-a = Pin(5, Pin.IN, Pin.PULL_UP)
-b = Pin(6, Pin.IN, Pin.PULL_UP)
+a = Pin(5, Pin.IN, Pin.PULL_UP) #botao A
+b = Pin(6, Pin.IN, Pin.PULL_UP) #botao B
 r = PWM(Pin(13), freq=1000)
 g = PWM(Pin(11), freq=1000)
 

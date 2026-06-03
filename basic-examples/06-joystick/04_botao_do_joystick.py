@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-botao = Pin(22, Pin.IN, Pin.PULL_UP)
+botao = Pin(22, Pin.IN, Pin.PULL_UP) #botao joystick
 
 while True:
     if botao.value() == 0:
