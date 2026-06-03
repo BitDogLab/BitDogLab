@@ -2,3 +2,7 @@
 **/fp-info-cache
 *.lck
 **/.vscode
+**/.DS_Store
+**/.micropico
+/*.md
+!/README.md
