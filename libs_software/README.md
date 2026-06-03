@@ -28,7 +28,7 @@ BitDogLab v7 uses two main I2C pin groups:
 | Use | Bus | SDA | SCL |
 |---|---:|---:|---:|
 | External sensors | I2C0 | GPIO0 | GPIO1 |
-| OLED display | I2C1 | GPIO2 | GPIO3 |
+| OLED display and expansion connector | I2C1 | GPIO2 | GPIO3 |
 
 For the OLED display, use:
 
@@ -45,6 +45,8 @@ from machine import Pin, I2C
 
 i2c_sensors = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
 ```
+
+External sensors can also be connected to GPIO2/GPIO3 through the expansion connector. In BitDogLab v7, the OLED display is already connected to this I2C bus through PCB traces, so any extra device on GPIO2/GPIO3 must share the same bus and use a different I2C address.
 
 When writing new BitDogLab v7 examples, prefer these pin assignments to avoid conflicts with older v6 examples.
 
@@ -74,7 +76,7 @@ A BitDogLab v7 usa dois grupos principais de pinos I2C:
 | Uso | Barramento | SDA | SCL |
 |---|---:|---:|---:|
 | Sensores externos | I2C0 | GPIO0 | GPIO1 |
-| Display OLED | I2C1 | GPIO2 | GPIO3 |
+| Display OLED e conector de expansao | I2C1 | GPIO2 | GPIO3 |
 
 Para o display OLED, use:
 
@@ -91,5 +93,7 @@ from machine import Pin, I2C
 
 i2c_sensors = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
 ```
+
+Sensores externos tambem podem ser conectados aos GPIO2/GPIO3 pelo conector de expansao. Na BitDogLab v7, o display OLED ja esta conectado a esse barramento I2C pelas trilhas da placa, entao qualquer dispositivo extra em GPIO2/GPIO3 deve compartilhar o mesmo barramento e usar um endereco I2C diferente.
 
 Ao escrever novos exemplos para a BitDogLab v7, prefira essa pinagem para evitar conflitos com exemplos antigos da v6.
