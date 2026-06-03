@@ -15,6 +15,7 @@ Basic, beginner-friendly examples will be kept separately in the root `basic-exa
 | `hardware-examples/` | Existing examples focused on onboard hardware such as LEDs, buttons, buzzer, joystick, OLED display, microphone, I2C, and the LED matrix. |
 | `sensor-examples/` | Existing examples focused on external or onboard sensors, such as accelerometers, light sensors, BME280/BME680, and presence sensors. |
 | `hardware-expansion/` | Projects that involve custom hardware, expansion boards, shields, Gerber files, KiCad files, mechanical parts, or dedicated external modules. |
+| `iot-communication/` | Projects and experiments related to IoT, LoRa, LoRaWAN, network communication, and connected devices. |
 | `application-examples/` | Small application-oriented examples that combine multiple features for a specific use case. |
 | `tools/` | Auxiliary software, web tools, visual interfaces, external examples, or support projects. |
 
@@ -28,6 +29,10 @@ Current examples:
 - `RoboMovel/`: mobile robot project with code, mechanical files, and custom board files.
 - `LoRa_Shield/`: LoRa shield related code and support files.
 - `Expansao_PWM/`: software support for a PWM expansion board.
+
+### IoT and communication projects
+
+The `iot-communication/` folder groups projects focused on connectivity and networked applications. This includes LoRa, LoRaWAN, wireless communication experiments, and other IoT-oriented code that does not necessarily include custom hardware files.
 
 ### Notes
 
@@ -46,6 +51,7 @@ Os exemplos basicos e didaticos ficarao separados na pasta `basic-examples/`, na
 | `hardware-examples/` | Exemplos existentes focados no hardware da placa, como LEDs, botoes, buzzer, joystick, display OLED, microfone, I2C e matriz de LEDs. |
 | `sensor-examples/` | Exemplos existentes focados em sensores externos ou embarcados, como acelerometros, sensores de luz, BME280/BME680 e sensores de presenca. |
 | `hardware-expansion/` | Projetos que envolvem hardware proprio, placas expansoras, shields, arquivos Gerber, arquivos KiCad, partes mecanicas ou modulos externos dedicados. |
+| `iot-communication/` | Projetos e experimentos relacionados a IoT, LoRa, LoRaWAN, comunicacao em rede e dispositivos conectados. |
 | `application-examples/` | Pequenos exemplos de aplicacao que combinam varios recursos para um uso especifico. |
 | `tools/` | Softwares auxiliares, ferramentas web, interfaces visuais, exemplos externos ou projetos de apoio. |
 
@@ -59,6 +65,10 @@ Exemplos atuais:
 - `RoboMovel/`: projeto de robo movel com codigo, arquivos mecanicos e arquivos de placa propria.
 - `LoRa_Shield/`: codigo e arquivos de apoio relacionados ao shield LoRa.
 - `Expansao_PWM/`: suporte de software para uma placa expansora PWM.
+
+### Projetos de IoT e comunicacao
+
+A pasta `iot-communication/` agrupa projetos focados em conectividade e aplicacoes em rede. Isso inclui LoRa, LoRaWAN, experimentos de comunicacao sem fio e outros codigos voltados a IoT que nao necessariamente incluem arquivos de hardware proprio.
 
 ### Observacoes
 
