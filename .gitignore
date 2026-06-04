@@ -6,4 +6,5 @@
 **/.micropico
 /*.md
 !/README.md
+!/README.pt-BR.md
 !/COMECE_POR_AQUI_BitDogLab_V7_MicroPython.md

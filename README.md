@@ -1,201 +1,138 @@
-# BitDogLab V7
-
-An open-source hardware project designed to promote learning in embedded systems, programming, and electronics.
-
-BitDogLab, an initiative of the **Escola 4.0 Project at Unicamp**, is an educational tool devoted to electronics and computing. Based on the **Raspberry Pi Pico H, W, and Pico 2 (RP2350)**, it allows users to explore, assemble, and program using components mounted on its board and also external ones connected in an organized and secure manner.
-
-Meticulously selected, the components foster **hands-on learning**, encouraging users to enhance programming and electronics skills synergistically and progressively. This enriching platform offers a vibrant experience, immersing users in a colorful, auditory, and synesthetic learning environment.
-
-Additionally, BitDogLab is optimized for programming assisted by **Large Language Models (LLMs)**, such as ChatGPT, facilitating more intuitive learning guided by a tireless tutor. Aimed at **pre-university and university education**, BitDogLab aims to catalyze the adoption of educational technology by providing a robust, flexible tool uniquely integrated into students' learning journey.
-
 <p align="center">
-  <img src="images/figure_BitDogLab.png" alt="BitDogLab V7 board" width="500">
+  <img src="images/bitdoglab_logo.png" alt="BitDogLab logo" width="230">
 </p>
 
----
-[![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://cern.ch/cern-ohl 
+<h1 align="center">BitDogLab V7</h1>
 
-## 🌟 What’s new in Version 7.0
+<p align="center">
+  Open-source educational hardware for embedded systems, programming, electronics, and physical computing.
+</p>
 
-✨ BitDogLab V7 improves upon the solid foundation of V6 with the following updates:
+<p align="center">
+  <a href="README.md">English</a> |
+  <a href="README.pt-BR.md">Português</a>
+</p>
 
-✅ Cost optimization: design adjustments to keep fabrication cost under US$ 25 (≈ R$ 250 in Brazil, including taxes).
+BitDogLab is an initiative of the **Escola 4.0 project at FEEC/Unicamp**. It brings together the Raspberry Pi Pico ecosystem and the main peripherals used in embedded systems, providing a practical platform for education, experimentation, and project development.
 
-✅ Support for Raspberry Pi Pico 2 (RP2350) with dual-core ARM and RISC-V architecture.
+The current board is **BitDogLab Version 7**, with support for Raspberry Pi Pico-compatible modules based on the **RP2040** and **RP2350** microcontrollers.
 
-✅ Enhanced LED matrix: 5×5 WS2812B RGB array, now using smaller LEDs for better integration.
+Its hands-on approach supports the development of scientific thinking, problem solving, collaboration, and digital culture, competencies emphasized by Brazil's National Common Curricular Base (BNCC).
 
-✅ Display connection updated: OLED now connected to I²C pins GPIO2 (SDA) and GPIO3 (SCL).
+## Board and Peripherals
 
-✅ New Battery Management System (BMS): integrated INA226 for easy monitoring and control.
+<p align="center">
+  <img src="images/figure_BitDogLab.png" alt="BitDogLab board and onboard peripherals" width="720">
+</p>
 
-✅ Flexible display options: support for OLED modules with 128×64 or 128×128 pixel resolution, expanding visualization capabilities.
+The board provides direct access to the main resources used in embedded-system education, including buttons, joystick, RGB LED, LED matrix, OLED display, microphone, buzzer, sensors, and expansion connectors.
 
-✅ Additional input control: inclusion of a third button (A, B, and C), enabling more interactive applications.
+## Recommended Learning Path
 
-✅ Modular microcontroller socket: a new socketed design for the MCU module, allowing future upgrades and simplified maintenance.
-
----
-
-## 💻 How to Program BitDogLab
-
-BitDogLab supports multiple programming environments, ranging from visual block-based tools for beginners to professional C/C++ development for advanced users.
-Below is a step-by-step guide to easily program your board using Blockly.
-
-### 🧩 Programming with Blockly (Visual Blocks)
-
-Blockly is the easiest way to get started with BitDogLab — ideal for students and beginners learning programming logic and embedded systems.
-You can access it directly online, without installing anything:
-
-👉 Blockly for BitDogLab:
-https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/
-
-Steps to use Blockly:
-
-1) Connect your BitDogLab to your computer using a USB cable.
-
-2) Open the link above in your browser (preferably Chrome or Edge).
-
-3) Select the serial port corresponding to your board.
-
-4) Drag and connect the programming blocks to create your program.
-
-5) Click on “Run” or “Upload” to send the program to your BitDogLab.
-
-⚠️ Important:
-If your board already contains a file named main.py in its internal memory, delete it before using Blockly.
-The presence of this file can prevent Blockly from communicating properly with the microcontroller.
-
-Tip:
-
-Blockly automatically generates MicroPython code, which can also be viewed and modified in the Thonny IDE if you prefer text-based programming.
-
-###  Programming with MicroPython 
-
-After experimenting with Blockly, you can easily migrate to MicroPython using Thonny IDE with the examples available in the /Firmware/examples/ folder of [this repository](https://gitlab.unicamp.br/fabiano/bitdoglab-v7/-/tree/main/Firmware/examples?ref_type=heads#bitdoglab-micropython-examples).
-
-
-#### 🧰 Tools & Environment
-MicroPython with Thonny IDE
-
-Steps:
-
-Flash/update MicroPython firmware on Pico/Pico 2. OBS: Normally, you have already received a BitDogLab with the firmware flashed. 
-
-Connect BitDogLab via USB, select the port under Tools → Interpreter.
-
-Upload the generated script (main.py or a similar file).
-
-If using Blockly, remove main.py first (it can block communication).
-
-
-### Quick Guide — Programming BitDogLab with AI (using the BIH)
-
-The simplest workflow to generate code (MicroPython or C/C++) with the help of Artificial Intelligence models using the Hardware Information Database (BIH) — a text file describing the BitDogLab hardware connection is explained below:
-
-
-🔎 What is the BIH
-
-The BIH [Hardware Bank Database (BIH)](https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing)  is a plain text file containing the pinouts and peripherals of the board/project. It gives technical context so that an LLM (Large Language Model) can write correct code for your BitDogLab, avoiding pin/address mismatches.
-
-#### AI Workflow (Step-by-Step)
-
-1) Open the BIH from the link above.
-
-2) Open your AI assistant (e.g., ChatGPT) and paste the BIH before requesting code.
-
-3) Use a task prompt specifying: target language (MicroPython or C/C++), desired functionality, and constraints. Start with simple tasks.
-
-4) Ask for complete, testable code (with main() or a full script and comments).
-
-5) Iterate: send any compilation/runtime errors back to the AI, always including the BIH and the error log.
-
-Here you can find a visual version of the BIH [Hardware Bank Database](https://docs.google.com/document/d/1-2Eoo6H1gfTAlxZgFs26p7X4CeaLkS8X8hNTC96PetQ/edit?usp=sharing)
-
-
-## 📂 Repository Structure
-```
-under construction ...
+```mermaid
+flowchart LR
+    A[Start Here guide] --> B[Basic MicroPython examples]
+    B --> C[Peripheral guides and libraries]
+    C --> D[Applications and projects]
+    D --> E[Hardware design and fabrication]
 ```
 
+1. Follow the [Start Here guide](COMECE_POR_AQUI_BitDogLab_V7_MicroPython.md) to prepare the board and run the first test.
+2. Study the [`basic-examples/`](basic-examples/) directory, organized from simpler to more advanced peripherals.
+3. Use the [V7 peripheral guides](doc/Bitdoglab%20V7/) and reusable [`libs_software/`](libs_software/) modules.
+4. Explore and develop applications in [`projects/`](projects/).
+5. Study or manufacture the board using the public files in [`pcb-prototyping/`](pcb-prototyping/).
 
----
+## Start Programming
 
+The fastest text-based path is MicroPython with Thonny:
 
-## 🛠️ Hardware Design Files (Open Hardware)
+- [Illustrated MicroPython start guide](COMECE_POR_AQUI_BitDogLab_V7_MicroPython.md)
+- [60 basic peripheral examples](basic-examples/README.md)
+- [Complete peripheral test](testar_perifericos_gerais.py)
+- [MicroPython firmware](firmware/)
+- [Reusable software libraries](libs_software/README.md)
 
-This repository holds **open-source design files** for BitDogLab V7, released under the **CERN Open Hardware Licence v2 – Strongly Reciprocal (CERN-OHL-S)**.  
-All files can be freely **copied, manufactured, assembled, and improved** by the community, in alignment with open hardware principles.  
+## Active Programming Projects
 
-### 📂 Structure of hardware files
-```
-pcb-prototyping/
-├── BitDogLab V6/
-│   ├── bitdoglab-through-hole/ → Schematics, PCB layout and gerbers (DIY)
-│   ├── bitdoglab-smd/ → Schematics, PCB layout and gerbers (SMD)
-│   └── component-libraries/ → Symbols, footprints and 3D models
-│
-└── BitDogLab V7/
-    ├── Project Outputs for BitDogLab V7/ → Gerbers, drill, BOM and STEP
-    ├── bitdoglab-v7-pcb-top-view.png
-    └── bitdoglab-v7-pcb-bottom-view.png
+### Blockly for BitDogLab
 
-```
+<p align="center">
+  <a href="https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/">
+    <img src="images/Bipes-bitdoglab.png" alt="Blockly for BitDogLab visual programming interface" width="680">
+  </a>
+</p>
 
-### 🔑 Key Components – BitDogLab V7
+Blockly is the easiest way to get started with BitDogLab. It is designed for students and beginners learning programming logic and embedded systems. The tool runs directly in the browser without requiring installation.
 
-- **MCU board:** Raspberry Pi Pico H/W or Pico 2 (RP2350)  
-- **LEDs:** RGB LED (common cathode) + 5×5 WS2812B matrix  
-- **Inputs:** Buttons A/B + Reset, analog joystick (VRx/VRy + SW)  
-- **Audio:** Passive buzzers A and B (stereo capable)  
-- **Display:** OLED 128×64 via I²C (GPIO2 = SDA, GPIO3 = SCL)  
-- **Sensing:** Electret or MEMS microphone (analog)  
-- **Power:** USB 5V, battery charger, **INA226** for monitoring (BMS)  
-- **Expansion:** IDC header exposing GPIOs, I²C/SPI/UART, 3V3/5V/GND  
+[Open Blockly for BitDogLab](https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/)
 
-### 📐 Hardware Schematic
+To use it:
 
-The [annotated schematic of BitDogLab V7](https://docs.google.com/document/d/1cR74ubS8tIO2sSQk1Hf8aKo57Ta3R8EJL4mGiqV2mH0/edit?usp=sharing) describes the complete circuit, including the MCU pins, power supply, LEDs, buzzers, joystick, display, sensors, and connectors. A [high-resolution schematic diagram](https://drive.google.com/file/d/1puPhxiAeojC_O1fcIZE30omi7P13YKgP/view?usp=sharing) is also available.
+1. Connect the BitDogLab to the computer using a USB cable.
+2. Open Blockly for BitDogLab, preferably in Chrome or Edge.
+3. Select the serial port corresponding to the board.
+4. Drag and connect blocks to create the program.
+5. Click `Run` or `Upload` to send the program to the BitDogLab.
 
+> **Important:** If the board already contains a file named `main.py`, remove it before using Blockly. This file can prevent the tool from communicating correctly with the microcontroller.
 
-- **Fabrication Files (version 7) with PCB and assembly with SMD componentes:** [**Gerber + BOM + Pick Place**](https://drive.google.com/drive/folders/1TGEBqiHnaR470X9izp0-9XtS-pPj8GxW?usp=sharing
-)
+### BIH - Hardware Information Database
 
+<p align="center">
+  <a href="https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing">
+    <img src="images/BIH.png" alt="BIH hardware information database for AI-assisted programming" width="680">
+  </a>
+</p>
 
-> The schematic is the starting point for anyone wishing to understand, replicate, or modify BitDogLab.  
-> It ensures **full transparency** in the design, reinforcing the open hardware philosophy of this project.
+The **BIH** is a hardware information database designed to adapt the BitDogLab technical context for Large Language Models (LLMs), including ChatGPT, Gemini, and other AI assistants.
 
+It describes the board's pin assignments, peripherals, interfaces, and hardware constraints. By providing the BIH to an LLM before requesting a program, the model can generate MicroPython or C/C++ code that better matches the BitDogLab hardware.
 
-### 📑 Bill of Materials (BOM)
+- [Open the BitDogLab V7 BIH](https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing)
+- [Open the visual hardware database](https://docs.google.com/document/d/1-2Eoo6H1gfTAlxZgFs26p7X4CeaLkS8X8hNTC96PetQ/edit?usp=sharing)
 
-- **Spreadsheet (Google Sheets):** [BOM](https://docs.google.com/spreadsheets/d/1lPjkUmOSgNfBfdC2lzMRuLAa2dZAN5wuEols-8MtYGg/edit?usp=sharing)  
+### FluxCode
 
+**UNDER CONSTRUCTION**
 
----
+### Pixel Art Application
 
-## 📚 Hardware Database
+**UNDER CONSTRUCTION**
 
+## BitDogLab V7 Hardware
 
-- **Português**: [Banco de Informação de Hardware (BIH)](https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing)  
+BitDogLab V7 integrates an RGB LED, a 5x5 WS2812B matrix, three buttons, analog joystick, buzzer, analog microphone, OLED display, power monitoring, and expansion connections around a Raspberry Pi Pico-compatible module.
 
----
+The V7 hardware was developed in **Altium Designer**. Source files, schematic, PCB layout, BOM, pick-and-place data, STEP model, and public Gerber files for fabrication are available in [`pcb-prototyping/BitDogLab V7/`](pcb-prototyping/BitDogLab%20V7/).
 
-## 📜 License
+<p align="center">
+  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-top-view.png" alt="BitDogLab V7 PCB top view" width="45%">
+  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-bottom-view.png" alt="BitDogLab V7 PCB bottom view" width="45%">
+</p>
 
-This project is licensed under:  
-- **CERN Open Hardware Licence v2 – Strongly Reciprocal (CERN-OHL-S)** for hardware  
-- **MIT** for software and firmware  
+BitDogLab V6 was developed in **KiCad** and remains available for study and fabrication. See the complete [PCB and fabrication documentation](pcb-prototyping/README.md).
 
----
+## Repository Structure
 
-## 🤝 Sponsors & Support
+| Path | Content |
+|---|---|
+| [`basic-examples/`](basic-examples/) | Beginner-friendly MicroPython examples organized by peripheral. |
+| [`doc/`](doc/) | BitDogLab V6 and V7 documentation and peripheral guides. |
+| [`firmware/`](firmware/) | MicroPython firmware and installation resources. |
+| [`libs_software/`](libs_software/) | Reusable MicroPython drivers and helper modules. |
+| [`pcb-prototyping/`](pcb-prototyping/) | PCB source files and public manufacturing files. |
+| [`projects/`](projects/) | Applications, sensors, IoT, tools, and hardware expansions. |
 
-- **IEEE-EDS**: STEM outreach program  
-- **CNPq – INCT Namitec**  
+## Open Hardware and License
 
----
+BitDogLab is open hardware. Its design and fabrication files are publicly available for study, modification, and manufacturing.
 
-## 👨‍🏫 Authors and Acknowledgment
+The project is licensed under the **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2.0)**. See [`LICENSE`](LICENSE).
 
-- **Prof. Dr. Fabiano Fruett** – Project coordination and development  [CV Lattes](http://lattes.cnpq.br/4840178785453194)
-- Contributors: students and collaborators from **Escola 4.0 / FEEC – Unicamp** 
+## Initiative and Contributors
+
+- Initiative: **Escola 4.0 - FEEC/Unicamp**
+- Project coordination: **Prof. Dr. Fabiano Fruett**
+- Contributors: students and collaborators from Escola 4.0 and FEEC/Unicamp
+- Support: IEEE-EDS STEM outreach program and CNPq - INCT Namitec
