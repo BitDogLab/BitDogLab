@@ -57,15 +57,12 @@ The fastest text-based path is MicroPython with Thonny:
 
 ### Blockly for BitDogLab
 
-<p align="center">
-  <a href="https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/">
-    <img src="images/Bipes-bitdoglab.png" alt="Blockly for BitDogLab visual programming interface" width="580">
-  </a>
-</p>
 
 Blockly is the easiest way to get started with BitDogLab. It is designed for students and beginners learning programming logic and embedded systems. The tool runs directly in the browser without requiring installation.
 
 To use it:
+
+[Open Blockly for BitDogLab](https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/)
 
 1. Connect the BitDogLab to the computer using a USB cable.
 2. Open Blockly for BitDogLab, preferably in Chrome or Edge.
