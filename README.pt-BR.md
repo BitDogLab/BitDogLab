@@ -57,11 +57,6 @@ O caminho mais rápido para programação por texto é utilizar MicroPython com 
 
 ### Blockly para BitDogLab
 
-<p align="center">
-  <a href="https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/">
-    <img src="images/Bipes-bitdoglab.png" alt="Interface de programação visual Blockly para BitDogLab" width="580">
-  </a>
-</p>
 
 O Blockly é a maneira mais simples de começar a programar a BitDogLab. Ele é indicado para estudantes e iniciantes que estão aprendendo lógica de programação e sistemas embarcados. A ferramenta funciona diretamente no navegador, sem necessidade de instalação.
 
