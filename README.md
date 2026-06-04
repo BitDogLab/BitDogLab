@@ -22,7 +22,7 @@ Its hands-on approach supports the development of scientific thinking, problem s
 ## Board and Peripherals
 
 <p align="center">
-  <img src="images/figure_BitDogLab.png" alt="BitDogLab board and onboard peripherals" width="720">
+  <img src="images/figure_BitDogLab.png" alt="BitDogLab board and onboard peripherals" width="620">
 </p>
 
 The board provides direct access to the main resources used in embedded-system education, including buttons, joystick, RGB LED, LED matrix, OLED display, microphone, buzzer, sensors, and expansion connectors.
@@ -59,7 +59,7 @@ The fastest text-based path is MicroPython with Thonny:
 
 <p align="center">
   <a href="https://bitdoglab-blocos.github.io/BIPES-BITDOGLAB/ui/">
-    <img src="images/Bipes-bitdoglab.png" alt="Blockly for BitDogLab visual programming interface" width="680">
+    <img src="images/Bipes-bitdoglab.png" alt="Blockly for BitDogLab visual programming interface" width="580">
   </a>
 </p>
 
@@ -81,7 +81,7 @@ To use it:
 
 <p align="center">
   <a href="https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing">
-    <img src="images/BIH.png" alt="BIH hardware information database for AI-assisted programming" width="680">
+    <img src="images/BIH.png" alt="BIH hardware information database for AI-assisted programming" width="580">
   </a>
 </p>
 
@@ -107,8 +107,8 @@ BitDogLab V7 integrates an RGB LED, a 5x5 WS2812B matrix, three buttons, analog 
 The V7 hardware was developed in **Altium Designer**. Source files, schematic, PCB layout, BOM, pick-and-place data, STEP model, and public Gerber files for fabrication are available in [`pcb-prototyping/BitDogLab V7/`](pcb-prototyping/BitDogLab%20V7/).
 
 <p align="center">
-  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-top-view.png" alt="BitDogLab V7 PCB top view" width="45%">
-  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-bottom-view.png" alt="BitDogLab V7 PCB bottom view" width="45%">
+  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-top-view.png" alt="BitDogLab V7 PCB top view" width="40%">
+  <img src="pcb-prototyping/BitDogLab%20V7/bitdoglab-v7-pcb-bottom-view.png" alt="BitDogLab V7 PCB bottom view" width="40%">
 </p>
 
 BitDogLab V6 was developed in **KiCad** and remains available for study and fabrication. See the complete [PCB and fabrication documentation](pcb-prototyping/README.md).
