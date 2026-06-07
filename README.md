@@ -30,7 +30,7 @@ The board provides direct access to the main resources used in embedded-system e
 ## Recommended Learning Path
 
 <p align="center">
-  <img src="images/Figure_learning_path_eng.png" alt="Learning Path" width="620">
+  <img src="images/Figure_learning_path_eng.png" alt="Learning Path" width="420">
 </p>
 
 ```mermaid
