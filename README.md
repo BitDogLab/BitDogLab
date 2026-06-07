@@ -29,6 +29,10 @@ The board provides direct access to the main resources used in embedded-system e
 
 ## Recommended Learning Path
 
+<p align="center">
+  <img src="Figure_learning_path_eng.png" alt="Learning Path" width="620">
+</p>
+
 ```mermaid
 flowchart LR
     A[Start Here guide] --> B[Basic MicroPython examples]
