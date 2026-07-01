@@ -93,8 +93,243 @@ It describes the board's pin assignments, peripherals, interfaces, and hardware 
 
 ### FluxCode
 
-**UNDER CONSTRUCTION**
+O BitDogLab FluxCode é um aplicativo Android desenvolvido para auxiliar estudantes e professores na criação de códigos em **MicroPython** para a placa **BitDogLab**, utilizando **Inteligência Artificial multimodal** para interpretar fluxogramas desenhados manualmente.
 
+O usuário desenha a lógica do programa em papel, fotografa o fluxograma pelo aplicativo e recebe automaticamente um código em MicroPython, que pode ser executado ou salvo diretamente na placa BitDogLab.
+
+O **BitDogLab FluxCode** foi criado para apoiar o ensino de programação, especialmente para usuários iniciantes que ainda possuem dificuldade na transição entre a lógica de programação, a representação por fluxogramas e a escrita de código textual.
+
+A proposta utiliza uma abordagem **desplugada**, na qual o estudante desenvolve inicialmente o raciocínio lógico em papel, utilizando símbolos de fluxograma. Em seguida, o aplicativo interpreta a imagem com apoio de uma LLM multimodal e gera o código correspondente em MicroPython.
+
+Essa abordagem permite que o estudante concentre seus esforços em elementos fundamentais do **pensamento computacional**, como:
+
+- construção da lógica;
+- decomposição do problema;
+- representação de algoritmos;
+- relação entre fluxograma e código;
+- experimentação prática com computação física.
+
+## Principais funcionalidades
+
+- Captura de fluxogramas desenhados manualmente.
+- Interpretação do fluxograma com Inteligência Artificial multimodal.
+- Geração automática de código em MicroPython.
+- Visualização do pseudocódigo gerado.
+- Execução do código diretamente na placa BitDogLab.
+- Salvamento de arquivos na placa.
+- Editor de código integrado.
+- Acesso aos projetos salvos no smartphone.
+- Acesso aos códigos armazenados na placa por meio da função **Mochila**.
+- Terminal integrado para acompanhar a execução dos comandos.
+- Funções para executar, reiniciar, encerrar e limpar o terminal.
+
+---
+
+## Requisitos
+
+Para utilizar o aplicativo, são necessários:
+
+- Smartphone ou tablet Android;
+- Placa BitDogLab com MicroPython instalado;
+- Cabo USB Tipo C para Micro USB compatível com transferência de dados;
+- Conexão com a internet;
+- Folha sulfite;
+- Caneta azul ou preta;
+- Gabarito de fluxograma impresso em 3D.
+
+### Cabo USB recomendado
+
+| Especificação | Descrição |
+|---|---|
+| Marca | Vention |
+| Modelo | USB |
+| Conector de entrada | USB Tipo C |
+| Conector de saída | Micro USB |
+| Tipo de cabo | USB 2.0 |
+| Modelo alfanumérico | COVBD |
+| Cor | Preto |
+
+> Observação: é importante utilizar um cabo USB que permita transferência de dados, e não apenas carregamento.
+
+---
+
+## Instalação do aplicativo
+
+Atualmente, o aplicativo está disponível apenas para dispositivos **Android**.
+
+1. Baixe o aplicativo pelo link disponibilizado no manual ou no repositório do projeto.
+2. Autorize a instalação de aplicativos de fontes externas, caso o Android solicite essa permissão.
+3. Instale o aplicativo no smartphone ou tablet.
+4. Abra o aplicativo para acessar a tela inicial.
+
+---
+
+## Como utilizar
+
+### 1. Conectar a placa BitDogLab
+
+Conecte a placa BitDogLab ao dispositivo Android utilizando um cabo USB compatível.
+
+Ao conectar a placa, o Android poderá solicitar permissão para permitir o acesso ao dispositivo USB. Nesse caso, toque em **Permitir**.
+
+Caso a mensagem de permissão não apareça automaticamente, toque no botão **Conectar** dentro do aplicativo.
+
+Quando a conexão for estabelecida, o aplicativo exibirá novas opções na interface, como:
+
+- **Console**: permite visualizar comandos e mensagens da execução;
+- **Mochila**: permite acessar os códigos salvos na placa BitDogLab.
+
+---
+
+### 2. Desenhar o fluxograma
+
+Em uma folha sulfite, desenhe o fluxograma da lógica desejada utilizando:
+
+- caneta azul ou preta;
+- gabarito de símbolos de fluxograma;
+- boa organização visual;
+- setas indicando corretamente o fluxo do algoritmo.
+
+O gabarito de fluxograma pode ser impresso em 3D a partir do arquivo STL disponibilizado no projeto.
+
+---
+
+### 3. Capturar o fluxograma pelo aplicativo
+
+No aplicativo, toque na opção **Foto Código**.
+
+A câmera do dispositivo será aberta. Posicione a folha dentro da área de captura indicada na tela e toque no ícone de câmera.
+
+Após a captura, a imagem será enviada para interpretação pela Inteligência Artificial. Esse processo pode levar alguns segundos ou até cerca de 1 minuto, dependendo da qualidade da conexão com a internet.
+
+---
+
+### 4. Gerar e visualizar o código
+
+Após a interpretação do fluxograma, o aplicativo exibirá o código em **MicroPython** gerado automaticamente.
+
+Nessa tela, o usuário poderá:
+
+- visualizar o código gerado;
+- visualizar o pseudocódigo;
+- executar o código na placa;
+- salvar o código diretamente na placa BitDogLab.
+
+Para que o programa seja executado automaticamente sempre que a placa for ligada, salve o arquivo com o nome:
+
+```text
+main.py
+```
+
+---
+
+### 5. Executar o código na placa
+
+Para executar o programa, toque no botão **Executar**.
+
+O aplicativo abrirá a tela de terminal. Quando o código for executado corretamente, a mensagem abaixo será exibida:
+
+```text
+ok
+```
+
+Caso a mensagem não apareça, verifique a conexão USB com a placa, desconecte e conecte novamente o cabo e tente executar o código mais uma vez.
+
+---
+
+### 6. Encerrar ou limpar a execução
+
+Na tela de terminal, o usuário pode utilizar os seguintes botões:
+
+- **Executar**: executa o código na placa;
+- **Reiniciar**: reinicia a execução;
+- **Encerrar**: interrompe o código em execução;
+- **Limpar**: limpa as mensagens exibidas no terminal.
+
+---
+
+## Função Mochila
+
+A função **Mochila** permite acessar os arquivos salvos diretamente na placa BitDogLab.
+
+Ao abrir a Mochila, o usuário pode visualizar os códigos armazenados na placa. Ao selecionar um arquivo, o aplicativo apresenta as seguintes opções:
+
+- **Executar**: executa o código selecionado;
+- **Abrir no editor**: abre o código para visualização ou edição;
+- **Renomear**: altera o nome do arquivo;
+- **Excluir**: remove o arquivo da placa.
+
+---
+
+## Editor de código
+
+O aplicativo também possui um editor integrado, que permite escrever, visualizar e modificar códigos em MicroPython diretamente no dispositivo Android.
+
+Após editar o código, o usuário pode executá-lo na placa BitDogLab e acompanhar a execução pelo terminal do aplicativo.
+
+---
+
+## Problemas comuns
+
+### O aplicativo não reconhece a placa
+
+Verifique se o cabo USB é compatível com transferência de dados. Em seguida, desconecte e conecte novamente a placa e toque no botão **Conectar**.
+
+### O código não executa
+
+Verifique se a mensagem `ok` aparece no terminal. Caso não apareça, refaça a conexão com a placa e execute o código novamente.
+
+### O código gerado apresentou erro
+
+Capture novamente a foto do fluxograma, garantindo:
+
+- boa iluminação;
+- folha bem enquadrada;
+- desenho legível;
+- setas bem posicionadas;
+- uso de caneta azul ou preta.
+
+---
+
+## Boas práticas para captura do fluxograma
+
+Para melhorar a interpretação pela Inteligência Artificial:
+
+- desenhe em local bem iluminado;
+- evite sombras sobre a folha;
+- mantenha a câmera alinhada com o papel;
+- use traços fortes e legíveis;
+- evite rasuras;
+- posicione toda a folha dentro da área de captura;
+- utilize corretamente os símbolos do gabarito.
+
+---
+
+## Tecnologias envolvidas
+
+- Android;
+- MicroPython;
+- BitDogLab;
+- Inteligência Artificial multimodal;
+- LLM para interpretação de imagem e geração de código;
+- Comunicação USB entre smartphone/tablet e placa.
+
+---
+
+## Aplicações educacionais
+
+O BitDogLab IA App pode ser utilizado em atividades de:
+
+- introdução à programação;
+- pensamento computacional;
+- lógica de programação;
+- robótica educacional;
+- computação física;
+- oficinas STEAM;
+- ensino com metodologias desplugadas;
+- transição entre fluxogramas e programação textual.
+
+---
 ### Pixel Art Application
 
 **UNDER CONSTRUCTION**
