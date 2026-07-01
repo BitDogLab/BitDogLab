@@ -157,7 +157,7 @@ Para utilizar o aplicativo, são necessários:
 
 Atualmente, o aplicativo está disponível apenas para dispositivos **Android**.
 
-1. Baixe o aplicativo pelo link disponibilizado no manual ou no repositório do projeto.
+1. Baixe o aplicativo através desse link: https://drive.google.com/drive/folders/12xD7rVUsgQWKkneTLb5EA2QpiOx43nXb?usp=drive_link
 2. Autorize a instalação de aplicativos de fontes externas, caso o Android solicite essa permissão.
 3. Instale o aplicativo no smartphone ou tablet.
 4. Abra o aplicativo para acessar a tela inicial.
