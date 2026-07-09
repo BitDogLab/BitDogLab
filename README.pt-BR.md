@@ -13,11 +13,23 @@
   <a href="README.pt-BR.md">Português</a>
 </p>
 
+<p align="center">
+  <a href="https://comunidade-bitdoglab.web.app"><img src="https://img.shields.io/badge/🌐_Comunidade_BitDogLab-Documenta%C3%A7%C3%A3o%2C_c%C3%B3digos_e_aplica%C3%A7%C3%B5es-2ea44f?style=for-the-badge" alt="Comunidade BitDogLab"></a>
+  <br>
+  <a href="https://comunidade-bitdoglab.web.app">https://comunidade-bitdoglab.web.app</a>
+</p>
+
+<p align="center">
+  Não é da área de tecnologia? Este repositório é o espaço técnico do projeto — para professores e demais usuários, a <a href="https://comunidade-bitdoglab.web.app"><strong>Comunidade BitDogLab</strong></a> é uma porta de entrada mais amigável, com documentação, códigos e aplicações prontas.
+</p>
+
 A BitDogLab é uma iniciativa do projeto **Escola 4.0 da FEEC/Unicamp**. Ela reúne o ecossistema Raspberry Pi Pico e os principais periféricos utilizados em sistemas embarcados, oferecendo uma plataforma prática para educação, experimentação e desenvolvimento de projetos.
 
 A placa atual é a **BitDogLab Versão 7**, com suporte a módulos compatíveis com Raspberry Pi Pico baseados nos microcontroladores **RP2040** e **RP2350**.
 
 Sua abordagem mão na massa contribui para o desenvolvimento do pensamento científico, resolução de problemas, colaboração e cultura digital, competências valorizadas pela Base Nacional Comum Curricular (BNCC).
+
+---
 
 ## Placa e Periféricos
 
@@ -26,6 +38,8 @@ Sua abordagem mão na massa contribui para o desenvolvimento do pensamento cient
 </p>
 
 A placa oferece acesso direto aos principais recursos utilizados no ensino de sistemas embarcados, incluindo botões, joystick, LED RGB, matriz de LEDs, display OLED, microfone, buzzer, sensores e conectores de expansão.
+
+---
 
 ## Fluxo Recomendado de Aprendizagem
 
@@ -43,6 +57,8 @@ flowchart LR
 4. Explore e desenvolva aplicações em [`projects/`](projects/).
 5. Estude ou fabrique a placa utilizando os arquivos públicos em [`pcb-prototyping/`](pcb-prototyping/).
 
+---
+
 ## Comece a Programar
 
 O caminho mais rápido para programação por texto é utilizar MicroPython com a Thonny:
@@ -53,10 +69,13 @@ O caminho mais rápido para programação por texto é utilizar MicroPython com 
 - [Firmware MicroPython](firmware/)
 - [Bibliotecas de software reutilizáveis](libs_software/README.md)
 
+---
+
 ## Projetos Ativos de Programação
 
-### Blockly para BitDogLab
+Abaixo estão as ferramentas atualmente em desenvolvimento dentro do ecossistema BitDogLab, cada uma pensada para um jeito diferente de começar a programar — da lógica em blocos à geração de código assistida por IA.
 
+### 🧩 Blockly para BitDogLab
 
 O Blockly é a maneira mais simples de começar a programar a BitDogLab. Ele é indicado para estudantes e iniciantes que estão aprendendo lógica de programação e sistemas embarcados. A ferramenta funciona diretamente no navegador, sem necessidade de instalação.
 
@@ -72,7 +91,9 @@ Como utilizar:
 
 > **Importante:** caso a placa já contenha um arquivo chamado `main.py`, remova-o antes de utilizar o Blockly. Esse arquivo pode impedir a comunicação correta da ferramenta com o microcontrolador.
 
-### BIH - Banco de Informações de Hardware
+<br>
+
+### 📄 BIH - Banco de Informações de Hardware
 
 <p align="center">
   <a href="https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing">
@@ -87,13 +108,31 @@ Ele descreve a pinagem, os periféricos, as interfaces e as restrições do hard
 - [Abrir o BIH da BitDogLab V7](https://docs.google.com/document/d/13-68OqiU7ISE8U2KPRUXT2ISeBl3WPhXjGDFH52eWlU/edit?usp=sharing)
 - [Abrir o banco visual de hardware](https://docs.google.com/document/d/1-2Eoo6H1gfTAlxZgFs26p7X4CeaLkS8X8hNTC96PetQ/edit?usp=sharing)
 
-### FluxCode
+<br>
+
+### 🔀 FluxCode
+
+O BitDogLab FluxCode é um aplicativo Android que usa **IA multimodal** para transformar fluxogramas desenhados à mão em código **MicroPython** pronto para rodar na BitDogLab. A proposta é desplugada: o estudante primeiro desenvolve a lógica no papel usando símbolos de fluxograma, fotografa o desenho pelo app e recebe automaticamente o código correspondente, que pode ser executado ou salvo direto na placa.
+
+Para usar:
+
+[Baixar o BitDogLab FluxCode](https://drive.google.com/drive/folders/12xD7rVUsgQWKkneTLb5EA2QpiOx43nXb?usp=drive_link)
+
+1. Conecte a BitDogLab ao smartphone via USB.
+2. Desenhe o fluxograma em papel usando o gabarito de símbolos.
+3. No app, toque em **Foto Código** e fotografe o fluxograma.
+4. Revise o código MicroPython e o pseudocódigo gerados automaticamente.
+5. Toque em **Executar** para rodar na placa, ou salve como `main.py` para execução automática ao ligar.
+
+> Disponível apenas para Android. Requer MicroPython instalado na placa e um cabo USB compatível com transferência de dados (não apenas carregamento).
+
+<br>
+
+### 🎨 Aplicativo Pixel Art
 
 **EM CONSTRUÇÃO**
 
-### Aplicativo Pixel Art
-
-**EM CONSTRUÇÃO**
+---
 
 ## Hardware da BitDogLab V7
 
@@ -108,6 +147,8 @@ O hardware da V7 foi desenvolvido no **Altium Designer**. Arquivos fonte, esquem
 
 A BitDogLab V6 foi desenvolvida no **KiCad** e continua disponível para estudo e fabricação. Consulte a [documentação completa da PCB e fabricação](pcb-prototyping/README.md).
 
+---
+
 ## Estrutura do Repositório
 
 | Caminho | Conteúdo |
@@ -119,11 +160,15 @@ A BitDogLab V6 foi desenvolvida no **KiCad** e continua disponível para estudo 
 | [`pcb-prototyping/`](pcb-prototyping/) | Arquivos fonte da PCB e arquivos públicos de fabricação. |
 | [`projects/`](projects/) | Aplicações, sensores, IoT, ferramentas e expansões de hardware. |
 
+---
+
 ## Hardware Aberto e Licença
 
 A BitDogLab é um hardware aberto. Seus arquivos de projeto e fabricação estão disponíveis publicamente para estudo, modificação e fabricação.
 
 O projeto utiliza a **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2.0)**. Consulte o arquivo [`LICENSE`](LICENSE).
+
+---
 
 ## Iniciativa e Colaboradores
 
