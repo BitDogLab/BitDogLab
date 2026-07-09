@@ -13,13 +13,19 @@
   <a href="README.pt-BR.md">Português</a>
 </p>
 
+<p align="center">
+  <a href="https://comunidade-bitdoglab.web.app"><img src="https://img.shields.io/badge/🌐_Comunidade_BitDogLab-Documenta%C3%A7%C3%A3o%2C_c%C3%B3digos_e_aplica%C3%A7%C3%B5es-2ea44f?style=for-the-badge" alt="Comunidade BitDogLab"></a>
+</p>
+
+<p align="center">
+  Não é da área de tecnologia? Este repositório é o espaço técnico do projeto — para professores e demais usuários, a <a href="https://comunidade-bitdoglab.web.app"><strong>Comunidade BitDogLab</strong></a> é uma porta de entrada mais amigável, com documentação, códigos e aplicações prontas.
+</p>
+
 BitDogLab is an initiative of the **Escola 4.0 project at FEEC/Unicamp**. It brings together the Raspberry Pi Pico ecosystem and the main peripherals used in embedded systems, providing a practical platform for education, experimentation, and project development.
 
 The current board is **BitDogLab Version 7**, with support for Raspberry Pi Pico-compatible modules based on the **RP2040** and **RP2350** microcontrollers.
 
 Its hands-on approach supports the development of scientific thinking, problem solving, collaboration, and digital culture, competencies emphasized by Brazil's National Common Curricular Base (BNCC).
-
-> 🌐 **Comunidade BitDogLab:** para professores e demais usuários que preferem uma porta de entrada mais amigável, com documentação, códigos e aplicações organizadas, acesse [comunidade-bitdoglab.web.app](https://comunidade-bitdoglab.web.app). Este repositório é o espaço técnico do projeto.
 
 ---
 
