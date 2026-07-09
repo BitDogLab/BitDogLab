@@ -15,6 +15,8 @@
 
 <p align="center">
   <a href="https://comunidade-bitdoglab.web.app"><img src="https://img.shields.io/badge/🌐_Comunidade_BitDogLab-Documenta%C3%A7%C3%A3o%2C_c%C3%B3digos_e_aplica%C3%A7%C3%B5es-2ea44f?style=for-the-badge" alt="Comunidade BitDogLab"></a>
+  <br>
+  <a href="https://comunidade-bitdoglab.web.app">https://comunidade-bitdoglab.web.app</a>
 </p>
 
 <p align="center">
