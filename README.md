@@ -34,7 +34,7 @@ Its hands-on approach supports the development of scientific thinking, problem s
 ## Board and Peripherals
 
 <p align="center">
-  <img src="images/figure_BitDogLab.png" alt="BitDogLab board and onboard peripherals" width="620">
+  <img src="images/figure_BitDogLab3.png" alt="BitDogLab board and onboard peripherals" width="620">
 </p>
 
 The board provides direct access to the main resources used in embedded-system education, including buttons, joystick, RGB LED, LED matrix, OLED display, microphone, buzzer, sensors, and expansion connectors.
